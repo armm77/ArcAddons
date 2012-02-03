@@ -1,6 +1,6 @@
 --[[
 ArcAddons
-Copyright (C) 2011 Marforius
+Copyright (C) 2012 Marforius
 
 This file is part of ArcAddons.
 
