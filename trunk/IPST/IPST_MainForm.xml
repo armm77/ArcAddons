@@ -244,12 +244,6 @@ count = 0
         </Anchors>
         <Scripts>
           <OnClick>CastSpell(1, "spell");
-local secure = issecure();
-if not ( secure == nil ) then 
- DEFAULT_CHAT_FRAME:AddMessage("OK! Current environment is secure; we may call Protected functions !");
-else
- DEFAULT_CHAT_FRAME:AddMessage("Current environment is not secure; calling Protected functions will show up Forbidden popup !");
-end
 print("If a box did not come up IPST is showing the client as running any code secure or unsecure.");</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
