@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Arcemu_FeedbackUI
+## Version: 1.1 Beta (Unimplemented-still)
+## Author: Marforius
+## Notes: Sends feedback to a server running ArcEmu.
+## SavedVariablesPerCharacter: g_FeedbackUI_feedbackVars, g_FeedbackUI_surveysTable
+
+Localization.lua
+Arcemu_FeedbackUITemplates.xml
+Arcemu_FeedbackUI.xml
+Arcemu_FeedbackUIPanels.lua
+Arcemu_FeedbackUIDropDown.lua

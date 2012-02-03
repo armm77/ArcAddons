@@ -1,0 +1,429 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+  <Frame name="WepskForm" frameStrata="DIALOG" hidden="true"
+  parent="UIParent" movable="true" resizable="true"
+  enableKeyboard="true" clampedToScreen="true">
+    <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
+    <Size>
+      <AbsDimension x="146" y="145" />
+    </Size>
+    <Anchors>
+      <Anchor point="RIGHT" relativeTo="UIParent">
+        <Offset>
+          <AbsDimension x="0" y="0" />
+        </Offset>
+      </Anchor>
+    </Anchors>
+    <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background"
+    edgeFile="Interface\DialogFrame\UI-DialogBox-Border"
+    tile="true">
+      <BackgroundInsets>
+        <AbsInset left="11" right="12" top="12" bottom="11" />
+      </BackgroundInsets>
+      <TileSize>
+        <AbsValue val="32" />
+      </TileSize>
+      <EdgeSize>
+        <AbsValue val="32" />
+      </EdgeSize>
+    </Backdrop>
+    <Layers>
+      <Layer>
+        <Texture name="$parentTitleBorder"
+        file="Interface\DialogFrame\UI-DialogBox-Header">
+          <Size>
+            <AbsDimension x="160" y="32" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOP">
+              <Offset>
+                <AbsDimension x="0" y="5" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+          <TexCoords left="0.2" right="0.8" top="0" bottom="0.6" />
+        </Texture>
+        <FontString name="$parentTitleString"
+        font="Fonts\FRIZQT__.TTF" text="Weapons">
+          <Size>
+            <AbsDimension x="140" y="0" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOP">
+              <Offset>
+                <AbsDimension x="0" y="-4" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+          <FontHeight>
+            <AbsValue val="12" />
+          </FontHeight>
+          <Color r="1" g="0.8196079" b="0" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+      </Layer>
+    </Layers>
+    <Frames>
+      <EditBox name="WeaponSkillLvl" enableMouse="true">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="120" y="20" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="13" y="-26" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer level="BACKGROUND">
+            <Texture name="$parentLeft"
+            file="Interface\Common\Common-Input-Border">
+              <Size>
+                <AbsDimension x="8" y="20" />
+              </Size>
+              <Anchors>
+                <Anchor point="LEFT" />
+              </Anchors>
+              <TexCoords left="0" right="0.0625" top="0"
+              bottom="0.625" />
+            </Texture>
+            <Texture name="$parentRight"
+            file="Interface\Common\Common-Input-Border">
+              <Size>
+                <AbsDimension x="8" y="20" />
+              </Size>
+              <Anchors>
+                <Anchor point="RIGHT" />
+              </Anchors>
+              <TexCoords left="0.9375" right="1" top="0"
+              bottom="0.625" />
+            </Texture>
+            <Texture name="$parentMiddle"
+            file="Interface\Common\Common-Input-Border">
+              <Size>
+                <AbsDimension x="10" y="20" />
+              </Size>
+              <Anchors>
+                <Anchor point="LEFT" relativeTo="$parentLeft"
+                relativePoint="RIGHT" />
+                <Anchor point="RIGHT" relativeTo="$parentRight"
+                relativePoint="LEFT" />
+              </Anchors>
+              <TexCoords left="0.0625" right="0.9375" top="0"
+              bottom="0.625" />
+            </Texture>
+          </Layer>
+        </Layers>
+        <Scripts>
+          <OnLoad>self:SetAutoFocus(false);</OnLoad>
+          <OnHide>self:SetText("");</OnHide>
+          <OnEscapePressed>self:ClearFocus(self);</OnEscapePressed>
+          <OnTabPressed>self:ClearFocus(self);</OnTabPressed>
+        </Scripts>
+        <FontString font="Fonts\ARIALN.TTF">
+          <FontHeight>
+            <AbsValue val="14" />
+          </FontHeight>
+          <Color r="1" g="1" b="1" />
+          <Shadow>
+            <Color r="0" g="0" b="0" />
+            <Offset>
+              <AbsDimension x="1" y="-1" />
+            </Offset>
+          </Shadow>
+        </FontString>
+      </EditBox>
+      <Button name="Done" text="Done">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="120" y="17" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="13" y="-113" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>WepskForm:Hide(); SkillForm:Show();</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight"
+        alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+      </Button>
+      <Button name="WepskComboBox">
+        <Size>
+          <AbsDimension x="143" y="32" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="3" y="-52" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <Texture name="$parentLeft"
+            file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+
+              <Size>
+                <AbsDimension x="25" y="64" />
+              </Size>
+              <Anchors>
+                <Anchor point="TOPLEFT">
+                  <Offset>
+                    <AbsDimension x="0" y="17" />
+                  </Offset>
+                </Anchor>
+              </Anchors>
+              <TexCoords left="0" right="0.1953125" top="0"
+              bottom="1" />
+            </Texture>
+            <Texture name="$parentMiddle"
+            file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+
+              <Size>
+                <AbsDimension x="93" y="64" />
+              </Size>
+              <Anchors>
+                <Anchor point="LEFT" relativeTo="$parentLeft"
+                relativePoint="RIGHT" />
+              </Anchors>
+              <TexCoords left="0.1953125" right="0.8046875" top="0"
+              bottom="1" />
+            </Texture>
+            <Texture name="$parentRight"
+            file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
+
+              <Size>
+                <AbsDimension x="25" y="64" />
+              </Size>
+              <Anchors>
+                <Anchor point="LEFT" relativeTo="$parentMiddle"
+                relativePoint="RIGHT" />
+              </Anchors>
+              <TexCoords left="0.8046875" right="1" top="0"
+              bottom="1" />
+            </Texture>
+            <FontString name="$parentText"
+            font="Fonts\FRIZQT__.TTF" text="Please Select..."
+            justifyH="RIGHT">
+              <Size>
+                <AbsDimension x="118" y="10" />
+              </Size>
+              <Anchors>
+                <Anchor point="RIGHT" relativeTo="$parentRight">
+                  <Offset>
+                    <AbsDimension x="-43" y="2" />
+                  </Offset>
+                </Anchor>
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="10" />
+              </FontHeight>
+              <Color r="1" g="1" b="1" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+        <Frames>
+          <Button name="$parentButton">
+            <Size>
+              <AbsDimension x="24" y="24" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOPRIGHT" relativeTo="$parentRight">
+                <Offset>
+                  <AbsDimension x="-16" y="-18" />
+                </Offset>
+              </Anchor>
+            </Anchors>
+            <Scripts>
+              <OnClick>ToggleDropDownMenu(nil, nil,
+              self:GetParent());
+              PlaySound("igMainMenuOptionCheckBoxOn");</OnClick>
+            </Scripts>
+            <NormalTexture name="$parentNormalTexture"
+            file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Up">
+              <Size>
+                <AbsDimension x="24" y="24" />
+              </Size>
+              <Anchors>
+                <Anchor point="RIGHT" />
+              </Anchors>
+            </NormalTexture>
+            <PushedTexture name="$parentPushedTexture"
+            file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Down">
+              <Size>
+                <AbsDimension x="24" y="24" />
+              </Size>
+              <Anchors>
+                <Anchor point="RIGHT" />
+              </Anchors>
+            </PushedTexture>
+            <DisabledTexture name="$parentDisabledTexture"
+            file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Disabled">
+
+              <Size>
+                <AbsDimension x="24" y="24" />
+              </Size>
+              <Anchors>
+                <Anchor point="RIGHT" />
+              </Anchors>
+            </DisabledTexture>
+            <HighlightTexture name="$parentHighlightTexture"
+            file="Interface\Buttons\UI-Common-MouseHilight"
+            alphaMode="ADD">
+              <Size>
+                <AbsDimension x="24" y="24" />
+              </Size>
+              <Anchors>
+                <Anchor point="RIGHT" />
+              </Anchors>
+            </HighlightTexture>
+          </Button>
+        </Frames>
+        <Scripts>
+          <OnLoad>local cb_init_fn = function() local info info = {} info.text = "Swords" info.func = function() UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(), 0); end UIDropDownMenu_AddButton(info); info = {} info.text = "Unarmed" info.func = function() UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(), 0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Thrown" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Daggers" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Maces" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Dual Wield" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Crossbow" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Staves" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Axes" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Wand" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Guns" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Bows" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Fist" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "Polearm" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "2H Axe" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "2H Mace" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); info = {}
+info.text = "2h Swords" info.func = function()
+UIDropDownMenu_SetSelectedID(WepskComboBox, this:GetID(),
+0); end UIDropDownMenu_AddButton(info); end
+UIDropDownMenu_Initialize(this, cb_init_fn) </OnLoad>
+          <OnHide>CloseDropDownMenus();</OnHide>
+        </Scripts>
+      </Button>
+      <Button name="$parentComponent2" text="Go!">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="120" y="17" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="13" y="-90" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+          ShowMessage("Please complete the required fields!"); LearnWepsk();
+          WeaponSkillLvl:ClearFocus() end</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight"
+        alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0"
+          bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+      </Button>
+    </Frames>
+    <Scripts>
+      <OnLoad>ArcGMOnLoad(self);</OnLoad>
+      <OnDragStart>self:StartMoving()</OnDragStart>
+      <OnDragStop>self:StopMovingOrSizing()</OnDragStop>
+    </Scripts>
+  </Frame>
+</Ui>

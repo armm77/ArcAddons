@@ -1,0 +1,118 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+  <Frame name="ArcGMGUIFrame">
+    <Layers>
+      <Layer level="ARTWORK">
+        <FontString name="$parent_Head"
+        inherits="GameFontNormalLarge" text="ArcGM">
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="15" y="-15" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+    <Frames>
+      <CheckButton name="$parent_ShowOnLoad"
+      inherits="UICheckButtonTemplate">
+        <Size>
+          <AbsDimension x="32" y="32" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeTo="$parent_Head">
+            <Offset>
+              <AbsDimension x="25" y="-40" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+      </CheckButton>
+    </Frames>
+    <Scripts>
+      <OnLoad>ArcGMOnLoad(self);</OnLoad>
+    </Scripts>
+  </Frame>
+  <Frame name="VIEWGUIFrame">
+    <Layers>
+      <Layer level="ARTWORK">
+        <FontString name="$parent_Head"
+        inherits="GameFontNormalLarge" text="Which View">
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="15" y="-15" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+    <Frames>
+      <CheckButton name="$parent_viewfull"
+      inherits="UICheckButtonTemplate">
+        <Size>
+          <AbsDimension x="32" y="32" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeTo="$parent_Head">
+            <Offset>
+              <AbsDimension x="25" y="-40" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>if VIEWGUIFrame_viewminip:GetChecked() then
+          VIEWGUIFrame_viewminip:SetChecked(false) elseif
+          VIEWGUIFrame_viewminil:GetChecked() then
+          VIEWGUIFrame_viewminil:SetChecked(false) end</OnClick>
+        </Scripts>
+      </CheckButton>
+      <CheckButton name="$parent_viewminip"
+      inherits="UICheckButtonTemplate">
+        <Size>
+          <AbsDimension x="32" y="32" />
+        </Size>
+        <Anchors>
+          <Anchor point="BOTTOMLEFT" relativeTo="$parent_viewfull">
+            <Offset>
+              <AbsDimension x="0" y="-40" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>if VIEWGUIFrame_viewfull:GetChecked() then
+          VIEWGUIFrame_viewfull:SetChecked(false) elseif
+          VIEWGUIFrame_viewminil:GetChecked() then
+          VIEWGUIFrame_viewminil:SetChecked(false) end</OnClick>
+        </Scripts>
+      </CheckButton>
+      <CheckButton name="$parent_viewminil"
+      inherits="UICheckButtonTemplate">
+        <Size>
+          <AbsDimension x="32" y="32" />
+        </Size>
+        <Anchors>
+          <Anchor point="BOTTOMLEFT"
+          relativeTo="$parent_viewminip">
+            <Offset>
+              <AbsDimension x="0" y="-40" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>if VIEWGUIFrame_viewfull:GetChecked() then
+          VIEWGUIFrame_viewfull:SetChecked(false) elseif
+          VIEWGUIFrame_viewminip:GetChecked() then
+          VIEWGUIFrame_viewminip:SetChecked(false) end</OnClick>
+        </Scripts>
+      </CheckButton>
+    </Frames>
+    <Scripts>
+      <OnLoad>VIEWGUI_OnLoad(self);</OnLoad>
+    </Scripts>
+  </Frame>
+</Ui>

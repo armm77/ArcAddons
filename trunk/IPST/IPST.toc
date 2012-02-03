@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: IPST
+## Author: Marforius
+## Version: 1
+## Notes: Testing to see if the server can handle the command abuse.
+## URL: http://arcemu.org
+## RequiredDeps: ArcGM
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## LoadWith: ArcGM
+functions.lua
+IPST_MainForm.xml

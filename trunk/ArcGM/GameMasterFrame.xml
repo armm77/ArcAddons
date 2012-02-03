@@ -1,0 +1,653 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+  <Script file="GameMasterFrame.lua" />
+  <Button name="GameMasterFrameTabButtonTemplate"
+  inherits="CharacterFrameTabButtonTemplate" virtual="true">
+    <Scripts>
+      <OnClick>PanelTemplates_Tab_OnClick(self, GameMasterFrame);
+      GameMasterFrameTab_OnClick();</OnClick>
+    </Scripts>
+  </Button>
+  <Frame name="GameMasterFrame" frameStrata="DIALOG"
+  toplevel="true" parent="UIParent" movable="true"
+  enableMouse="true" hidden="true">
+    <Size>
+      <AbsDimension x="384" y="512" />
+    </Size>
+    <Anchors>
+      <Anchor point="TOPLEFT">
+        <Offset>
+          <AbsDimension x="0" y="-104" />
+        </Offset>
+      </Anchor>
+    </Anchors>
+    <HitRectInsets>
+      <AbsInset left="0" right="30" top="0" bottom="45" />
+    </HitRectInsets>
+    <Layers>
+      <Layer level="BACKGROUND">
+        <Texture name="GameMasterFrameIcon">
+          <Size>
+            <AbsDimension x="60" y="60" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="9" y="-6" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+      </Layer>
+      <Layer level="BORDER">
+        <Texture file="Interface\PaperDollInfoFrame\UI-Character-General-TopLeft">
+
+          <Size>
+            <AbsDimension x="256" y="256" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="2" y="-1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <Texture file="Interface\PaperDollInfoFrame\UI-Character-General-TopRight">
+
+          <Size>
+            <AbsDimension x="128" y="256" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="258" y="-1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <Texture file="Interface\PaperDollInfoFrame\UI-Character-General-BottomLeft">
+
+          <Size>
+            <AbsDimension x="256" y="256" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="2" y="-257" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <Texture file="Interface\PaperDollInfoFrame\UI-Character-General-BottomRight">
+
+          <Size>
+            <AbsDimension x="128" y="256" />
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="258" y="-257" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+      </Layer>
+    </Layers>
+    <Frames>
+      <Frame name="$parentTitle">
+        <Size>
+          <AbsDimension x="109" y="12" />
+        </Size>
+        <Anchors>
+          <Anchor point="CENTER">
+            <Offset>
+              <AbsDimension x="6" y="232" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentText"
+            inherits="GameFontHighlight" text="GAME_MASTER">
+              <Size>
+                <AbsDimension x="300" y="12" />
+              </Size>
+              <Anchors>
+                <Anchor point="CENTER" />
+              </Anchors>
+            </FontString>
+          </Layer>
+        </Layers>
+        <Scripts>
+          <OnLoad>this:SetFrameLevel(this:GetFrameLevel() + 1);</OnLoad>
+        </Scripts>
+      </Frame>
+      <Button name="$parentCloseButton"
+      inherits="UIPanelCloseButton">
+        <Anchors>
+          <Anchor point="CENTER" relativeTo="$parent"
+          relativePoint="TOPRIGHT">
+            <Offset>
+              <AbsDimension x="-44" y="-25" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnLoad>this:SetFrameLevel(this:GetFrameLevel() + 4);</OnLoad>
+        </Scripts>
+      </Button>
+      <Button name="$parentTab1"
+      inherits="GameMasterFrameTabButtonTemplate" id="1"
+      text="GAME_MASTER">
+        <Anchors>
+          <Anchor point="BOTTOMLEFT">
+            <Offset>
+              <AbsDimension x="11" y="46" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnEnter>GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+          GameTooltip:SetText(MicroButtonTooltipText(GAME_MASTER,
+          "TOGGLEGAMEMASTERGAMEMASTERFRAME"), 1.0,1.0,1.0
+          );</OnEnter>
+          <OnLeave>GameTooltip:Hide();</OnLeave>
+        </Scripts>
+      </Button>
+      <Button name="$parentTab2"
+      inherits="GameMasterFrameTabButtonTemplate" id="2"
+      text="TOOLS">
+        <Anchors>
+          <Anchor point="LEFT" relativeTo="$parentTab1"
+          relativePoint="RIGHT">
+            <Offset>
+              <AbsDimension x="-15" y="0" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnEnter>GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+          GameTooltip:SetText(MicroButtonTooltipText(TOOLS,
+          "TOGGLEGAMEMASTERTOOLSFRAME"), 1.0,1.0,1.0 );</OnEnter>
+          <OnLeave>GameTooltip:Hide();</OnLeave>
+        </Scripts>
+      </Button>
+      <Frame name="GameMasterGameMasterFrame" setAllPoints="true"
+      id="1">
+        <Layers>
+          <Layer level="OVERLAY">
+            <FontString name="$parentHeaderText"
+            inherits="GameFontNormalLarge" text="Ticket Interface">
+              <Anchors>
+                <Anchor point="TOP">
+                  <Offset>
+                    <AbsDimension x="17" y="-48" />
+                  </Offset>
+                </Anchor>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentChannelNameLabel"
+            inherits="GameFontNormal" justifyH="RIGHT"
+            text="GAMEMASTERFRAME_CHANNEL_NAME">
+              <Size>
+                <AbsDimension x="66" y="12" />
+              </Size>
+              <Anchors>
+                <Anchor point="TOPRIGHT" relativePoint="TOPLEFT">
+                  <Offset>
+                    <AbsDimension x="106" y="-87" />
+                  </Offset>
+                </Anchor>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentChannelNameText"
+            inherits="GameFontNormal" justifyH="LEFT">
+              <Size>
+                <AbsDimension x="128" y="12" />
+              </Size>
+              <Anchors>
+                <Anchor point="LEFT"
+                relativeTo="$parentChannelNameLabel"
+                relativePoint="RIGHT" />
+              </Anchors>
+            </FontString>
+            <FontString name="$parentChannelPasswordLabel"
+            inherits="GameFontNormal" justifyH="RIGHT"
+            text="GAMEMASTERFRAME_CHANNEL_PASSWORD">
+              <Size>
+                <AbsDimension x="66" y="12" />
+              </Size>
+              <Anchors>
+                <Anchor point="TOPRIGHT"
+                relativeTo="$parentChannelNameLabel"
+                relativePoint="BOTTOMRIGHT">
+                  <Offset>
+                    <AbsDimension x="0" y="-5" />
+                  </Offset>
+                </Anchor>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentChannelPasswordText"
+            inherits="GameFontNormal" justifyH="LEFT">
+              <Size>
+                <AbsDimension x="128" y="12" />
+              </Size>
+              <Anchors>
+                <Anchor point="LEFT"
+                relativeTo="$parentChannelPasswordLabel"
+                relativePoint="RIGHT" />
+              </Anchors>
+            </FontString>
+            <FontString name="$parentChannelStatusLabel"
+            inherits="GameFontNormal" justifyH="RIGHT"
+            text="GAMEMASTERFRAME_CHANNEL_STATUS">
+              <Size>
+                <AbsDimension x="66" y="12" />
+              </Size>
+              <Anchors>
+                <Anchor point="TOPRIGHT"
+                relativeTo="$parentChannelPasswordLabel"
+                relativePoint="BOTTOMRIGHT">
+                  <Offset>
+                    <AbsDimension x="0" y="-5" />
+                  </Offset>
+                </Anchor>
+              </Anchors>
+            </FontString>
+            <FontString name="$parentChannelStatusText"
+            inherits="GameFontNormal" justifyH="LEFT"
+            justifyV="TOP">
+              <Size>
+                <AbsDimension x="128" y="25" />
+              </Size>
+              <Anchors>
+                <Anchor point="TOPLEFT"
+                relativeTo="$parentChannelStatusLabel"
+                relativePoint="TOPRIGHT" />
+              </Anchors>
+            </FontString>
+          </Layer>
+        </Layers>
+        <Frames>
+          <Button name="$parentChannelSetButton"
+          inherits="UIPanelButtonTemplate"
+          text="GAMEMASTERFRAME_CHANNEL_BUTTON_SET">
+            <Size>
+              <AbsDimension x="100" y="21" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOPLEFT"
+              relativeTo="$parentChannelNameText"
+              relativePoint="TOPRIGHT">
+                <Offset>
+                  <AbsDimension x="0" y="1" />
+                </Offset>
+              </Anchor>
+              <Anchor point="BOTTOMLEFT"
+              relativeTo="$parentChannelPasswordText"
+              relativePoint="BOTTOMRIGHT">
+                <Offset>
+                  <AbsDimension x="0" y="-1" />
+                </Offset>
+              </Anchor>
+            </Anchors>
+            <Scripts>
+              <OnClick>PlaySound("igMainMenuOptionCheckBoxOn");
+              GameMasterGameMasterFrame_ChannelSet_OnClick();</OnClick>
+            </Scripts>
+          </Button>
+          <Button name="$parentChannelConnectButton"
+          inherits="UIPanelButtonTemplate"
+          text="GAMEMASTERFRAME_CHANNEL_BUTTON_CONNECT">
+            <Size>
+              <AbsDimension x="100" y="23" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOPLEFT"
+              relativeTo="$parentChannelStatusText"
+              relativePoint="TOPRIGHT">
+                <Offset>
+                  <AbsDimension x="0" y="1" />
+                </Offset>
+              </Anchor>
+              <Anchor point="BOTTOMLEFT"
+              relativeTo="$parentChannelStatusText"
+              relativePoint="BOTTOMRIGHT">
+                <Offset>
+                  <AbsDimension x="0" y="-1" />
+                </Offset>
+              </Anchor>
+            </Anchors>
+            <Layers>
+              <Layer level="ARTWORK">
+                <FontString name="$parentStatusText"
+                inherits="GameFontNormalSmall" justifyH="LEFT"
+                justifyV="MIDDLE">
+                  <Size>
+                    <AbsDimension x="157" y="25" />
+                  </Size>
+                  <Anchors>
+                    <Anchor point="RIGHT" relativePoint="LEFT">
+                      <Offset>
+                        <AbsDimension x="0" y="0" />
+                      </Offset>
+                    </Anchor>
+                  </Anchors>
+                </FontString>
+              </Layer>
+            </Layers>
+            <Scripts>
+              <OnClick>PlaySound("igMainMenuOptionCheckBoxOn"); GameMaster_ToggleChannelConnection();</OnClick>
+            </Scripts>
+          </Button>
+          <Button name="$parentTicketsButton"
+          inherits="UIPanelButtonTemplate" text="TICKETS">
+            <Size>
+              <AbsDimension x="100" y="22" />
+            </Size>
+            <Anchors>
+              <Anchor point="BOTTOMRIGHT">
+                <Offset>
+                  <AbsDimension x="-141" y="81" />
+                </Offset>
+              </Anchor>
+            </Anchors>
+            <Scripts>
+              <OnClick>PlaySound("igMainMenuOption");ToggleGameMasterTicketFrame();</OnClick>
+            </Scripts>
+          </Button>
+          <Frame name="$parentDaughterFrame" hidden="true"
+          enableKeyboard="true" enableMouse="true">
+            <Size>
+              <AbsDimension x="212" y="200" />
+            </Size>
+            <Anchors>
+              <Anchor point="CENTER" relativeTo="UIParent">
+                <Offset>
+                  <AbsDimension x="0" y="100" />
+                </Offset>
+              </Anchor>
+            </Anchors>
+            <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background"
+            edgeFile="Interface\DialogFrame\UI-DialogBox-Border"
+            tile="true">
+              <BackgroundInsets>
+                <AbsInset left="11" right="12" top="12"
+                bottom="11" />
+              </BackgroundInsets>
+              <TileSize>
+                <AbsValue val="32" />
+              </TileSize>
+              <EdgeSize>
+                <AbsValue val="32" />
+              </EdgeSize>
+            </Backdrop>
+            <Layers>
+              <Layer level="BORDER">
+                <FontString name="$parentName"
+                inherits="GameFontNormal"
+                text="GAMEMASTERFRAME_CHANNEL_SET_CHANNEL">
+                  <Size>
+                    <AbsDimension x="0" y="12" />
+                  </Size>
+                  <Anchors>
+                    <Anchor point="TOP">
+                      <Offset>
+                        <AbsDimension x="-5" y="-13" />
+                      </Offset>
+                    </Anchor>
+                  </Anchors>
+                </FontString>
+                <Texture name="$parentTitlebar"
+                file="Interface\FriendsFrame\UI-ChannelFrame-Titlebar">
+
+                  <Size>
+                    <AbsDimension x="256" y="32" />
+                  </Size>
+                  <Anchors>
+                    <Anchor point="TOPLEFT">
+                      <Offset>
+                        <AbsDimension x="8" y="-8" />
+                      </Offset>
+                    </Anchor>
+                  </Anchors>
+                </Texture>
+              </Layer>
+              <Layer level="OVERLAY">
+                <Texture name="$parentCorner"
+                file="Interface\DialogFrame\UI-DialogBox-Corner">
+                  <Size>
+                    <AbsDimension x="32" y="32" />
+                  </Size>
+                  <Anchors>
+                    <Anchor point="TOPRIGHT">
+                      <Offset>
+                        <AbsDimension x="-6" y="-7" />
+                      </Offset>
+                    </Anchor>
+                  </Anchors>
+                </Texture>
+              </Layer>
+            </Layers>
+            <Frames>
+              <EditBox name="$parentChannelName" letters="31"
+              multiLine="false" enableMouse="true" autoFocus="true"
+              inherits="InputBoxTemplate">
+                <Size x="170" y="16" />
+                <Anchors>
+                  <Anchor point="TOPLEFT">
+                    <Offset x="23" y="-60" />
+                  </Anchor>
+                </Anchors>
+                <Layers>
+                  <Layer level="BACKGROUND">
+                    <FontString name="$parentLabel"
+                    inherits="GameFontNormal"
+                    text="CHANNEL_CHANNEL_NAME">
+                      <Anchors>
+                        <Anchor point="TOPLEFT">
+                          <Offset x="0" y="15" />
+                        </Anchor>
+                      </Anchors>
+                    </FontString>
+                  </Layer>
+                </Layers>
+                <Scripts>
+                </Scripts>
+              </EditBox>
+              <EditBox name="$parentChannelPassword" letters="31"
+              multiLine="false" enableMouse="true"
+              autoFocus="false" inherits="InputBoxTemplate">
+                <Size x="170" y="16" />
+                <Anchors>
+                  <Anchor point="TOPLEFT"
+                  relativeTo="$parentChannelName"
+                  relativePoint="BOTTOMLEFT">
+                    <Offset x="0" y="-30" />
+                  </Anchor>
+                </Anchors>
+                <Layers>
+                  <Layer level="BACKGROUND">
+                    <FontString name="$parentLabel"
+                    inherits="GameFontNormal" text="PASSWORD">
+                      <Anchors>
+                        <Anchor point="TOPLEFT">
+                          <Offset x="0" y="15" />
+                        </Anchor>
+                      </Anchors>
+                    </FontString>
+                    <FontString name="$parentOptional"
+                    inherits="GameFontHighlightSmall"
+                    text="OPTIONAL_PARENS">
+                      <Anchors>
+                        <Anchor point="LEFT"
+                        relativeTo="$parentLabel"
+                        relativePoint="RIGHT">
+                          <Offset x="3" y="0" />
+                        </Anchor>
+                      </Anchors>
+                    </FontString>
+                  </Layer>
+                </Layers>
+                <Scripts>
+                  <OnEnterPressed>
+                  GameMasterGameMasterFrameDaughterFrame_Okay();</OnEnterPressed>
+                  <OnTabPressed>
+                  EditBox_HandleTabbing(GAMEMASTERFRAME_SYNC_CHANNEL_TABBING);</OnTabPressed>
+                </Scripts>
+              </EditBox>
+              <Button name="$parentDetailCloseButton"
+              inherits="UIPanelCloseButton">
+                <Anchors>
+                  <Anchor point="TOPRIGHT">
+                    <Offset x="-2" y="-3" />
+                  </Anchor>
+                </Anchors>
+              </Button>
+              <Button name="$parentOkayButton"
+              inherits="UIPanelButtonTemplate" text="OKAY">
+                <Size>
+                  <AbsDimension x="96" y="22" />
+                </Size>
+                <Anchors>
+                  <Anchor point="BOTTOMLEFT">
+                    <Offset>
+                      <AbsDimension x="10" y="12" />
+                    </Offset>
+                  </Anchor>
+                </Anchors>
+                <Scripts>
+                  <OnClick>
+                  GameMasterGameMasterFrameDaughterFrame_Okay();</OnClick>
+                </Scripts>
+                <NormalFont inherits="GameFontNormalSmall" />
+                <HighlightFont inherits="GameFontHighlightSmall" />
+                <DisabledFont inherits="GameFontDisableSmall" />
+              </Button>
+              <Button name="$parentCancelButton"
+              inherits="UIPanelButtonTemplate" text="CANCEL">
+                <Size>
+                  <AbsDimension x="96" y="22" />
+                </Size>
+                <Anchors>
+                  <Anchor point="LEFT"
+                  relativeTo="$parentOkayButton"
+                  relativePoint="RIGHT">
+                    <Offset>
+                      <AbsDimension x="1" y="0" />
+                    </Offset>
+                  </Anchor>
+                </Anchors>
+                <Scripts>
+                  <OnClick>GameMasterGameMasterFrameDaughterFrame_Cancel();</OnClick>
+                </Scripts>
+                <NormalFont inherits="GameFontNormalSmall" />
+                <HighlightFont inherits="GameFontHighlightSmall" />
+                <DisabledFont inherits="GameFontDisableSmall" />
+              </Button>
+            </Frames>
+            <Scripts>
+              <OnHide>
+              GameMasterGameMasterFrameDaughterFrame_OnHide();</OnHide>
+            </Scripts>
+          </Frame>
+        </Frames>
+      </Frame>
+      <Frame name="GameMasterToolsFrame" setAllPoints="true" id="2"
+      hidden="true">
+        <Frames>
+          <Button name="$parentButton1"
+          inherits="UIPanelButtonTemplate" text="Gold Please">
+            <Size>
+              <AbsDimension x="105" y="17" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOPLEFT">
+                <Offset>
+                  <AbsDimension x="35" y="-78" />
+                </Offset>
+              </Anchor>
+            </Anchors>
+            <Scripts>
+              <OnClick>SendChatMessage("!modify gold 10000");</OnClick>
+            </Scripts>
+            <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+
+              <TexCoords left="0" right="0.625" top="0"
+              bottom="0.6875" />
+            </NormalTexture>
+            <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+
+              <TexCoords left="0" right="0.625" top="0"
+              bottom="0.6875" />
+            </PushedTexture>
+            <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+
+              <TexCoords left="0" right="0.625" top="0"
+              bottom="0.6875" />
+            </DisabledTexture>
+            <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight"
+            alphaMode="ADD">
+              <TexCoords left="0" right="0.625" top="0"
+              bottom="0.6875" />
+            </HighlightTexture>
+            <ButtonText name="$parentText">
+              <FontHeight>
+                <AbsValue val="10" />
+              </FontHeight>
+            </ButtonText>
+            <NormalFont inherits="GameFontNormal"
+            font="Fonts\FRIZQT__.TTF">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </NormalFont>
+            <HighlightFont inherits="GameFontHighlight"
+            font="Fonts\FRIZQT__.TTF">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="1" b="1" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </HighlightFont>
+            <DisabledFont inherits="GameFontDisable"
+            font="Fonts\FRIZQT__.TTF">
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="0.4980392" g="0.4980392" b="0.4980392" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </DisabledFont>
+          </Button>
+        </Frames>
+      </Frame>
+    </Frames>
+    <Scripts>
+      <OnLoad>SetPortraitToTexture("GameMasterFrameIcon","Interface\\Icons\\Mail_GMIcon"); GameMasterFrame_OnLoad(self);</OnLoad>
+      <OnEvent>GameMasterFrame_OnEvent(self, event, ...);</OnEvent>
+      <OnUpdate>GameMasterFrame_OnUpdate(self, elapsed);</OnUpdate>
+      <OnShow>GameMasterFrame_OnShow();</OnShow>
+      <OnHide>GameMasterFrame_OnHide();</OnHide>
+    </Scripts>
+  </Frame>
+</Ui>

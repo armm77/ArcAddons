@@ -1,0 +1,50 @@
+<Bindings>
+  <Binding name="Show or Hide ArcGM" header="ARCGMHEADER">
+  ToggleAddon();</Binding>
+  <Binding name="TOGGLEGAMEMASTERGAMEMASTERFRAME"
+  description="Show/Hide the Game Master frame">
+  ToggleGameMaster("GameMasterGameMasterFrame");</Binding>
+  <Binding name="TOGGLEGAMEMASTERTOOLSFRAME"
+  description="Show/Hide the Game Master tools frame">
+  ToggleGameMaster("GameMasterToolsFrame");</Binding>
+  <Binding name="TOGGLEGMTICKETFRAME"
+  description="Show/Hide the Game Master ticket frame">if ( not
+  GameMasterTicketFrame:IsShown() ) then
+  ShowUIPanel(GameMasterTicketFrame); else
+  HideUIPanel(GameMasterTicketFrame); end</Binding>
+  <Binding name="GMPORT" description="Teleport to a target">
+  GMConsoleExec("port");</Binding>
+  <Binding name="GMRECHARGE"
+  description="Instantly fully heal a target">
+  GMConsoleExec("recharge");</Binding>
+  <Binding name="GMKILL" description="Instantly kill a target">
+  GMConsoleExec("kill");</Binding>
+  <Binding name="GMROOT" description="Paralyze a target">
+  GMConsoleExec("paralyze");</Binding>
+  <Binding name="GMUNROOT" description="Un-paralyze a target">
+  GMConsoleExec("unparalyze");</Binding>
+  <Binding name="TOGGLEGMTAGON" description="Toggles GM tag on">
+  GMConsoleExec("gm", 1);</Binding>
+  <Binding name="TOGGLEGMTAGOFF" description="Toggles GM tag off">
+  GMConsoleExec("gm", 0);</Binding>
+  <Binding name="TOGGLEGMTAG" description="Toggles GM tag on/off">
+  GMConsoleExec("gm");</Binding>
+  <Binding name="TOGGLEINVISIBILITYON"
+  description="Toggles invisibility on">GMConsoleExec("invisible",
+  1);</Binding>
+  <Binding name="TOGGLEINVISIBILITYOFF"
+  description="Toggles invisibility off">GMConsoleExec("invisible",
+  0);</Binding>
+  <Binding name="TOGGLEINVISIBILITY"
+  description="Toggles invisibility on/off">
+  GMConsoleExec("invisible");</Binding>
+  <Binding name="TOGGLEBEASTMASTERON"
+  description="Toggles mob aggro immunity on">
+  GMConsoleExec("beastmaster", 1);</Binding>
+  <Binding name="TOGGLEBEASTMASTEROFF"
+  description="Toggles mob aggro immunity off">
+  GMConsoleExec("beastmaster", 0);</Binding>
+  <Binding name="TOGGLEBEASTMASTER"
+  description="Toggles mob aggro immunity on/off">
+  GMConsoleExec("beastmaster");</Binding>
+</Bindings>

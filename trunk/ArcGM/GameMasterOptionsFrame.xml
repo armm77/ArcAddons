@@ -1,0 +1,137 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+  <Script file="GameMasterOptionsFrame.lua" />
+  <CheckButton name="GameMasterOptionsCheckButtonTemplate"
+  inherits="OptionsCheckButtonTemplate" virtual="true">
+    <Scripts>
+      <OnClick>GameMasterOptionsCheckButton_OnClick();</OnClick>
+    </Scripts>
+  </CheckButton>
+  <Slider name="GameMasterOptionsSliderTemplate"
+  inherits="OptionsSliderTemplate" virtual="true">
+    <Scripts>
+      <OnValueChanged>
+      GameMasterOptionsSlider_OnValueChanged();</OnValueChanged>
+    </Scripts>
+  </Slider>
+  <Frame name="GameMasterOptionsFrame" toplevel="true"
+  frameStrata="DIALOG" enableMouse="true" hidden="true"
+  parent="UIParent" movable="true">
+    <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
+    <Size x="480" y="600" />
+    <Anchors>
+      <Anchor point="CENTER" />
+    </Anchors>
+    <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background"
+    edgeFile="Interface\DialogFrame\UI-DialogBox-Border"
+    tile="true">
+      <BackgroundInsets>
+        <AbsInset left="11" right="12" top="12" bottom="11" />
+      </BackgroundInsets>
+      <TileSize>
+        <AbsValue val="32" />
+      </TileSize>
+      <EdgeSize>
+        <AbsValue val="32" />
+      </EdgeSize>
+    </Backdrop>
+    <Layers>
+      <Layer level="ARTWORK">
+        <Texture name="$parentHeader"
+        file="Interface\DialogFrame\UI-DialogBox-Header">
+          <Size x="256" y="64" />
+          <Anchors>
+            <Anchor point="TOP">
+              <Offset x="0" y="12" />
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <FontString inherits="GameFontNormal" text="Game Master">
+          <Anchors>
+            <Anchor point="TOP" relativeTo="$parentHeader">
+              <Offset x="0" y="-14" />
+            </Anchor>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+    <Frames>
+      <Frame name="$parentAlerts" inherits="OptionsBoxTemplate">
+        <Size x="425" y="150" />
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset x="12" y="-35" />
+          </Anchor>
+        </Anchors>
+        <Frames>
+          <CheckButton name="GameMasterOptionsFrameCheckButton1"
+          inherits="GameMasterOptionsCheckButtonTemplate" id="1">
+            <Anchors>
+              <Anchor point="TOPLEFT">
+                <Offset x="10" y="-8" />
+              </Anchor>
+            </Anchors>
+          </CheckButton>
+          <CheckButton name="GameMasterOptionsFrameCheckButton2"
+          inherits="GameMasterOptionsCheckButtonTemplate" id="2">
+            <Size>
+              <AbsDimension x="24" y="24" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOP"
+              relativeTo="GameMasterOptionsFrameCheckButton1"
+              relativePoint="BOTTOM">
+                <Offset x="10" y="0" />
+              </Anchor>
+            </Anchors>
+          </CheckButton>
+        </Frames>
+        <Scripts>
+          <OnLoad>this:SetBackdropBorderColor(0.4, 0.4, 0.4);this:SetBackdropColor(0.15, 0.15, 0.15, 0.5);getglobal(this:GetName().."Title"):SetText(GAMEMASTER_ALERTS);</OnLoad>
+        </Scripts>
+      </Frame>
+      <Button name="$parentCancel" inherits="OptionsButtonTemplate"
+      text="CANCEL">
+        <Anchors>
+          <Anchor point="BOTTOMRIGHT">
+            <Offset x="-12" y="16" />
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>PlaySound("gsTitleOptionExit"); HideUIPanel(GameMasterOptionsFrame);</OnClick>
+        </Scripts>
+      </Button>
+      <Button name="$parentOkay" inherits="OptionsButtonTemplate"
+      text="OKAY">
+        <Anchors>
+          <Anchor point="RIGHT" relativeTo="$parentCancel"
+          relativePoint="LEFT">
+            <Offset x="0" y="0" />
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>PlaySound("gsTitleOptionOK"); GameMasterOptionsFrame_Save(); HideUIPanel(GameMasterOptionsFrame);</OnClick>
+        </Scripts>
+      </Button>
+      <Button name="$parentDefaults"
+      inherits="GameMenuButtonTemplate" text="DEFAULTS">
+        <Anchors>
+          <Anchor point="BOTTOMLEFT" relativeTo="$parent"
+          relativePoint="BOTTOMLEFT">
+            <Offset x="12" y="16" />
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>PlaySound("igMainMenuOptionCheckBoxOn"); GameMasterOptionsFrame_SetDefaults();</OnClick>
+        </Scripts>
+      </Button>
+    </Frames>
+    <Scripts>
+      <OnLoad>GameMasterOptionsFrame_Init();</OnLoad>
+      <OnShow>GameMasterOptionsFrame_Load();</OnShow>
+      <OnHide>GameMasterOptionsFrame_Cancel();</OnHide>
+    </Scripts>
+  </Frame>
+</Ui>
