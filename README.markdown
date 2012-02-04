@@ -9,6 +9,10 @@ ArcAddons is a project to provide a GUI for ArcEmu game masters.<br>
 <b>IPST</b> is a command tester that proved able to crash ArcEmu by repeating delete commands, this is mainly a debug proof of concept that, until ArcEmu fixes will remain in the repo.<br>
 <br>
 <br>
+<b>To use ArcAddons, please put the content's of the git repo's ArcAddons folder under "World of Warcraft\Interface\AddOns\"</b>
+<br>
+<br>
+<br>
 <br>
 The following slash commands are able to be used, a full list is not provided because of the possibility of them changing.<br>
 <br>
