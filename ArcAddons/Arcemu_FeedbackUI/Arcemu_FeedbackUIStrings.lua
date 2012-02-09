@@ -20,6 +20,8 @@ This code is also released under the Attribution-Noncommercial-Share Alike 3.0 U
 http://creativecommons.org/licenses/by-nc-sa/3.0/us/
 ]]
 
+-- local project_name = "ArcEmu";  -- todo marforius
+
 FEEDBACKUI_RED = "|cFFFF0000"
 FEEDBACKUI_WHITE = "|cFFFFFFFF"
 FEEDBACKUI_GREEN = "|cFF11EE11"
@@ -2413,7 +2415,7 @@ else
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Type your suggestion here>"
 	FEEDBACKUILBLADDONS_MOUSEOVER = "<Mouse-over for loaded addons>"
 	FEEDBACKUI_CONFIRMATION = [[Your feedback has been submitted.
-	Thank you for helping us to improve ArcEmu!]]
+Thank you for helping us to improve ArcEmu!]]
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Submit Feedback"
