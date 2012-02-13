@@ -176,17 +176,6 @@ function ArcGMOnLoad(self)
 	self:RegisterForDrag("RightButton");
 end
 
-function ArcGM_OnInitialize()
-	 ShowMessage("ArcGM "..ArcGMversion.." r"..ArcGMbuild.." loaded!", "00FF00");
-	 ShowMessage("For ArcGM slash commands type \"/ArcGM\" many high level commands have been consolidated for macro use.");
-	 if select(4, GetBuildInfo()) ~= 30300 then ArcGM_NOTSUPPORTED(); end
- end
-
-local function ArcGM_NOTSUPPORTED()
-		 print("Your WoW Client \("..GetBuildInfo().."\) is not supported by ArcGM "..ArcGMversion.." r"..ArcGMbuild.."!")
-		 print("You may experience undesired results, please report issues on the ArcAddon forums. You may also look for an update for this version \("..GetBuildInfo().."\) or please state it in the report.")
- end
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- ArcGM Interface Options
 
