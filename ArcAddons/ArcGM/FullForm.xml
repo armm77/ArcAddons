@@ -262,9 +262,7 @@ FullForm:Hide();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ObjectPlayForm1:Show();
-FullForm:Hide();
-</OnClick>
+          <OnClick>FullForm:Hide();ObjectPlayForm1:Show();</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

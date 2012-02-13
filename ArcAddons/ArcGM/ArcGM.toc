@@ -8,7 +8,7 @@
 ## OptionalDeps: ArcAddons_Tweaks
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
-## SavedVariables: ArcGMview,savedannmsg,savedannflag,GAMEMASTER_OPTIONS,GAMEMASTER_STATISTICS,GAMEMASTER_MESSAGEPRESETS,ArcGM_ShowOnLoad
+## SavedVariables: ArcGMview,savedannmsg,savedannflag,GAMEMASTER_OPTIONS,GAMEMASTER_STATISTICS,GAMEMASTER_MESSAGEPRESETS,ArcGM_ShowOnLoad,OID,OM,OW,OH,OL,OO
 ArcGM.lua
 functions.lua
 Localization.lua
@@ -59,6 +59,7 @@ SpellForm.xml
 TeleForm.xml
 WepskForm.xml
 ObjectPlayForm1.xml
+ObjectPlayForm2.xml
 ChatCopy.lua
 Core.lua
 TargetForm.xml

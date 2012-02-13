@@ -1,4 +1,4 @@
---[[
+﻿--[[
  ArcGM
  Copyright (C) 2012 Marforius
 
@@ -34,6 +34,7 @@ BINDING_NAME_BIND8 = "Get Object ID"
 BINDING_NAME_BIND9 = "Single Spawn"
 BINDING_NAME_BIND10 = "Single Spawn W/O Port"
 BINDING_NAME_BIND11 = "Custom Move"
+form = nil
 
 local options = {
  name = "ObjectPlay",
@@ -54,15 +55,65 @@ end
 
 function ObjectPlay:OnEnable()
  self:RegisterEvent("CHAT_MSG_SYSTEM")
- ObjectIDTxT:Insert("180035")
- ObjectMTxt:Insert("6157")
- ObjectWTxt:Insert("0.5")
- ObjectHTxt:Insert("0.5")
- ObjectLTxt:Insert("12")
- SaveSpawn:SetChecked(true)
- XDirTxt:Insert("0")
- YDirTxt:Insert("0")
- ZDirTxt:Insert("0")
+ if OID == nil then
+  OID = "180035";
+ end
+ if OM == nil then
+  OM = "6157";
+ end
+ if OW == nil then
+  OW = "0.5";
+ end
+ if OH == nil then
+  OH = "0.5";
+ end
+ if OL == nil then
+  OL = "12";
+ end
+ if OO == nil then
+  OO = "0";
+ end
+end
+
+function ObjectPlay:OFHide()
+ if form == 2 then
+  OID = ObjectIDTxT2:GetText()
+  OM = ObjectMTxt2:GetText()
+  OW = ObjectWTxt2:GetText()
+  OH = ObjectHTxt2:GetText()
+  OL = ObjectLTxt2:GetText()
+  OO = ObjectOTxt2:GetText()
+  form = 1;
+ elseif form == 1 or form == nil then
+  OID = ObjectIDTxT:GetText()
+  OM = ObjectMTxt:GetText()
+  OW = ObjectWTxt:GetText()
+  OH = ObjectHTxt:GetText()
+  OL = ObjectLTxt:GetText()
+  form = 2;
+ end
+end
+
+function ObjectPlay:OPShow()
+ if form == 1 or form == nil then
+  ObjectIDTxT:SetText(OID)
+  ObjectMTxt:SetText(OM)
+  ObjectWTxt:SetText(OW)
+  ObjectHTxt:SetText(OH)
+  ObjectLTxt:SetText(OL)
+  XDirTxt:SetText("0")
+  YDirTxt:SetText("0")
+  ZDirTxt:SetText("0")
+  SaveSpawn:SetChecked(true)
+ elseif form == 2 then
+  ObjectIDTxT2:SetText(OID)
+  ObjectMTxt2:SetText(OM)
+  ObjectWTxt2:SetText(OW)
+  ObjectHTxt2:SetText(OH)
+  ObjectLTxt2:SetText(OL)
+  ObjectOTxt2:SetText(OO)
+  SaveSpawn2:SetChecked(true)
+ end
 end
 
 function ObjectPlay:OnDisable()
@@ -84,10 +135,6 @@ local fID = 0
 
 function ObjectPlay:ShowWin1()
  ObjectPlayForm1:Show()
-end
-
-function ObjectPlay:ShowWin2()
- ObjectPlayForm3:Show()
 end
 
 function ObjectPlay:CHAT_MSG_SYSTEM()
@@ -121,10 +168,19 @@ function ObjectPlay:CHAT_MSG_SYSTEM()
    incX = 0
    incY = 0
    incZ = 0
+   if form == 1 then
    isChecked = CheckSpawn:GetChecked()
+   elseif form == 2 then
+   isChecked = CheckSpawn2:GetChecked()
+   end
    if isChecked == 1 then
+    if form == 1 then
     isChecked2 = SaveSpawn:GetChecked()
     ObjectN = ObjectIDTxT:GetText()
+    elseif form == 2 then
+    isChecked2 = SaveSpawn2:GetChecked()
+    ObjectN = ObjectIDTxT2:GetText()
+    end
     if isChecked2 == 1 then
      SendChatMessage('.go spawn '..ObjectN..' 1')
     else
@@ -144,7 +200,11 @@ function ObjectPlay:CHAT_MSG_SYSTEM()
   if fID == 2 then
    WorkString = string.gsub(arg1, '(|.........)', '')
    WorkString = string.gsub(WorkString, 'Entry:', '')
-   ObjectIDTxT:SetText(WorkString)
+   if form == 1 then
+    ObjectIDTxT:SetText(WorkString)
+   elseif form == 2 then
+    ObjectIDTxT2:SetText(WorkString)
+   end
    fID = 3
   end
  end
@@ -152,7 +212,11 @@ function ObjectPlay:CHAT_MSG_SYSTEM()
   if fID == 3 then
    WorkString = string.gsub(arg1, '(|.........)', '')
    WorkString = string.gsub(WorkString, 'Model:', '')
-   ObjectMTxt:SetText(WorkString)
+   if form == 1 then
+    ObjectMTxt:SetText(WorkString)
+   elseif form == 2 then
+    ObjectMTxt2:SetText(WorkString)
+   end
    fID = 0
   end
  end
@@ -184,67 +248,12 @@ function ObjectPlay:GetOID()
  end
 end
 
-function ObjectPlay:DMUP()
+function ObjectPlay:DMMove(iL,iF,iU)
  if cWorking == 0 then
   cWorking = 1
-  incZ = ObjectHTxt:GetText()
-  SendChatMessage(GPS)
- end
-end
-
-function ObjectPlay:DMDown()
- if cWorking == 0 then
-  cWorking = 1
-  incZ = 0 - ObjectHTxt:GetText()
-  SendChatMessage(GPS)
- end
-end
-
-function ObjectPlay:DMLeft()
- if cWorking == 0 then
-  cWorking = 1
-  incY = ObjectWTxt:GetText()
-  SendChatMessage(GPS)
- end
-end
-
-function ObjectPlay:DMRight()
- if cWorking == 0 then
-  cWorking = 1
-  incY = 0 - ObjectWTxt:GetText()
-  SendChatMessage(GPS)
- end
-end
-
-function ObjectPlay:DMSS()
- if cWorking == 0 then
-  cWorking = 1
-  SendChatMessage(GPS)
- end
-end
-
-function ObjectPlay:DMSS2()
- isChecked = SaveSpawn:GetChecked()
- ObjectN = ObjectIDTxT:GetText()
- if isChecked == 1 then
-  SendChatMessage('.go spawn '..ObjectN..' 1')
- else
-  SendChatMessage('.go spawn '..ObjectN)
- end
-end
-
-function ObjectPlay:DMFront()
- if cWorking == 0 then
-  cWorking = 1
-  incX = ObjectLTxt:GetText()
-  SendChatMessage(GPS)
- end
-end
-
-function ObjectPlay:DMBack()
- if cWorking == 0 then
-  cWorking = 1
-  incX = 0 - ObjectLTxt:GetText()
+  incY = ObjectWTxt:GetText() * iL
+  incX = ObjectLTxt:GetText() * iF
+  incZ = ObjectWTxt:GetText() * iU
   SendChatMessage(GPS)
  end
 end
