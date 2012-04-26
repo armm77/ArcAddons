@@ -20,7 +20,7 @@ This code is also released under the Attribution-Noncommercial-Share Alike 3.0 U
 http://creativecommons.org/licenses/by-nc-sa/3.0/us/
 ]]
 
--- local project_name = "ArcEmu";  -- todo marforius
+local project_name = "ArcEmu"; -- Your project name goes here
 
 FEEDBACKUI_RED = "|cFFFF0000"
 FEEDBACKUI_WHITE = "|cFFFFFFFF"
@@ -80,11 +80,11 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Tapez ici les étapes pour reproduire votre bug>"
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Tapez ici votre suggestion>"
 	FEEDBACKUILBLADDONS_MOUSEOVER = "<Passer la souris pour voir les add-ons chargés.>"
-	FEEDBACKUI_CONFIRMATION = "Votre retour a été envoyé.\nMerci de nous aider à améliorer ArcEmu!"
+	FEEDBACKUI_CONFIRMATION = "Votre retour a été envoyé.\nMerci de nous aider à améliorer "project_name"!"
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Soumettre retour"
-	NEWBIE_TOOLTIP_BUG="Nous envoie un retour sur un bug ou une suggestion afin de nous aider à améliorer ArcEmu"
+	NEWBIE_TOOLTIP_BUG="Nous envoie un retour sur un bug ou une suggestion afin de nous aider à améliorer "project_name""
 	FEEDBACKUIBACK_TEXT = "Retour"
 	FEEDBACKUIRESET_TEXT = "Réinitialiser"
 	FEEDBACKUISUBMIT_TEXT = "Soumettre"
@@ -95,7 +95,7 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Faire une suggestion"
 	FEEDBACKUI_WELCOMETABLESUBTEXT = "Merci de votre retour !"
 	
-	FEEDBACKUI_WELCOME = "\nMerci d’avoir soumis un retour sur ArcEmu. Toutes vos propositions sont prises en compte afin de nous permettre d’améliorer ArcEmu.\n\nVeuillez remplir ce bref questionnaire, qui nous aidera à traiter plus efficacement l’énorme quantité de commentaires que nous recevons.\n\nMerci,\nBlizzard Entertainement"
+	FEEDBACKUI_WELCOME = "\nMerci d’avoir soumis un retour sur "project_name". Toutes vos propositions sont prises en compte afin de nous permettre d’améliorer "project_name".\n\nVeuillez remplir ce bref questionnaire, qui nous aidera à traiter plus efficacement l’énorme quantité de commentaires que nous recevons.\n\nMerci,\nBlizzard Entertainement"
 	
 	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "Qui" .. FEEDBACKUI_WHITE
 	FEEDBACKUI_WHOTABLESUBTEXT = "Qu’est-ce qui est affecté par ce problème ?"
@@ -490,8 +490,8 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_SURVEYNEWBIETEXT = "Cliquez ici pour remplir un sondage sur cette expérience."
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Veuillez choisir un sondage"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Merci de nous fournir un retour sur ArcEmu. Vous avez choisi de donner un retour sur :\n\n\n\n\nPour continuer, veuillez choisir l’une des options suivantes :";
-	FEEDBACKUI_GENERALWELCOME = "Merci de nous fournir un retour sur ArcEmu. Tous les commentaires reçus servent à améliorer la qualité de ArcEmu.\n\nPour continuer, veuillez choisir l’une des options suivantes :";
+	FEEDBACKUI_SPECIFICWELCOME = "Merci de nous fournir un retour sur "project_name". Vous avez choisi de donner un retour sur :\n\n\n\n\nPour continuer, veuillez choisir l’une des options suivantes :";
+	FEEDBACKUI_GENERALWELCOME = "Merci de nous fournir un retour sur "project_name". Tous les commentaires reçus servent à améliorer la qualité de "project_name".\n\nPour continuer, veuillez choisir l’une des options suivantes :";
 	
 	FEEDBACKUI_STARTBUG = "Signaler un bug"
 	FEEDBACKUI_STARTSURVEY = "Commencer un sondage"
@@ -526,7 +526,7 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_CATEGORYLABEL = "Type :"
 	FEEDBACKUI_STATUSLABEL = "Statut :"
 	
-	NEWBIE_TOOLTIP_BUG="Aidez-nous à améliorer ArcEmu en nous signalant un bug, en faisant une suggestion ou en répondant à un sondage.\n\n" .. FEEDBACKUI_BLUE .. "Clic gauche pour commencer.\nClic droit pour afficher les options.";
+	NEWBIE_TOOLTIP_BUG="Aidez-nous à améliorer "project_name" en nous signalant un bug, en faisant une suggestion ou en répondant à un sondage.\n\n" .. FEEDBACKUI_BLUE .. "Clic gauche pour commencer.\nClic droit pour afficher les options.";
 	FEEDBACKUILBLAPPEARANCE_TEXT = "Apparence :"
 	FEEDBACKUILBLUTILITY_TEXT = "Utilité :"
 	
@@ -1249,11 +1249,11 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Geben Sie hier Schritte ein, um den Fehler nachzustellen>"
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Geben Sie hier Ihren Vorschlag ein>"
 	FEEDBACKUILBLADDONS_MOUSEOVER = "<Für aktive Add-Ons Mauszeiger hierher bewegen>"
-	FEEDBACKUI_CONFIRMATION = "Ihre Kommentare wurden abgeschickt.\nVielen Dank für Ihre Hilfe bei der Verbesserung von ArcEmu!"
+	FEEDBACKUI_CONFIRMATION = "Ihre Kommentare wurden abgeschickt.\nVielen Dank für Ihre Hilfe bei der Verbesserung von "project_name"!"
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Kommentare senden"
-	NEWBIE_TOOLTIP_BUG="Melden Sie uns Fehler oder schicken Sie Vorschläge, um ArcEmu zu verbessern."
+	NEWBIE_TOOLTIP_BUG="Melden Sie uns Fehler oder schicken Sie Vorschläge, um "project_name" zu verbessern."
 	FEEDBACKUIBACK_TEXT = "Schritt zurück"
 	FEEDBACKUIRESET_TEXT = "Zurücksetzen"
 	FEEDBACKUISUBMIT_TEXT = "Senden"
@@ -1264,7 +1264,7 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Einen Vorschlag machen"
 	FEEDBACKUI_WELCOMETABLESUBTEXT = "Vielen Dank für Ihre Kommentare!"
 	
-	FEEDBACKUI_WELCOME = "\nVielen Dank für Ihre Kommentare zu ArcEmu. Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle für die Qualität des Spiels.\n\nBitte füllen Sie diesen kurzen Fragebogen aus, damit wir Ihre Einsendung so schnell wie möglich bearbeiten können.\n\nVielen Dank,\nThe ArcEmu Team"
+	FEEDBACKUI_WELCOME = "\nVielen Dank für Ihre Kommentare zu "project_name". Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle für die Qualität des Spiels.\n\nBitte füllen Sie diesen kurzen Fragebogen aus, damit wir Ihre Einsendung so schnell wie möglich bearbeiten können.\n\nVielen Dank,\nThe "project_name" Team"
 	
 	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "Wen" .. FEEDBACKUI_WHITE
 	FEEDBACKUI_WHOTABLESUBTEXT = "Worauf wirkt sich das Problem aus?"
@@ -1657,8 +1657,8 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_SURVEYNEWBIETEXT = "Hier klicken, um die Erfahrungsbewertung abzuschließen."
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Bitte Bewertung auswählen"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Vielen Dank für Ihre Kommentare zu ArcEmu. Sie möchten Feedback geben zu:\n\n\n\n\nBitte wählen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
-	FEEDBACKUI_GENERALWELCOME = "Vielen Dank für Ihre Kommentare zu ArcEmu. Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle für die Qualität des Spiels.\n\nBitte wählen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
+	FEEDBACKUI_SPECIFICWELCOME = "Vielen Dank für Ihre Kommentare zu "project_name". Sie möchten Feedback geben zu:\n\n\n\n\nBitte wählen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
+	FEEDBACKUI_GENERALWELCOME = "Vielen Dank für Ihre Kommentare zu "project_name". Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle für die Qualität des Spiels.\n\nBitte wählen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
 	
 	FEEDBACKUI_STARTBUG = "Fehler melden"
 	FEEDBACKUI_STARTSURVEY = "Bewertung starten"
@@ -1693,7 +1693,7 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_CATEGORYLABEL = "Art:"
 	FEEDBACKUI_STATUSLABEL = "Status:"
 	
-	NEWBIE_TOOLTIP_BUG="Helfen Sie uns, ArcEmu zu verbessern, indem Sie Fehler, Vorschläge oder eine Bewertung einreichen.\n\n" .. FEEDBACKUI_BLUE .. "Linksklick zum Beginnen.\nRechtsklick für Anzeigeoptionen.";
+	NEWBIE_TOOLTIP_BUG="Helfen Sie uns, "project_name" zu verbessern, indem Sie Fehler, Vorschläge oder eine Bewertung einreichen.\n\n" .. FEEDBACKUI_BLUE .. "Linksklick zum Beginnen.\nRechtsklick für Anzeigeoptionen.";
 	FEEDBACKUILBLAPPEARANCE_TEXT = "Aussehen:"
 	FEEDBACKUILBLUTILITY_TEXT = "Nutzen:"
 	
@@ -1831,11 +1831,11 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Escribe aquí los pasos a seguir para reproducir el error>"
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Escribe tu sugerencia aquí>"
 	FEEDBACKUILBLADDONS_MOUSEOVER = "<Texto al pasar el ratón de los addons cargados>"
-	FEEDBACKUI_CONFIRMATION = "Tu información se ha enviado.\n¡Gracias por ayudarnos a mejorar ArcEmu!"
+	FEEDBACKUI_CONFIRMATION = "Tu información se ha enviado.\n¡Gracias por ayudarnos a mejorar "project_name"!"
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Enviar información"
-	NEWBIE_TOOLTIP_BUG="Envíanos información sobre errores o sugerencias para ayudarnos a mejorar ArcEmu."
+	NEWBIE_TOOLTIP_BUG="Envíanos información sobre errores o sugerencias para ayudarnos a mejorar "project_name"."
 	FEEDBACKUIBACK_TEXT = "Volver"
 	FEEDBACKUIRESET_TEXT = "Borrar todo"
 	FEEDBACKUISUBMIT_TEXT = "Enviar"
@@ -1846,7 +1846,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Haz una sugerencia"
 	FEEDBACKUI_WELCOMETABLESUBTEXT = "¡Gracias por la información!"
 	
-	FEEDBACKUI_WELCOME = "\nGracias por tu información sobre ArcEmu. Cada mensaje que recibimos es vital para lograr la calidad de ArcEmu.\n\nRellena este corto cuestionario para ayudarnos a procesar los numerosos mensajes que recibimos de forma efectiva.\n\nGracias,\nThe ArcEmu Team"
+	FEEDBACKUI_WELCOME = "\nGracias por tu información sobre "project_name". Cada mensaje que recibimos es vital para lograr la calidad de "project_name".\n\nRellena este corto cuestionario para ayudarnos a procesar los numerosos mensajes que recibimos de forma efectiva.\n\nGracias,\nThe "project_name" Team"
 	
 	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "Quién" .. FEEDBACKUI_WHITE 
 	FEEDBACKUI_WHOTABLESUBTEXT = "¿A qué afecta este problema?"
@@ -2239,8 +2239,8 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_SURVEYNEWBIETEXT = "Haz clic aquí para rellenar una encuesta sobre esta experiencia."
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Selecciona una encuesta"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Gracias por tu opinión acerca de ArcEmu. Has elegido opinar sobre:\n\n\n\n\nElige una de las siguientes opciones para continuar:";
-	FEEDBACKUI_GENERALWELCOME = "Gracias por tu opinión acerca de ArcEmu. Cada comentario que recibimos desempeña un papel muy importante a la hora de determinar la calidad del juego.\n\nElige una de estas opciones para continuar:";
+	FEEDBACKUI_SPECIFICWELCOME = "Gracias por tu opinión acerca de "project_name". Has elegido opinar sobre:\n\n\n\n\nElige una de las siguientes opciones para continuar:";
+	FEEDBACKUI_GENERALWELCOME = "Gracias por tu opinión acerca de "project_name". Cada comentario que recibimos desempeña un papel muy importante a la hora de determinar la calidad del juego.\n\nElige una de estas opciones para continuar:";
 	
 	FEEDBACKUI_STARTBUG = "Informar de un error"
 	FEEDBACKUI_STARTSURVEY = "Comenzar encuesta"
@@ -2275,7 +2275,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_CATEGORYLABEL = "Tipo:"
 	FEEDBACKUI_STATUSLABEL = "Estado:"
 	
-	NEWBIE_TOOLTIP_BUG="Ayúdanos a mejorar ArcEmu enviándonos informes de error o sugerencias, o bien, contestando a nuestras encuestas.\n\n" .. FEEDBACKUI_BLUE .. "Clic izquierdo para comenzar.\nClic derecho para mostrar las opciones.";
+	NEWBIE_TOOLTIP_BUG="Ayúdanos a mejorar "project_name" enviándonos informes de error o sugerencias, o bien, contestando a nuestras encuestas.\n\n" .. FEEDBACKUI_BLUE .. "Clic izquierdo para comenzar.\nClic derecho para mostrar las opciones.";
 	FEEDBACKUILBLAPPEARANCE_TEXT = "Apariencia:"
 	FEEDBACKUILBLUTILITY_TEXT = "Utilidad:"
 	
@@ -2415,7 +2415,7 @@ else
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Type your suggestion here>"
 	FEEDBACKUILBLADDONS_MOUSEOVER = "<Mouse-over for loaded addons>"
 	FEEDBACKUI_CONFIRMATION = [[Your feedback has been submitted.
-Thank you for helping us to improve ArcEmu!]]
+Thank you for helping us to improve "project_name"!]]
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Submit Feedback"
@@ -2432,7 +2432,7 @@ Thank you for helping us to improve ArcEmu!]]
 	FEEDBACKUI_WELCOMETABLESUBTEXT = "Thanks for your feedback!"
 	
 	
-	FEEDBACKUI_WELCOME = "\nThank you for offering feedback on ArcEmu. Each and every submission we receive plays an important role in determining the quality of ArcEmu.\n\nPlease fill out this short questionnaire so that we may efficiently process the huge amount of feedback we receive.\n\nThank You,\nThe ArcEmu Team";
+	FEEDBACKUI_WELCOME = "\nThank you for offering feedback on "project_name". Each and every submission we receive plays an important role in determining the quality of "project_name".\n\nPlease fill out this short questionnaire so that we may efficiently process the huge amount of feedback we receive.\n\nThank You,\nThe "project_name" Team";
 	-- FEEDBACKUI_SPECIFICBUG = "Report a bug that affects " .. NORMAL_FONT_COLOR_CODE .. "%s" .. HIGHLIGHT_FONT_COLOR_CODE .. "."
 	-- FEEDBACKUI_SPECIFICSUGGESTION = "Make a suggestion regarding " .. NORMAL_FONT_COLOR_CODE .. "%s" .. HIGHLIGHT_FONT_COLOR_CODE .. "."
 	-- FEEDBACKUI_SPECIFICSURVEY = "Take a survey about " .. NORMAL_FONT_COLOR_CODE .. "%s" .. HIGHLIGHT_FONT_COLOR_CODE .. "."
@@ -2781,8 +2781,8 @@ Thank you for helping us to improve ArcEmu!]]
 	
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Please select a survey"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Thank you for offering feedback on ArcEmu. You've chosen to give feedback on:\n\n\n\n\nPlease choose one of the following feedback options to continue:";
-	FEEDBACKUI_GENERALWELCOME = "Thank you for offering feedback on ArcEmu. Each and every submission we receive plays an important role in determining the quality of ArcEmu.\n\nPlease choose one of the following feedback options to continue:";
+	FEEDBACKUI_SPECIFICWELCOME = "Thank you for offering feedback on "project_name". You've chosen to give feedback on:\n\n\n\n\nPlease choose one of the following feedback options to continue:";
+	FEEDBACKUI_GENERALWELCOME = "Thank you for offering feedback on "project_name". Each and every submission we receive plays an important role in determining the quality of "project_name".\n\nPlease choose one of the following feedback options to continue:";
 	
 	FEEDBACKUI_STARTBUG = "Report Bug"
 	FEEDBACKUI_STARTSURVEY = "Start Survey"
@@ -2818,7 +2818,7 @@ Thank you for helping us to improve ArcEmu!]]
 	FEEDBACKUI_STATUSLABEL = "Status:"
 	FEEDBACKUI_MODIFIERKEY = "Binding:"
 	
-	NEWBIE_TOOLTIP_BUG="Help improve ArcEmu by submitting a bug or suggestion, or by taking a survey.\n\n" .. FEEDBACKUI_BLUE .. "Left Click to start\nRight Click for display options\nRight Click and drag to move";
+	NEWBIE_TOOLTIP_BUG="Help improve "project_name" by submitting a bug or suggestion, or by taking a survey.\n\n" .. FEEDBACKUI_BLUE .. "Left Click to start\nRight Click for display options\nRight Click and drag to move";
 	FEEDBACKUILBLAPPEARANCE_TEXT = "Appearance:"
 	FEEDBACKUILBLUTILITY_TEXT = "Usefulness:"
 	

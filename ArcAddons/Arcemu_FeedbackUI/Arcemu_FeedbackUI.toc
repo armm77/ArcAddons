@@ -1,8 +1,8 @@
 ## Interface: 30300
 ## Title: Arcemu_FeedbackUI
-## Version: 1.1 Beta (Unimplemented-still)
+## Version: 1.2
 ## Author: Marforius
-## Notes: Sends feedback to a server running ArcEmu.
+## Notes: Sends feedback to a server running ArcEmu. The feedback is stored locally in the server database for administrators or developers to read.
 ## SavedVariablesPerCharacter: g_FeedbackUI_feedbackVars, g_FeedbackUI_surveysTable
 
 Localization.lua
