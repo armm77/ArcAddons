@@ -1,4 +1,4 @@
---[[  
+Ôªø--[[  
 ArcAddons
 Copyright (C) 2012 Marforius
 
@@ -49,86 +49,86 @@ if ( GetLocale() == "frFR" ) then
 	function frFR() end
 	]]--
 	--Non-instance special zone names
-	FEEDBACKUI_EXCEPTIONZONES = { "Tram des profondeurs", "Hall des Champions", "La Mer interdite", "La Mer voilÈe", "La Grande mer", "VallÈe d'Alterac", "Bassin d'Arathi", "Mont Rochenoire", "Goulet des Chanteguerres", "Hall des LÈgendes", "Donjon d'Utgarde", }
+	FEEDBACKUI_EXCEPTIONZONES = { "Tram des profondeurs", "Hall des Champions", "La Mer interdite", "La Mer voil√©e", "La Grande mer", "Vall√©e d'Alterac", "Bassin d'Arathi", "Mont Rochenoire", "Goulet des Chanteguerres", "Hall des L√©gendes", "Donjon d'Utgarde", }
 	
 	--Headers    
 	FEEDBACKUIINFOPANELLABEL_TEXT = "Informations"
-	FEEDBACKUI_BUGINPUTHEADER="Veuillez dÈcrire le bug"
-	FEEDBACKUI_SUGGESTINPUTHEADER="Veuillez dÈcrire votre suggestion"
+	FEEDBACKUI_BUGINPUTHEADER="Veuillez d√©crire le bug"
+	FEEDBACKUI_SUGGESTINPUTHEADER="Veuillez d√©crire votre suggestion"
 	
 	--Labels
 	FEEDBACKUIFEEDBACKFRMTITLE_TEXT = "Soumettre un retour"
-	FEEDBACKUILBLFRMVER_TEXT = "Version†:"
-	FEEDBACKUILBLFRMREALM_TEXT = "Royaume†:"
-	FEEDBACKUILBLFRMNAME_TEXT = "Nom†:"
-	FEEDBACKUILBLFRMCHAR_TEXT = "Personnage†:"
-	FEEDBACKUILBLFRMMAP_TEXT = "Carte†:"
-	FEEDBACKUILBLFRMZONE_TEXT = "Zone†:"
-	FEEDBACKUILBLFRMAREA_TEXT = "RÈgion†:"
-	FEEDBACKUILBLFRMADDONS_TEXT = "Add-ons†:"
-	FEEDBACKUILBLADDONSWRAP_TEXT = "Add-ons actuellement lancÈs†:\n"
+	FEEDBACKUILBLFRMVER_TEXT = "Version¬†:"
+	FEEDBACKUILBLFRMREALM_TEXT = "Royaume¬†:"
+	FEEDBACKUILBLFRMNAME_TEXT = "Nom¬†:"
+	FEEDBACKUILBLFRMCHAR_TEXT = "Personnage¬†:"
+	FEEDBACKUILBLFRMMAP_TEXT = "Carte¬†:"
+	FEEDBACKUILBLFRMZONE_TEXT = "Zone¬†:"
+	FEEDBACKUILBLFRMAREA_TEXT = "R√©gion¬†:"
+	FEEDBACKUILBLFRMADDONS_TEXT = "Add-ons¬†:"
+	FEEDBACKUILBLADDONSWRAP_TEXT = "Add-ons actuellement lanc√©s¬†:\n"
 	FEEDBACKUITYPEBUG_TEXT = "Bug"
 	FEEDBACKUITYPESUGGEST_TEXT = "Suggestion"
-	FEEDBACKUITYPESURVEY_TEXT = "EnquÍte"
-	FEEDBACKUILBLFRMWHO_TEXT = "Qui†: "
-	FEEDBACKUILBLFRMWHERE_TEXT = "O˘†: "
-	FEEDBACKUILBLFRMWHEN_TEXT = "Quand†: "
+	FEEDBACKUITYPESURVEY_TEXT = "Enqu√™te"
+	FEEDBACKUILBLFRMWHO_TEXT = "Qui¬†: "
+	FEEDBACKUILBLFRMWHERE_TEXT = "O√π¬†: "
+	FEEDBACKUILBLFRMWHEN_TEXT = "Quand¬†: "
 	FEEDBACKUILBLFRMTYPE_TEXT = "Type : "
-	FEEDBACKUI_GENDERTABLE = { "Inconnu", "M‚le", "Femelle" }
+	FEEDBACKUI_GENDERTABLE = { "Inconnu", "M√¢le", "Femelle" }
 	
 	--Prompts
-	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Tapez ici les Ètapes pour reproduire votre bug>"
+	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Tapez ici les √©tapes pour reproduire votre bug>"
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Tapez ici votre suggestion>"
-	FEEDBACKUILBLADDONS_MOUSEOVER = "<Passer la souris pour voir les add-ons chargÈs.>"
-	FEEDBACKUI_CONFIRMATION = "Votre retour a ÈtÈ envoyÈ.\nMerci de nous aider ‡ amÈliorer " .. project_name .. "!"
+	FEEDBACKUILBLADDONS_MOUSEOVER = "<Passer la souris pour voir les add-ons charg√©s.>"
+	FEEDBACKUI_CONFIRMATION = "Votre retour a √©t√© envoy√©.\nMerci de nous aider √† am√©liorer " .. project_name .. "!"
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Soumettre retour"
-	NEWBIE_TOOLTIP_BUG="Nous envoie un retour sur un bug ou une suggestion afin de nous aider ‡ amÈliorer " .. project_name .. ""
+	NEWBIE_TOOLTIP_BUG="Nous envoie un retour sur un bug ou une suggestion afin de nous aider √† am√©liorer " .. project_name .. ""
 	FEEDBACKUIBACK_TEXT = "Retour"
-	FEEDBACKUIRESET_TEXT = "RÈinitialiser"
+	FEEDBACKUIRESET_TEXT = "R√©initialiser"
 	FEEDBACKUISUBMIT_TEXT = "Soumettre"
-	FEEDBACKUISTART_TEXT = "DÈbut"
+	FEEDBACKUISTART_TEXT = "D√©but"
 	
 	--Tables and strings for navigation.
 	FEEDBACKUI_WELCOMETABLEBUGHEADER = "Reporter un bug"
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Faire une suggestion"
-	FEEDBACKUI_WELCOMETABLESUBTEXT = "Merci de votre retour†!"
+	FEEDBACKUI_WELCOMETABLESUBTEXT = "Merci de votre retour¬†!"
 	
-	FEEDBACKUI_WELCOME = "\nMerci díavoir soumis un retour sur " .. project_name .. ". Toutes vos propositions sont prises en compte afin de nous permettre díamÈliorer " .. project_name .. ".\n\nVeuillez remplir ce bref questionnaire, qui nous aidera ‡ traiter plus efficacement líÈnorme quantitÈ de commentaires que nous recevons.\n\nMerci,\nBlizzard Entertainement"
+	FEEDBACKUI_WELCOME = "\nMerci d‚Äôavoir soumis un retour sur " .. project_name .. ". Toutes vos propositions sont prises en compte afin de nous permettre d‚Äôam√©liorer " .. project_name .. ".\n\nVeuillez remplir ce bref questionnaire, qui nous aidera √† traiter plus efficacement l‚Äô√©norme quantit√© de commentaires que nous recevons.\n\nMerci,\nBlizzard Entertainement"
 	
 	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "Qui" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_WHOTABLESUBTEXT = "Quíest-ce qui est affectÈ par ce problËme ?"
+	FEEDBACKUI_WHOTABLESUBTEXT = "Qu‚Äôest-ce qui est affect√© par ce probl√®me ?"
 	
 	FEEDBACKUI_STRWHOPLAYER = "Affecte mon personnage."
 	FEEDBACKUI_STRPARTYMEMBER = "Affecte les membres de mon groupe."
 	FEEDBACKUI_STRRAIDMEMBER = "Affecte les membres de mon raid."
 	FEEDBACKUI_STRENEMYPLAYER = "Affecte un personnage ennemi."
 	FEEDBACKUI_STRFRIENDLYPLAYER = "Affecte un personnage amical."
-	FEEDBACKUI_STRENEMYCREATURE = "Affecte une crÈature ennemie."
-	FEEDBACKUI_STRFRIENDLYCREATURE = "Affecte une crÈature amicale."
-	FEEDBACKUI_STRWHONA = "N'implique ni personnage ni crÈature."
+	FEEDBACKUI_STRENEMYCREATURE = "Affecte une cr√©ature ennemie."
+	FEEDBACKUI_STRFRIENDLYCREATURE = "Affecte une cr√©ature amicale."
+	FEEDBACKUI_STRWHONA = "N'implique ni personnage ni cr√©ature."
 	
 	FEEDBACKUI_WHOPLAYER = "Mon personnage"
 	FEEDBACKUI_ENEMYPLAYER = "Personnage ennemi"
 	FEEDBACKUI_FRIENDLYPLAYER = "Personnage amical"
 	FEEDBACKUI_PARTYMEMBER = "Membre du groupe"
 	FEEDBACKUI_RAIDMEMBER = "Membre du raid"
-	FEEDBACKUI_ENEMYCREATURE = "CrÈature ennemie"
-	FEEDBACKUI_FRIENDLYCREATURE = "CrÈature amicale"
+	FEEDBACKUI_ENEMYCREATURE = "Cr√©ature ennemie"
+	FEEDBACKUI_FRIENDLYCREATURE = "Cr√©ature amicale"
 	FEEDBACKUI_WHONA = "N/A"
 	
-	FEEDBACKUI_WHERETABLEHEADER = FEEDBACKUI_WHITE .. "O˘" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_WHERETABLESUBTEXT = "O˘ se produit le problËme ?"
+	FEEDBACKUI_WHERETABLEHEADER = FEEDBACKUI_WHITE .. "O√π" .. FEEDBACKUI_WHITE
+	FEEDBACKUI_WHERETABLESUBTEXT = "O√π se produit le probl√®me ?"
 	
 	FEEDBACKUI_STRAREATABLE = "Cela se produit en jeu"
-	FEEDBACKUI_STRWHEREINSTALL = "Cela se produit ‡ l'installation"
-	FEEDBACKUI_STRWHEREDOWNLOAD = "Cela se produit au tÈlÈchargement"
-	FEEDBACKUI_STRWHEREPATCH = "Cela se produit ‡ la mise ‡ jour"
+	FEEDBACKUI_STRWHEREINSTALL = "Cela se produit √† l'installation"
+	FEEDBACKUI_STRWHEREDOWNLOAD = "Cela se produit au t√©l√©chargement"
+	FEEDBACKUI_STRWHEREPATCH = "Cela se produit √† la mise √† jour"
 	
 	FEEDBACKUI_WHEREINSTALL = "En installant"
-	FEEDBACKUI_WHEREDOWNLOAD = "En tÈlÈchargeant"
-	FEEDBACKUI_WHEREPATCH = "En mettant ‡ jour"
+	FEEDBACKUI_WHEREDOWNLOAD = "En t√©l√©chargeant"
+	FEEDBACKUI_WHEREPATCH = "En mettant √† jour"
 	
 	FEEDBACKUI_AREATABLESUMMARY = FEEDBACKUI_GREEN .. "Quelque part en jeu"
 	
@@ -143,17 +143,17 @@ if ( GetLocale() == "frFR" ) then
 	
 	--Northrend
 	FEEDBACKUI_NORTHREND = "Norfendre"
-	FEEDBACKUI_BOREANTUNDRA = "Toundra BorÈenne"
-	FEEDBACKUI_CRYSTALSONG = "ForÍt du Chant de cristal" --LOCALIZE ME
+	FEEDBACKUI_BOREANTUNDRA = "Toundra Bor√©enne"
+	FEEDBACKUI_CRYSTALSONG = "For√™t du Chant de cristal" --LOCALIZE ME
 	FEEDBACKUI_DALARAN = "Dalaran" 
-	FEEDBACKUI_DRAGONBLIGHT = "DÈsolation des dragons"
+	FEEDBACKUI_DRAGONBLIGHT = "D√©solation des dragons"
 	FEEDBACKUI_GRIZZLYHILLS = "Les Grisonnes"
 	FEEDBACKUI_HOWLINGFJORD = "Fjord Hurlant"
 	FEEDBACKUI_ICECROWN = "La Couronne de glace"--LOCALIZE ME
 	FEEDBACKUI_NEXUS = "Nexus"
 	FEEDBACKUI_SHOLAZARBASIN = "Bassin de Sholazar" --LOCALIZE ME
-	FEEDBACKUI_STORMPEAKS = "Les pics FoudroyÈs" --LOCALIZE ME
-	FEEDBACKUI_UTGARDEPINNACLE = "Cime díUtgarde"
+	FEEDBACKUI_STORMPEAKS = "Les pics Foudroy√©s" --LOCALIZE ME
+	FEEDBACKUI_UTGARDEPINNACLE = "Cime d‚ÄôUtgarde"
 	FEEDBACKUI_WINTERGRASP = "Joug-d'hiver" --LOCALIZE ME
 	FEEDBACKUI_ZULDRAK = "Zul'Drak" 
 	FEEDBACKUI_STRNORTHREND = "Cela se produit en Norfendre."
@@ -162,33 +162,33 @@ if ( GetLocale() == "frFR" ) then
 	--Eastern Kingdoms
 	FEEDBACKUI_EKINGDOMS = "Royaumes de l'Est"
 	FEEDBACKUI_ALTERACMOUNTAINS = "Mts d'Alterac"
-	FEEDBACKUI_ALTERACVALLEY = "VallÈe d'Alterac"
+	FEEDBACKUI_ALTERACVALLEY = "Vall√©e d'Alterac"
 	FEEDBACKUI_ARATHIBASIN = "Bassin d'Arathi"
 	FEEDBACKUI_ARATHIHIGHLANDS = "Hautes-terres d'Arathi"
 	FEEDBACKUI_BADLANDS = "Terres ingrates"
 	FEEDBACKUI_BLACKROCKMOUNTAIN = "Mont Rochenoire"
-	FEEDBACKUI_BLASTEDLANDS = "Terres foudroyÈes"
+	FEEDBACKUI_BLASTEDLANDS = "Terres foudroy√©es"
 	FEEDBACKUI_BURNINGSTEPPES = "Steppes ardentes"
-	FEEDBACKUI_DEADWINDPASS = "DÈfilÈ de Deuillevent"
+	FEEDBACKUI_DEADWINDPASS = "D√©fil√© de Deuillevent"
 	FEEDBACKUI_DUNMOROGH = "Dun Morogh"
-	FEEDBACKUI_DUSKWOOD = "Bois de la PÈnombre"
+	FEEDBACKUI_DUSKWOOD = "Bois de la P√©nombre"
 	FEEDBACKUI_EPLAGUELANDS = "Maleterres de l'est"
-	FEEDBACKUI_ELWYNN = "ForÍt d'Elwynn"
-	FEEDBACKUI_EVERSONG = "Bois des Chants Èternels"
-	FEEDBACKUI_GHOSTLANDS = "Terres fantÙmes"
+	FEEDBACKUI_ELWYNN = "For√™t d'Elwynn"
+	FEEDBACKUI_EVERSONG = "Bois des Chants √©ternels"
+	FEEDBACKUI_GHOSTLANDS = "Terres fant√¥mes"
 	FEEDBACKUI_HILLSBRAD = "Hautebrande"
 	FEEDBACKUI_HINTERLANDS = "Les Hinterlands"
 	FEEDBACKUI_IRONFORGE = "Forgefer"
-	FEEDBACKUI_ISLEOFQUELDANAS = "Œle de Quel'Danas" --LOCALIZE ME
+	FEEDBACKUI_ISLEOFQUELDANAS = "√éle de Quel'Danas" --LOCALIZE ME
 	FEEDBACKUI_LOCHMODAN = "Loch Modan"
 	FEEDBACKUI_REDRIDGE = "Les Carmines"
-	FEEDBACKUI_SEARINGGORGE = "Gorge des Vents br˚lants"
+	FEEDBACKUI_SEARINGGORGE = "Gorge des Vents br√ªlants"
 	FEEDBACKUI_SILVERMOON = "Lune-d'argent"
-	FEEDBACKUI_SILVERPINE = "ForÍt des Pins argentÈs"
+	FEEDBACKUI_SILVERPINE = "For√™t des Pins argent√©s"
 	FEEDBACKUI_STORMWIND = "Hurlevent"
-	FEEDBACKUI_STRANGLETHORN = "VallÈe de Strangleronce"
+	FEEDBACKUI_STRANGLETHORN = "Vall√©e de Strangleronce"
 	FEEDBACKUI_SWAMPOFSORROWS = "Marais des Chagrins"
-	FEEDBACKUI_TIRISFAL = "ClairiËres de Tirisfal"
+	FEEDBACKUI_TIRISFAL = "Clairi√®res de Tirisfal"
 	FEEDBACKUI_UNDERCITY = "Fossoyeuse"
 	FEEDBACKUI_WPLAGUELANDS = "Maleterres de l'ouest"
 	FEEDBACKUI_WESTFALL = "Marche de l'ouest"
@@ -205,12 +205,12 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_BLOODMYST = "Brume-sang"
 	FEEDBACKUI_DARKSHORE = "Sombrivage"
 	FEEDBACKUI_DARNASSUS = "Darnassus";
-	FEEDBACKUI_DESOLACE = "DÈsolace"
+	FEEDBACKUI_DESOLACE = "D√©solace"
 	FEEDBACKUI_DUROTAR = "Durotar"
-	FEEDBACKUI_DUSTWALLOW = "MarÈcage d'¬prefange"
+	FEEDBACKUI_DUSTWALLOW = "Mar√©cage d'√Çprefange"
 	FEEDBACKUI_EXODAR = "L'Exodar"
 	FEEDBACKUI_FELWOOD = "Gangrebois"
-	FEEDBACKUI_FERALAS = "FÈralas"
+	FEEDBACKUI_FERALAS = "F√©ralas"
 	FEEDBACKUI_MOONGLADE = "Reflet-de-Lune"
 	FEEDBACKUI_MULGORE = "Mulgore"
 	FEEDBACKUI_ORGRIMMAR = "Orgrimmar";
@@ -220,7 +220,7 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_TELDRASSIL = "Teldrassil";
 	FEEDBACKUI_THUNDERBLUFF = "Les Pitons du tonnerre"
 	FEEDBACKUI_THOUSANDNEEDLES = "Les Mille pointes"
-	FEEDBACKUI_UNGORO = "CratËre d'Un'Goro"
+	FEEDBACKUI_UNGORO = "Crat√®re d'Un'Goro"
 	FEEDBACKUI_WARSONG = "Goulet des Chanteguerres"
 	FEEDBACKUI_WINTERSPRING = "Berceau-de-l'hiver" 
 	FEEDBACKUI_STRKALIMDOR = "Cela se produit en Kalimdor"
@@ -229,14 +229,14 @@ if ( GetLocale() == "frFR" ) then
 	--Outland
 	FEEDBACKUI_OUTLANDS = "Outreterre"
 	FEEDBACKUI_BLADESEDGE = "Les Tranchantes"
-	FEEDBACKUI_HELLFIRE = "PÈninsule des Flammes infernales"
+	FEEDBACKUI_HELLFIRE = "P√©ninsule des Flammes infernales"
 	FEEDBACKUI_NAGRAND = "Nagrand"
-	FEEDBACKUI_NETHERSTORM = "Raz-de-NÈant"
-	FEEDBACKUI_SHADOWMOON = "VallÈe d'Ombrelune"
+	FEEDBACKUI_NETHERSTORM = "Raz-de-N√©ant"
+	FEEDBACKUI_SHADOWMOON = "Vall√©e d'Ombrelune"
 	FEEDBACKUI_SHATTRATH = "Shattrath"
-	FEEDBACKUI_TERROKAR = "ForÍt de Terokkar"
-	FEEDBACKUI_TWISTINGNETHER = "NÈant distordu"
-	FEEDBACKUI_ZANGARMARSH = "MarÈcage de Zangar"
+	FEEDBACKUI_TERROKAR = "For√™t de Terokkar"
+	FEEDBACKUI_TWISTINGNETHER = "N√©ant distordu"
+	FEEDBACKUI_ZANGARMARSH = "Mar√©cage de Zangar"
 	FEEDBACKUI_STROUTLANDS = "Cela se produit en Outreterre."
 	--End Outland
 	
@@ -245,18 +245,18 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_KAJA = "Kaja'mine"
 	FEEDBACKUI_ZULAMAN = "Zul'Aman"
 	FEEDBACKUI_SUNWELLPLATEAU = "Plateau du Puits de soleil"
-	FEEDBACKUI_MAGISTERSTERRACE = "Terrasse des MagistËres"
+	FEEDBACKUI_MAGISTERSTERRACE = "Terrasse des Magist√®res"
 	FEEDBACKUI_UTGARDEKEEP = "Donjon d'Utgarde"
 	FEEDBACKUI_DRAKTHARONKEEP = "Donjon de Drak'Tharon"
 	FEEDBACKUI_ULDUAR = "Ulduar"
 	FEEDBACKUI_HOL = "Les salles de Foudre"
-	FEEDBACKUI_TAC = "Le colisÈe d'Argent"
-	FEEDBACKUI_IOC = "Œle des ConquÈrants"
+	FEEDBACKUI_TAC = "Le colis√©e d'Argent"
+	FEEDBACKUI_IOC = "√éle des Conqu√©rants"
 	--End Alert Targets
 	--End Area Strings--------------------------------------------------------------------------------------------------------------------------------------------
 	
 	FEEDBACKUI_WHENTABLEHEADER = FEEDBACKUI_WHITE .. "Quand" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_WHENTABLESUBTEXT = "Quelle est la frÈquence du problËme ?"
+	FEEDBACKUI_WHENTABLESUBTEXT = "Quelle est la fr√©quence du probl√®me ?"
 	
 	FEEDBACKUI_STRREPRODUCABLE = "Cela se produit tout le temps."
 	FEEDBACKUI_STRSOMETIMES = "Cela se produit de temps en temps."
@@ -270,117 +270,117 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_ONETIME = "Une seule fois"
 	
 	FEEDBACKUI_TYPETABLEHEADER = FEEDBACKUI_WHITE .. "Type" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_TYPETABLESUBTEXT = "De quel type est ce problËme ?"
+	FEEDBACKUI_TYPETABLESUBTEXT = "De quel type est ce probl√®me ?"
 	
-	FEEDBACKUI_STRUIOTHER = "C'est un problËme d'interface utilisateur."
-	FEEDBACKUI_STRUIITEMS = "- C'est un problËme d'UI de l'objet"
-	FEEDBACKUI_STRUISPAWNS = "- C'est un problËme d'IU crÈature."
-	FEEDBACKUI_STRUIQUESTS = "- C'est un problËme d'IU quÍte."
-	FEEDBACKUI_STRUISPELLS = "- C'est un problËme d'IU d'un sort ou talent."
-	FEEDBACKUI_STRUITRADESKILLS = "- C'est un problËme d'IU artisanat."
+	FEEDBACKUI_STRUIOTHER = "C'est un probl√®me d'interface utilisateur."
+	FEEDBACKUI_STRUIITEMS = "- C'est un probl√®me d'UI de l'objet"
+	FEEDBACKUI_STRUISPAWNS = "- C'est un probl√®me d'IU cr√©ature."
+	FEEDBACKUI_STRUIQUESTS = "- C'est un probl√®me d'IU qu√™te."
+	FEEDBACKUI_STRUISPELLS = "- C'est un probl√®me d'IU d'un sort ou talent."
+	FEEDBACKUI_STRUITRADESKILLS = "- C'est un probl√®me d'IU artisanat."
 	
-	FEEDBACKUI_STRGRAPHICOTHER = "C'est un problËme graphique."
-	FEEDBACKUI_STRGRAPHICITEMS = "- C'est un problËme graphique d'un objet."
-	FEEDBACKUI_STRGRAPHICSPAWNS = "- C'est un problËme graphique crÈature."
-	FEEDBACKUI_STRGRAPHICSPELLS = "- C'est un problËme graphique d'un sort ou talent."
-	FEEDBACKUI_STRGRAPHICENVIRONMENT = "- C'est un problËme graphique d'environnement."
+	FEEDBACKUI_STRGRAPHICOTHER = "C'est un probl√®me graphique."
+	FEEDBACKUI_STRGRAPHICITEMS = "- C'est un probl√®me graphique d'un objet."
+	FEEDBACKUI_STRGRAPHICSPAWNS = "- C'est un probl√®me graphique cr√©ature."
+	FEEDBACKUI_STRGRAPHICSPELLS = "- C'est un probl√®me graphique d'un sort ou talent."
+	FEEDBACKUI_STRGRAPHICENVIRONMENT = "- C'est un probl√®me graphique d'environnement."
 	
-	FEEDBACKUI_STRFUNCOTHER = "C'est un problËme fonctionnel."
-	FEEDBACKUI_STRFUNCITEMS = "- C'est un problËme fonctionnel d'objet."
-	FEEDBACKUI_STRFUNCSPAWNS = "- C'est un problËme fonctionnel d'une crÈature."
-	FEEDBACKUI_STRFUNCQUESTS = "- C'est un problËme fonctionnel de quÍte."
-	FEEDBACKUI_STRFUNCSPELLS = "- C'est un problËme fonctionnel de sort ou talent."
-	FEEDBACKUI_STRFUNCTRADESKILLS = "- C'est un problËme fonctionnel d'artisanat."
+	FEEDBACKUI_STRFUNCOTHER = "C'est un probl√®me fonctionnel."
+	FEEDBACKUI_STRFUNCITEMS = "- C'est un probl√®me fonctionnel d'objet."
+	FEEDBACKUI_STRFUNCSPAWNS = "- C'est un probl√®me fonctionnel d'une cr√©ature."
+	FEEDBACKUI_STRFUNCQUESTS = "- C'est un probl√®me fonctionnel de qu√™te."
+	FEEDBACKUI_STRFUNCSPELLS = "- C'est un probl√®me fonctionnel de sort ou talent."
+	FEEDBACKUI_STRFUNCTRADESKILLS = "- C'est un probl√®me fonctionnel d'artisanat."
 	
-	FEEDBACKUI_STRCRASHOTHER = "C'est un problËme de stabilitÈ."
+	FEEDBACKUI_STRCRASHOTHER = "C'est un probl√®me de stabilit√©."
 	FEEDBACKUI_STRCRASHBUG = "- Il fait un planter WoW."
 	FEEDBACKUI_STRCRASHSOFTLOCK = "- Il fige WoW."
 	FEEDBACKUI_STRCRASHHARDLOCK = "- Il fige mon ordinateur."
-	FEEDBACKUI_STRCRASHWOWLAG = "- Il est liÈ ‡ la latence."
+	FEEDBACKUI_STRCRASHWOWLAG = "- Il est li√© √† la latence."
 	
-	FEEDBACKUI_UIITEMS = "ProblËme d'IU objet"
-	FEEDBACKUI_UISPAWNS = "ProblËme d'IU crÈature"
-	FEEDBACKUI_UIQUESTS = "ProblËme d'IU quÍte"
-	FEEDBACKUI_UISPELLS = "ProblËme d'IU sort ou talent"
-	FEEDBACKUI_UITRADESKILLS = "ProblËme d'IU artisanat"
-	FEEDBACKUI_UIOTHER = "ProblËme d'IU gÈnÈral"
+	FEEDBACKUI_UIITEMS = "Probl√®me d'IU objet"
+	FEEDBACKUI_UISPAWNS = "Probl√®me d'IU cr√©ature"
+	FEEDBACKUI_UIQUESTS = "Probl√®me d'IU qu√™te"
+	FEEDBACKUI_UISPELLS = "Probl√®me d'IU sort ou talent"
+	FEEDBACKUI_UITRADESKILLS = "Probl√®me d'IU artisanat"
+	FEEDBACKUI_UIOTHER = "Probl√®me d'IU g√©n√©ral"
 	
-	FEEDBACKUI_GRAPHICITEMS = "ProblËme graphique objet"
-	FEEDBACKUI_GRAPHICSPAWNS = "ProblËme graphique crÈature"
-	FEEDBACKUI_GRAPHICSPELLS = "ProblËme graphique sort ou talent"
-	FEEDBACKUI_GRAPHICENVIRONMENT = "ProblËme graphique environnement"
-	FEEDBACKUI_GRAPHICOTHER = "ProblËme graphique gÈnÈral"
+	FEEDBACKUI_GRAPHICITEMS = "Probl√®me graphique objet"
+	FEEDBACKUI_GRAPHICSPAWNS = "Probl√®me graphique cr√©ature"
+	FEEDBACKUI_GRAPHICSPELLS = "Probl√®me graphique sort ou talent"
+	FEEDBACKUI_GRAPHICENVIRONMENT = "Probl√®me graphique environnement"
+	FEEDBACKUI_GRAPHICOTHER = "Probl√®me graphique g√©n√©ral"
 	
-	FEEDBACKUI_FUNCITEMS = "ProblËme fonctionnel objet"
-	FEEDBACKUI_FUNCSPAWNS = "ProblËme fonctionnel crÈature"
-	FEEDBACKUI_FUNCQUESTS = "ProblËme fonctionnel quÍte"
-	FEEDBACKUI_FUNCSPELLS = "ProblËme fonctionnel sort ou talent"   
-	FEEDBACKUI_FUNCTRADESKILLS = "ProblËme fonctionnel artisanat"
-	FEEDBACKUI_FUNCOTHER = "ProblËme fonctionnel gÈnÈral"
+	FEEDBACKUI_FUNCITEMS = "Probl√®me fonctionnel objet"
+	FEEDBACKUI_FUNCSPAWNS = "Probl√®me fonctionnel cr√©ature"
+	FEEDBACKUI_FUNCQUESTS = "Probl√®me fonctionnel qu√™te"
+	FEEDBACKUI_FUNCSPELLS = "Probl√®me fonctionnel sort ou talent"   
+	FEEDBACKUI_FUNCTRADESKILLS = "Probl√®me fonctionnel artisanat"
+	FEEDBACKUI_FUNCOTHER = "Probl√®me fonctionnel g√©n√©ral"
 	
 	FEEDBACKUI_SPELLSPOWERTABLEHEADER = "Puissance"
-	FEEDBACKUI_SPELLSPOWERTABLESUBTEXT = "Quelle est la puissance de cette capacitÈ ?"
-	FEEDBACKUI_SPELLSFREQUENCYTABLEHEADER = "FrÈquence"
-	FEEDBACKUI_SPELLSFREQUENCYTABLESUBTEXT = "A quelle frÈquence comptez-vous utiliser cette capacitÈ ?"
+	FEEDBACKUI_SPELLSPOWERTABLESUBTEXT = "Quelle est la puissance de cette capacit√© ?"
+	FEEDBACKUI_SPELLSFREQUENCYTABLEHEADER = "Fr√©quence"
+	FEEDBACKUI_SPELLSFREQUENCYTABLESUBTEXT = "A quelle fr√©quence comptez-vous utiliser cette capacit√© ?"
 	FEEDBACKUI_SPELLSAPPROPRIATETABLEHEADER = "Pertinence"
-	FEEDBACKUI_SPELLSAPPROPRIATETABLESUBTEXT = "Comment síintËgre-t-elle ‡ des capacitÈs similaires?"
+	FEEDBACKUI_SPELLSAPPROPRIATETABLESUBTEXT = "Comment s‚Äôint√®gre-t-elle √† des capacit√©s similaires?"
 	FEEDBACKUI_SPELLSFUNTABLEHEADER = "Amusement"
-	FEEDBACKUI_SPELLSFUNTABLESUBTEXT = "Cette capacitÈ est-elle amusante ‡ utiliser ?"
+	FEEDBACKUI_SPELLSFUNTABLESUBTEXT = "Cette capacit√© est-elle amusante √† utiliser ?"
 	
-	FEEDBACKUI_STRPOWER1 = "TrËs faible";
+	FEEDBACKUI_STRPOWER1 = "Tr√®s faible";
 	FEEDBACKUI_STRPOWER2 = "Faible";
 	FEEDBACKUI_STRPOWER3 = "Puissante";
-	FEEDBACKUI_STRPOWER4 = "TrËs puissante";
+	FEEDBACKUI_STRPOWER4 = "Tr√®s puissante";
 	
 	FEEDBACKUI_STRFREQUENCY1 = "Rarement";
 	FEEDBACKUI_STRFREQUENCY2 = "Parfois";
 	FEEDBACKUI_STRFREQUENCY3 = "Souvent";
-	FEEDBACKUI_STRFREQUENCY4 = "DËs que possible";
+	FEEDBACKUI_STRFREQUENCY4 = "D√®s que possible";
 	
 	FEEDBACKUI_STRAPPROPRIATE1 = "Pas pertinente";
 	FEEDBACKUI_STRAPPROPRIATE2 = "Peu pertinente";
 	FEEDBACKUI_STRAPPROPRIATE3 = "Pertinente";
-	FEEDBACKUI_STRAPPROPRIATE4 = "TrËs pertinente";
+	FEEDBACKUI_STRAPPROPRIATE4 = "Tr√®s pertinente";
 	
 	FEEDBACKUI_SPELLHEADERTEXT = "Sorts"
 	FEEDBACKUILBLPOWER_TEXT = "Puissance :"
-	FEEDBACKUILBLFREQUENCY_TEXT = "FrÈquence :"
+	FEEDBACKUILBLFREQUENCY_TEXT = "Fr√©quence :"
 	FEEDBACKUILBLAPPROPRIATE_TEXT = "Pertinence :"
 	
-	FEEDBACKUI_CRASHBUG = "Le problËme fait planter WoW"
-	FEEDBACKUI_CRASHSOFTLOCK = "Le problËme fige WoW"
-	FEEDBACKUI_CRASHHARDLOCK = "Le problËme fige l'ordinateur"
-	FEEDBACKUI_CRASHWOWLAG = "Le problËme cause de la latence"
-	FEEDBACKUI_CRASHOTHER = "ProblËme de stabilitÈ gÈnÈral"
+	FEEDBACKUI_CRASHBUG = "Le probl√®me fait planter WoW"
+	FEEDBACKUI_CRASHSOFTLOCK = "Le probl√®me fige WoW"
+	FEEDBACKUI_CRASHHARDLOCK = "Le probl√®me fige l'ordinateur"
+	FEEDBACKUI_CRASHWOWLAG = "Le probl√®me cause de la latence"
+	FEEDBACKUI_CRASHOTHER = "Probl√®me de stabilit√© g√©n√©ral"
 	
-	FEEDBACKUILBLFRMCLARITY_TEXT = "ClartÈ†: "
-	FEEDBACKUILBLFRMDIFFICULTY_TEXT = "DifficultÈ†: "
-	FEEDBACKUILBLFRMREWARD_TEXT = "RÈcompenses†: "
-	FEEDBACKUILBLFRMFUN_TEXT = "Amusement†: "
-	FEEDBACKUISURVEYTYPE_QUEST = "QuÍte"
+	FEEDBACKUILBLFRMCLARITY_TEXT = "Clart√©¬†: "
+	FEEDBACKUILBLFRMDIFFICULTY_TEXT = "Difficult√©¬†: "
+	FEEDBACKUILBLFRMREWARD_TEXT = "R√©compenses¬†: "
+	FEEDBACKUILBLFRMFUN_TEXT = "Amusement¬†: "
+	FEEDBACKUISURVEYTYPE_QUEST = "Qu√™te"
 	FEEDBACKUISURVEYTYPE_AREA = "Instance"
 	
 	FEEDBACKUISKIP_TEXT = "Passer"
 	FEEDBACKUILBLSURVEYALERTSCHECK_TEXT = "Voir alertes"
-	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Veuillez choisir une enquÍte."
-	FEEDBACKUI_WELCOMETABLESURVEYSUBTEXT = "Vos avancÈes feront l'objet d'autres enquÍtes."
+	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Veuillez choisir une enqu√™te."
+	FEEDBACKUI_WELCOMETABLESURVEYSUBTEXT = "Vos avanc√©es feront l'objet d'autres enqu√™tes."
 	
 	FEEDBACKUI_SURVEYCOLUMNNAME = "Nom"
-	FEEDBACKUI_SURVEYCOLUMNMODIFIED = "EssayÈe"
+	FEEDBACKUI_SURVEYCOLUMNMODIFIED = "Essay√©e"
 	
 	FEEDBACKUI_ALLHEADERTEXT = "Tout"
 	FEEDBACKUI_AREAHEADERTEXT = "Instances"
-	FEEDBACKUI_QUESTHEADERTEXT = "QuÍtes"
+	FEEDBACKUI_QUESTHEADERTEXT = "Qu√™tes"
 	
 	FEEDBACKUI_STATUSALLTEXT = "Toutes"
 	FEEDBACKUI_STATUSAVAILABLETEXT = "Disponibles"
-	FEEDBACKUI_STATUSSKIPPEDTEXT = "PassÈes"
-	FEEDBACKUI_STATUSCOMPLETEDTEXT = "TerminÈes"
+	FEEDBACKUI_STATUSSKIPPEDTEXT = "Pass√©es"
+	FEEDBACKUI_STATUSCOMPLETEDTEXT = "Termin√©es"
 	
-	FEEDBACKUI_SURVEYTOOLTIPQUESTHEADER = "Nom de la quÍte†:"
-	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Nom de l'instance†:"
-	FEEDBACKUI_SURVEYTOOLTIPEXPERIENCEDHEADER = "Il y a†:"
-	FEEDBACKUI_SURVEYTOOLTIPQUESTOBJECTIVESHEADER = "Objectifs de la quÍte†:"
+	FEEDBACKUI_SURVEYTOOLTIPQUESTHEADER = "Nom de la qu√™te¬†:"
+	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Nom de l'instance¬†:"
+	FEEDBACKUI_SURVEYTOOLTIPEXPERIENCEDHEADER = "Il y a¬†:"
+	FEEDBACKUI_SURVEYTOOLTIPQUESTOBJECTIVESHEADER = "Objectifs de la qu√™te¬†:"
 	
 	FEEDBACKUI_NEW = "Nouvelle"
 	FEEDBACKUI_HOURAGO = " heure"
@@ -392,23 +392,23 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_YEARAGO = " an"
 	FEEDBACKUI_YEARSAGO = " ans"
 	
-	FEEDBACKUI_QUESTSCLARITYTABLEHEADER = "ClartÈ"
-	FEEDBACKUI_QUESTSCLARITYTABLESUBTEXT = "Les objectifs de la quÍte Ètaient-ils clairs†?"
+	FEEDBACKUI_QUESTSCLARITYTABLEHEADER = "Clart√©"
+	FEEDBACKUI_QUESTSCLARITYTABLESUBTEXT = "Les objectifs de la qu√™te √©taient-ils clairs¬†?"
 	
-	FEEDBACKUI_STRCLARITY1 = "TrËs vagues"
+	FEEDBACKUI_STRCLARITY1 = "Tr√®s vagues"
 	FEEDBACKUI_STRCLARITY2 = "Assez vagues"
-	FEEDBACKUI_STRCLARITY3 = "PlutÙt clairs"
+	FEEDBACKUI_STRCLARITY3 = "Plut√¥t clairs"
 	FEEDBACKUI_STRCLARITY4 = "Parfaitement clairs"
 	
-	FEEDBACKUI_CLARITY1 = "TrËs vague"
+	FEEDBACKUI_CLARITY1 = "Tr√®s vague"
 	FEEDBACKUI_CLARITY2 = "Assez vague"
-	FEEDBACKUI_CLARITY3 = "PlutÙt clair"
+	FEEDBACKUI_CLARITY3 = "Plut√¥t clair"
 	FEEDBACKUI_CLARITY4 = "Parfaitement clair"
 	
-	FEEDBACKUI_QUESTSDIFFICULTYTABLEHEADER = "DifficultÈ"
-	FEEDBACKUI_QUESTSDIFFICULTYTABLESUBTEXT = "La quÍte Ètait-elle difficile†?"
-	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "DifficultÈ"
-	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "Les Èpreuves de l'instance Ètaient-elles dures†?"
+	FEEDBACKUI_QUESTSDIFFICULTYTABLEHEADER = "Difficult√©"
+	FEEDBACKUI_QUESTSDIFFICULTYTABLESUBTEXT = "La qu√™te √©tait-elle difficile¬†?"
+	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "Difficult√©"
+	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "Les √©preuves de l'instance √©taient-elles dures¬†?"
 	
 	FEEDBACKUI_STRDIFFICULTY1 = "Facile"
 	FEEDBACKUI_STRDIFFICULTY2 = "Faisable"
@@ -422,10 +422,10 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_DIFFICULTY4 = "Difficile"
 	FEEDBACKUI_DIFFICULTY5 = "N/A"
 	
-	FEEDBACKUI_QUESTSREWARDTABLEHEADER = "RÈcompense"
-	FEEDBACKUI_QUESTSREWARDTABLESUBTEXT = "Comment trouvez-vous la rÈcompense de quÍte†?"
-	FEEDBACKUI_AREASREWARDTABLEHEADER = "RÈcompense"
-	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Que pensez-vous des rÈcompenses de l'instance†?"
+	FEEDBACKUI_QUESTSREWARDTABLEHEADER = "R√©compense"
+	FEEDBACKUI_QUESTSREWARDTABLESUBTEXT = "Comment trouvez-vous la r√©compense de qu√™te¬†?"
+	FEEDBACKUI_AREASREWARDTABLEHEADER = "R√©compense"
+	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Que pensez-vous des r√©compenses de l'instance¬†?"
 	
 	FEEDBACKUI_STRREWARD1 = "Nulle"
 	FEEDBACKUI_STRREWARD2 = "Insatisfaisante"
@@ -440,19 +440,19 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_REWARD5 = "N/A"
 	
 	FEEDBACKUI_QUESTSFUNTABLEHEADER = "Amusement"
-	FEEDBACKUI_QUESTSFUNTABLESUBTEXT = "La quÍte Ètait-elle amusante†?"
+	FEEDBACKUI_QUESTSFUNTABLESUBTEXT = "La qu√™te √©tait-elle amusante¬†?"
 	FEEDBACKUI_AREASFUNTABLEHEADER = "Amusement"
-	FEEDBACKUI_AREASFUNTABLESUBTEXT = "L'instance Ètait-elle amusante†?"
+	FEEDBACKUI_AREASFUNTABLESUBTEXT = "L'instance √©tait-elle amusante¬†?"
 	
 	FEEDBACKUI_STRFUN1 = "Pas amusante du tout"
-	FEEDBACKUI_STRFUN2 = "Pas trËs amusante"
-	FEEDBACKUI_STRFUN3 = "PlutÙt amusante"
-	FEEDBACKUI_STRFUN4 = "TrËs amusante"
+	FEEDBACKUI_STRFUN2 = "Pas tr√®s amusante"
+	FEEDBACKUI_STRFUN3 = "Plut√¥t amusante"
+	FEEDBACKUI_STRFUN4 = "Tr√®s amusante"
 	
 	FEEDBACKUI_FUN1 = "Pas amusante du tout"
-	FEEDBACKUI_FUN2 = "Pas trËs amusante"
-	FEEDBACKUI_FUN3 = "PlutÙt amusante"
-	FEEDBACKUI_FUN4 = "TrËs amusante"
+	FEEDBACKUI_FUN2 = "Pas tr√®s amusante"
+	FEEDBACKUI_FUN3 = "Plut√¥t amusante"
+	FEEDBACKUI_FUN4 = "Tr√®s amusante"
 	
 	--FEEDBACKUISURVEYFRMINPUTBOX_TEXT = "<Indiquez ici tout autre remarque que vous souhaitez nous communiquer>"
 	FEEDBACKUISURVEYFRMINPUTBOX_TEXT = "<Indiquez ici toute autre remarque que vous souhaitez nous communiquer>"
@@ -460,13 +460,13 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUIRESUBMIT_TEXT = "Reposter"
 	
 	FEEDBACKUI_WELCOMETABLEBUGHEADER = "Signaler un bug"
-	FEEDBACKUI_WELCOMETABLEBUGSUBTEXT = "Signaler les bugs nous aide ‡ corriger le jeu"
+	FEEDBACKUI_WELCOMETABLEBUGSUBTEXT = "Signaler les bugs nous aide √† corriger le jeu"
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Faire une suggestion"
-	FEEDBACKUI_WELCOMETABLESUGGESTSUBTEXT = "Vos idÈes nous aident ‡ amÈliorer le jeu"
-	FEEDBACKUI_BUGINPUTHEADER = "Comment reproduire ce bug†?"
-	FEEDBACKUI_SUGGESTINPUTHEADER = "Veuillez dÈcrire votre suggestion"
+	FEEDBACKUI_WELCOMETABLESUGGESTSUBTEXT = "Vos id√©es nous aident √† am√©liorer le jeu"
+	FEEDBACKUI_BUGINPUTHEADER = "Comment reproduire ce bug¬†?"
+	FEEDBACKUI_SUGGESTINPUTHEADER = "Veuillez d√©crire votre suggestion"
 	
-	FEEDBACKUI_SURVEYNEWBIETEXT = "Cliquez ici pour completer le questionnaire relatif ‡ une instance ou une quÍte que vous avez rÈcement terminÈe." 
+	FEEDBACKUI_SURVEYNEWBIETEXT = "Cliquez ici pour completer le questionnaire relatif √† une instance ou une qu√™te que vous avez r√©cement termin√©e." 
 	FEEDBACKUI_POIMASK = "%w+%s%-%s(.+)"
 	
 	
@@ -476,22 +476,22 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUISURVEYTYPE_ITEM = "Objet"
 	FEEDBACKUISURVEYTYPE_MOB = "Monstre"
 	FEEDBACKUI_AREAHEADERTEXT = "Zones"
-	FEEDBACKUI_QUESTHEADERTEXT = "QuÍtes"
+	FEEDBACKUI_QUESTHEADERTEXT = "Qu√™tes"
 	FEEDBACKUI_ITEMHEADERTEXT = "Objets"
 	FEEDBACKUI_MOBHEADERTEXT = "Monstres"
 	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Nom de zone:"
-	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "DifficultÈ"
-	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "Quelle Ètait la difficultÈ des rencontres de la zone†?"
-	FEEDBACKUI_AREASREWARDTABLEHEADER = "RÈcompense"
-	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Comment Èvaluez-vous les rÈcompenses de la zone†?"
+	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "Difficult√©"
+	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "Quelle √©tait la difficult√© des rencontres de la zone¬†?"
+	FEEDBACKUI_AREASREWARDTABLEHEADER = "R√©compense"
+	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Comment √©valuez-vous les r√©compenses de la zone¬†?"
 	FEEDBACKUI_AREASFUNTABLEHEADER = "Amusement"
-	FEEDBACKUI_AREASFUNTABLESUBTEXT = "Avez-vous eu plaisir ‡ jouer dans cette zone†?"
+	FEEDBACKUI_AREASFUNTABLESUBTEXT = "Avez-vous eu plaisir √† jouer dans cette zone¬†?"
 	FEEDBACKUI_SURVEYINPUTSUBTEXT = "Cliquez ici pour avoir des exemples de retour"
-	FEEDBACKUI_SURVEYNEWBIETEXT = "Cliquez ici pour remplir un sondage sur cette expÈrience."
+	FEEDBACKUI_SURVEYNEWBIETEXT = "Cliquez ici pour remplir un sondage sur cette exp√©rience."
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Veuillez choisir un sondage"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Merci de nous fournir un retour sur " .. project_name .. ". Vous avez choisi de donner un retour sur†:\n\n\n\n\nPour continuer, veuillez choisir líune des options suivantes†:";
-	FEEDBACKUI_GENERALWELCOME = "Merci de nous fournir un retour sur " .. project_name .. ". Tous les commentaires reÁus servent ‡ amÈliorer la qualitÈ de " .. project_name .. ".\n\nPour continuer, veuillez choisir líune des options suivantes†:";
+	FEEDBACKUI_SPECIFICWELCOME = "Merci de nous fournir un retour sur " .. project_name .. ". Vous avez choisi de donner un retour sur¬†:\n\n\n\n\nPour continuer, veuillez choisir l‚Äôune des options suivantes¬†:";
+	FEEDBACKUI_GENERALWELCOME = "Merci de nous fournir un retour sur " .. project_name .. ". Tous les commentaires re√ßus servent √† am√©liorer la qualit√© de " .. project_name .. ".\n\nPour continuer, veuillez choisir l‚Äôune des options suivantes¬†:";
 	
 	FEEDBACKUI_STARTBUG = "Signaler un bug"
 	FEEDBACKUI_STARTSURVEY = "Commencer un sondage"
@@ -501,10 +501,10 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_WELCOMESUGGESTHEADER = "Suggestion"
 	FEEDBACKUI_WELCOMESURVEYHEADER = "Sondage"
 	
-	FEEDBACKUI_WELCOMEBUGTEXT = "Un bug nous informe d'une erreur constatÈe dans le jeu." 
-	FEEDBACKUI_WELCOMESUGGESTTEXT = "Une suggestion nous indique de quelle faÁon vous aimeriez que le jeu soit amÈliorÈ."
+	FEEDBACKUI_WELCOMEBUGTEXT = "Un bug nous informe d'une erreur constat√©e dans le jeu." 
+	FEEDBACKUI_WELCOMESUGGESTTEXT = "Une suggestion nous indique de quelle fa√ßon vous aimeriez que le jeu soit am√©lior√©."
 	FEEDBACKUI_WELCOMESURVEYTEXT = "Un sondage vous permet de nous envoyer un retour sur une partie du jeu."
-	FEEDBACKUI_WELCOMESURVEYDISABLED = "Aucun sondage disponible ‡ ce sujet pour le moment."
+	FEEDBACKUI_WELCOMESURVEYDISABLED = "Aucun sondage disponible √† ce sujet pour le moment."
 	
 	FEEDBACKUI_MODIFIERKEY = "Raccourcis:"
 	FEEDBACKUI_MOUSE1 = "Clic gauche"
@@ -523,46 +523,46 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_MISCTYPE = "Divers";
 	FEEDBACKUISHOWCUES_TEXT = "Voir les bulles d'aide";
 	
-	FEEDBACKUI_CATEGORYLABEL = "Type†:"
-	FEEDBACKUI_STATUSLABEL = "Statut†:"
+	FEEDBACKUI_CATEGORYLABEL = "Type¬†:"
+	FEEDBACKUI_STATUSLABEL = "Statut¬†:"
 	
-	NEWBIE_TOOLTIP_BUG="Aidez-nous ‡ amÈliorer " .. project_name .. " en nous signalant un bug, en faisant une suggestion ou en rÈpondant ‡ un sondage.\n\n" .. FEEDBACKUI_BLUE .. "Clic gauche pour commencer.\nClic droit pour afficher les options.";
-	FEEDBACKUILBLAPPEARANCE_TEXT = "Apparence†:"
-	FEEDBACKUILBLUTILITY_TEXT = "UtilitÈ†:"
+	NEWBIE_TOOLTIP_BUG="Aidez-nous √† am√©liorer " .. project_name .. " en nous signalant un bug, en faisant une suggestion ou en r√©pondant √† un sondage.\n\n" .. FEEDBACKUI_BLUE .. "Clic gauche pour commencer.\nClic droit pour afficher les options.";
+	FEEDBACKUILBLAPPEARANCE_TEXT = "Apparence¬†:"
+	FEEDBACKUILBLUTILITY_TEXT = "Utilit√©¬†:"
 	
-	FEEDBACKUI_MOBSDIFFICULTYTABLEHEADER = "DifficultÈ"                   
-	FEEDBACKUI_MOBSDIFFICULTYTABLESUBTEXT = "Ce monstre Ètait-il difficile ‡ tuer†?"
-	FEEDBACKUI_MOBSREWARDTABLEHEADER = "RÈcompense"
-	FEEDBACKUI_MOBSREWARDTABLESUBTEXT = "Comment jugez-vous la rÈcompense donnÈe par le monstre†?"
+	FEEDBACKUI_MOBSDIFFICULTYTABLEHEADER = "Difficult√©"                   
+	FEEDBACKUI_MOBSDIFFICULTYTABLESUBTEXT = "Ce monstre √©tait-il difficile √† tuer¬†?"
+	FEEDBACKUI_MOBSREWARDTABLEHEADER = "R√©compense"
+	FEEDBACKUI_MOBSREWARDTABLESUBTEXT = "Comment jugez-vous la r√©compense donn√©e par le monstre¬†?"
 	FEEDBACKUI_MOBSFUNTABLEHEADER = "Amusement"
-	FEEDBACKUI_MOBSFUNTABLESUBTEXT = "La rencontre avec ce monstre Ètait-elle plaisante†?"
+	FEEDBACKUI_MOBSFUNTABLESUBTEXT = "La rencontre avec ce monstre √©tait-elle plaisante¬†?"
 	FEEDBACKUI_MOBSAPPEARANCETABLEHEADER = "Apparence"
-	FEEDBACKUI_MOBSAPPEARANCETABLESUBTEXT = "Comment jugez-vous l'apparence de ce monstre†?"
+	FEEDBACKUI_MOBSAPPEARANCETABLESUBTEXT = "Comment jugez-vous l'apparence de ce monstre¬†?"
 	
-	FEEDBACKUI_ITEMSDIFFICULTYTABLEHEADER = "DifficultÈ"
-	FEEDBACKUI_ITEMSDIFFICULTYTABLESUBTEXT = "Cet objet Ètait-il difficile ‡ obtenir†?"
-	FEEDBACKUI_ITEMSUTILITYHEADER = "UtilitÈ"
-	FEEDBACKUI_ITEMSUTILITYSUBTEXT = "Cet objet est-il utile, en gÈnÈral†?"
+	FEEDBACKUI_ITEMSDIFFICULTYTABLEHEADER = "Difficult√©"
+	FEEDBACKUI_ITEMSDIFFICULTYTABLESUBTEXT = "Cet objet √©tait-il difficile √† obtenir¬†?"
+	FEEDBACKUI_ITEMSUTILITYHEADER = "Utilit√©"
+	FEEDBACKUI_ITEMSUTILITYSUBTEXT = "Cet objet est-il utile, en g√©n√©ral¬†?"
 	FEEDBACKUI_ITEMSAPPEARANCETABLEHEADER = "Apparence"
-	FEEDBACKUI_ITEMSAPPEARANCETABLESUBTEXT = "Comment jugez-vous l'apparence de cet objet†?"
+	FEEDBACKUI_ITEMSAPPEARANCETABLESUBTEXT = "Comment jugez-vous l'apparence de cet objet¬†?"
 	
-	FEEDBACKUI_STRUTILITY1 = "ComplËtement inutile"
-	FEEDBACKUI_STRUTILITY2 = "PlutÙt inutile"
+	FEEDBACKUI_STRUTILITY1 = "Compl√®tement inutile"
+	FEEDBACKUI_STRUTILITY2 = "Plut√¥t inutile"
 	FEEDBACKUI_STRUTILITY3 = "Utile"
-	FEEDBACKUI_STRUTILITY4 = "TrËs utile"
+	FEEDBACKUI_STRUTILITY4 = "Tr√®s utile"
 	
-	FEEDBACKUI_UTILITY1 = "ComplËtement inutile"
-	FEEDBACKUI_UTILITY2 = "PlutÙt inutile"
+	FEEDBACKUI_UTILITY1 = "Compl√®tement inutile"
+	FEEDBACKUI_UTILITY2 = "Plut√¥t inutile"
 	FEEDBACKUI_UTILITY3 = "Utile"
-	FEEDBACKUI_UTILITY4 = "TrËs utile"
+	FEEDBACKUI_UTILITY4 = "Tr√®s utile"
 	
 	FEEDBACKUI_STRAPPEARANCE1 = "Mauvais(e)"
-	FEEDBACKUI_STRAPPEARANCE2 = "MÈdiocre"
+	FEEDBACKUI_STRAPPEARANCE2 = "M√©diocre"
 	FEEDBACKUI_STRAPPEARANCE3 = "Bon(ne)"
 	FEEDBACKUI_STRAPPEARANCE4 = "Remarquable"
 	
 	FEEDBACKUI_APPEARANCE1 = "Mauvais(e)"
-	FEEDBACKUI_APPEARANCE2 = "MÈdiocre"
+	FEEDBACKUI_APPEARANCE2 = "M√©diocre"
 	FEEDBACKUI_APPEARANCE3 = "Bon(ne)"
 	FEEDBACKUI_APPEARANCE4 = "Remarquable"
 	
@@ -570,19 +570,19 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_POISILVERMOON = "Lune-d'argent";
 	FEEDBACKUI_POIIRONFORGE = "Forgefer";
 	FEEDBACKUI_POISTORMWIND = "Hurlevent";
-	FEEDBACKUI_POISEPULCHER = "Le SÈpulcre";
+	FEEDBACKUI_POISEPULCHER = "Le S√©pulcre";
 	FEEDBACKUI_POITARRENMILL = "Moulin-de-Tarren";
 	FEEDBACKUI_POISOUTHSHORE = "Austrivage";
 	FEEDBACKUI_POIAERIEPEAK = "Nid-de-l'aigle";
 	FEEDBACKUI_POIREVANTUSK = "Village des Vengebroches";
-	FEEDBACKUI_POIHAMMERFALL = "TrÈpas-d'Orgrim";
+	FEEDBACKUI_POIHAMMERFALL = "Tr√©pas-d'Orgrim";
 	FEEDBACKUI_POIMENETHIL = "Port de Menethil";
 	FEEDBACKUI_POITHELSAMAR = "Thelsamar";
 	FEEDBACKUI_POIKARGATH = "Kargath";
-	FEEDBACKUI_POILAKESHIRE = "ComtÈ-du-lac";
+	FEEDBACKUI_POILAKESHIRE = "Comt√©-du-lac";
 	FEEDBACKUI_POISENTINELHILL = "Colline des sentinelles";
-	FEEDBACKUI_POIDARKSHIRE = "Sombre-comtÈ";
-	FEEDBACKUI_POISTONARD = "PierrÍche";
+	FEEDBACKUI_POIDARKSHIRE = "Sombre-comt√©";
+	FEEDBACKUI_POISTONARD = "Pierr√™che";
 	FEEDBACKUI_POIGROMGOL = "Campement Grom'gol";
 	
 	
@@ -594,36 +594,36 @@ if ( GetLocale() == "frFR" ) then
 	FEEDBACKUI_POIEVERLOOK = "Long-guet";
 	FEEDBACKUI_POISTONETALON = "Pic des Serres-rocheuses";
 	FEEDBACKUI_POIASTRANAAR = "Astranaar";
-	FEEDBACKUI_POISPLINTERTREE = "Poste de Bois-brisÈ";
+	FEEDBACKUI_POISPLINTERTREE = "Poste de Bois-bris√©";
 	FEEDBACKUI_POISUNROCK = "Retraite de Roche-soleil";
 	FEEDBACKUI_POINIJELS = "Combe de Nijel";
 	FEEDBACKUI_POISHADOWPREY = "Proie-de-l'ombre";
 	FEEDBACKUI_POIFEATHERMOON = "Bastion de Pennelune";
 	FEEDBACKUI_POIMOJACHE = "Camp Mojache";
 	FEEDBACKUI_POITHALANAAR = "Thalanaar";
-	FEEDBACKUI_POICENARIONHOLD = "Fort cÈnarien";
+	FEEDBACKUI_POICENARIONHOLD = "Fort c√©narien";
 	FEEDBACKUI_POIGADGET = "Gadgetzan";
 	FEEDBACKUI_POIFREEWIND = "Poste de Librevent";
 	FEEDBACKUI_POITAURAJO = "Camp Taurajo";
-	FEEDBACKUI_POICROSSROADS = "La CroisÈe";
+	FEEDBACKUI_POICROSSROADS = "La Crois√©e";
 	FEEDBACKUI_POIRATCHET = "Cabestan";
-	FEEDBACKUI_POITHERAMORE = "Œle de Theramore";
+	FEEDBACKUI_POITHERAMORE = "√éle de Theramore";
 	
-	FEEDBACKUI_SURVEYTOOLTIPMOBHEADER = "Nom du monstre†:"
-	FEEDBACKUI_SURVEYTOOLTIPMOBZONEHEADER = "Se trouve ‡†:"
+	FEEDBACKUI_SURVEYTOOLTIPMOBHEADER = "Nom du monstre¬†:"
+	FEEDBACKUI_SURVEYTOOLTIPMOBZONEHEADER = "Se trouve √†¬†:"
 	
 	FEEDBACKUI_VOICECHAT = "Discussion vocale";
 	FEEDBACKUI_VOICECHATTOOLTIP = FEEDBACKUI_WHITE .. FEEDBACKUI_VOICECHAT;
-	FEEDBACKUI_STRVOICECHAT = "C'est un problËme de discussion vocale.";
+	FEEDBACKUI_STRVOICECHAT = "C'est un probl√®me de discussion vocale.";
 	FEEDBACKUI_HEADSETTYPE = "Quelle sorte de casque multimedia utilisez vous ?";
 	
 	FEEDBACKUI_USBHEADSET = "Casque USB"; --localize me
 	FEEDBACKUI_ANALOGHEADSET = "Casque analogique"; --localize me
-	FEEDBACKUI_HARDWIREDMIC = "Microphone ‡ fil"; --localize me
+	FEEDBACKUI_HARDWIREDMIC = "Microphone √† fil"; --localize me
 	
 	FEEDBACKUI_STRUSBHEADSET = "J'utilise un casque USB.";
 	FEEDBACKUI_STRANALOGHEADSET = "J'utilise un casque Analogique.";
-	FEEDBACKUI_STRHARDWIREDMIC = "Jíutilise un microphone ‡ fil."; --localize me
+	FEEDBACKUI_STRHARDWIREDMIC = "J‚Äôutilise un microphone √† fil."; --localize me
 	
 elseif ( GetLocale() == "koKR" ) then
 	--Localized Korean strings for FEEDBACKUI
@@ -1216,14 +1216,14 @@ elseif ( GetLocale() == "deDE" ) then
 	function deDE() end
 	]]--
 	--Non-instance special zone names
-	FEEDBACKUI_EXCEPTIONZONES = { "Die Tiefenbahn", "Halle der Champions", "Das verh¸llte Meer", "Das verbotene Meer", "Das Groﬂe Meer", "Alteractal", "Arathibecken", "Kriegshymnenschlucht", "Der Schwarzfels", "Halle der Legenden", "Burg Utgarde", }
+	FEEDBACKUI_EXCEPTIONZONES = { "Die Tiefenbahn", "Halle der Champions", "Das verh√ºllte Meer", "Das verbotene Meer", "Das Gro√üe Meer", "Alteractal", "Arathibecken", "Kriegshymnenschlucht", "Der Schwarzfels", "Halle der Legenden", "Burg Utgarde", }
 	
 	--Headers    
 	FEEDBACKUIINFOPANELLABEL_TEXT = "Ihre Angaben"
 	FEEDBACKUI_BUGINPUTHEADER = "Bitte beschreiben Sie diesen Fehler"
-	FEEDBACKUI_BUGINPUTSUBTEXT = "Wie kˆnnen wir diesen Bug reproduzieren?"
+	FEEDBACKUI_BUGINPUTSUBTEXT = "Wie k√∂nnen wir diesen Bug reproduzieren?"
 	FEEDBACKUI_SUGGESTINPUTHEADER = "Bitte beschreiben Sie Ihren Vorschlag"
-	FEEDBACKUI_SUGGESTINPUTSUBTEXT = "Was w¸rden Sie gerne vorschlagen?"
+	FEEDBACKUI_SUGGESTINPUTSUBTEXT = "Was w√ºrden Sie gerne vorschlagen?"
 	
 	--Labels
 	FEEDBACKUIFEEDBACKFRMTITLE_TEXT = "Kommentare senden"
@@ -1243,28 +1243,28 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUILBLFRMWHERE_TEXT = "Wo: "
 	FEEDBACKUILBLFRMWHEN_TEXT = "Wann: "
 	FEEDBACKUILBLFRMTYPE_TEXT = "Art: "
-	FEEDBACKUI_GENDERTABLE = { "unbekannt", "m‰nnlich", "weiblich" }
+	FEEDBACKUI_GENDERTABLE = { "unbekannt", "m√§nnlich", "weiblich" }
 	
 	--Prompts
 	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Geben Sie hier Schritte ein, um den Fehler nachzustellen>"
 	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Geben Sie hier Ihren Vorschlag ein>"
-	FEEDBACKUILBLADDONS_MOUSEOVER = "<F¸r aktive Add-Ons Mauszeiger hierher bewegen>"
-	FEEDBACKUI_CONFIRMATION = "Ihre Kommentare wurden abgeschickt.\nVielen Dank f¸r Ihre Hilfe bei der Verbesserung von " .. project_name .. "!"
+	FEEDBACKUILBLADDONS_MOUSEOVER = "<F√ºr aktive Add-Ons Mauszeiger hierher bewegen>"
+	FEEDBACKUI_CONFIRMATION = "Ihre Kommentare wurden abgeschickt.\nVielen Dank f√ºr Ihre Hilfe bei der Verbesserung von " .. project_name .. "!"
 	
 	--Tooltips & Buttons
 	BUG_BUTTON="Kommentare senden"
-	NEWBIE_TOOLTIP_BUG="Melden Sie uns Fehler oder schicken Sie Vorschl‰ge, um " .. project_name .. " zu verbessern."
-	FEEDBACKUIBACK_TEXT = "Schritt zur¸ck"
-	FEEDBACKUIRESET_TEXT = "Zur¸cksetzen"
+	NEWBIE_TOOLTIP_BUG="Melden Sie uns Fehler oder schicken Sie Vorschl√§ge, um " .. project_name .. " zu verbessern."
+	FEEDBACKUIBACK_TEXT = "Schritt zur√ºck"
+	FEEDBACKUIRESET_TEXT = "Zur√ºcksetzen"
 	FEEDBACKUISUBMIT_TEXT = "Senden"
 	FEEDBACKUISTART_TEXT = "Start!"
 	
 	--Tables and strings for navigation.
 	FEEDBACKUI_WELCOMETABLEBUGHEADER = "Einen Bug melden"
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Einen Vorschlag machen"
-	FEEDBACKUI_WELCOMETABLESUBTEXT = "Vielen Dank f¸r Ihre Kommentare!"
+	FEEDBACKUI_WELCOMETABLESUBTEXT = "Vielen Dank f√ºr Ihre Kommentare!"
 	
-	FEEDBACKUI_WELCOME = "\nVielen Dank f¸r Ihre Kommentare zu " .. project_name .. ". Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle f¸r die Qualit‰t des Spiels.\n\nBitte f¸llen Sie diesen kurzen Fragebogen aus, damit wir Ihre Einsendung so schnell wie mˆglich bearbeiten kˆnnen.\n\nVielen Dank,\nThe " .. project_name .. " Team"
+	FEEDBACKUI_WELCOME = "\nVielen Dank f√ºr Ihre Kommentare zu " .. project_name .. ". Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle f√ºr die Qualit√§t des Spiels.\n\nBitte f√ºllen Sie diesen kurzen Fragebogen aus, damit wir Ihre Einsendung so schnell wie m√∂glich bearbeiten k√∂nnen.\n\nVielen Dank,\nThe " .. project_name .. " Team"
 	
 	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "Wen" .. FEEDBACKUI_WHITE
 	FEEDBACKUI_WHOTABLESUBTEXT = "Worauf wirkt sich das Problem aus?"
@@ -1291,20 +1291,20 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_WHERETABLESUBTEXT = "Wo tritt das Problem auf?"
 	
 	FEEDBACKUI_STRAREATABLE = "Tritt im Spiel auf."
-	FEEDBACKUI_STRWHEREINSTALL = "Tritt w‰hrend der Installation auf."
-	FEEDBACKUI_STRWHEREDOWNLOAD = "Tritt w‰hrend des Downloads auf."
-	FEEDBACKUI_STRWHEREPATCH = "Tritt w‰hrend des Patchvorgangs auf."
+	FEEDBACKUI_STRWHEREINSTALL = "Tritt w√§hrend der Installation auf."
+	FEEDBACKUI_STRWHEREDOWNLOAD = "Tritt w√§hrend des Downloads auf."
+	FEEDBACKUI_STRWHEREPATCH = "Tritt w√§hrend des Patchvorgangs auf."
 	
-	FEEDBACKUI_WHEREINSTALL = "W‰hrend der Installation"
-	FEEDBACKUI_WHEREDOWNLOAD = "W‰hrend des Downloads"
-	FEEDBACKUI_WHEREPATCH = "W‰hrend des Patchvorgangs"
+	FEEDBACKUI_WHEREINSTALL = "W√§hrend der Installation"
+	FEEDBACKUI_WHEREDOWNLOAD = "W√§hrend des Downloads"
+	FEEDBACKUI_WHEREPATCH = "W√§hrend des Patchvorgangs"
 	
 	FEEDBACKUI_AREATABLESUMMARY = FEEDBACKUI_GREEN .. "An bestimmten Stellen im Spiel"
 	
 	---------------------------------------- Begin Area Strings ------------------------------------------------------------------
 	FEEDBACKUI_STROCCURS = "- This occurs in "; --localize me
-	FEEDBACKUI_EVERYWHERE = "‹berall im Spiel"
-	FEEDBACKUI_STREVERYWHERE = "Tritt ¸berall im Spiel auf."
+	FEEDBACKUI_EVERYWHERE = "√úberall im Spiel"
+	FEEDBACKUI_STREVERYWHERE = "Tritt √ºberall im Spiel auf."
 	
 	--AZEROTH
 	FEEDBACKUI_AZEROTH = "Azeroth"
@@ -1314,8 +1314,8 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_BOREANTUNDRA = "Boreanische Tundra"
 	FEEDBACKUI_CRYSTALSONG = "Kristallsangwald" --LOCALIZE ME
 	FEEDBACKUI_DALARAN = "Dalaran" 
-	FEEDBACKUI_DRAGONBLIGHT = "Drachenˆde"
-	FEEDBACKUI_GRIZZLYHILLS = "Grizzlyh¸gel"
+	FEEDBACKUI_DRAGONBLIGHT = "Drachen√∂de"
+	FEEDBACKUI_GRIZZLYHILLS = "Grizzlyh√ºgel"
 	FEEDBACKUI_HOWLINGFJORD = "Heulender Fjord"
 	FEEDBACKUI_ICECROWN = "Eiskrone" --LOCALIZE ME
 	FEEDBACKUI_NEXUS = "Nexus"
@@ -1328,19 +1328,19 @@ elseif ( GetLocale() == "deDE" ) then
 	--End Northrend-----------------------------------
 	
 	--Eastern Kingdoms
-	FEEDBACKUI_EKINGDOMS = "÷stliche Kˆnigreiche"
+	FEEDBACKUI_EKINGDOMS = "√ñstliche K√∂nigreiche"
 	FEEDBACKUI_ALTERACMOUNTAINS = "Alteracgebirge"
 	FEEDBACKUI_ALTERACVALLEY = "Alteractal"
 	FEEDBACKUI_ARATHIBASIN = "Arathibecken"
 	FEEDBACKUI_ARATHIHIGHLANDS = "Arathihochland"
-	FEEDBACKUI_BADLANDS = "÷dland"
+	FEEDBACKUI_BADLANDS = "√ñdland"
 	FEEDBACKUI_BLACKROCKMOUNTAIN = "Schwarzfels"
-	FEEDBACKUI_BLASTEDLANDS = "Verw¸stete Lande"
+	FEEDBACKUI_BLASTEDLANDS = "Verw√ºstete Lande"
 	FEEDBACKUI_BURNINGSTEPPES = "Brennende Steppe"
 	FEEDBACKUI_DEADWINDPASS = "Gebirgspass der Totenwinde"
 	FEEDBACKUI_DUNMOROGH = "Dun Morogh"
-	FEEDBACKUI_DUSKWOOD = "D‰mmerwald"
-	FEEDBACKUI_EPLAGUELANDS = "÷stliche Pestl‰nder"
+	FEEDBACKUI_DUSKWOOD = "D√§mmerwald"
+	FEEDBACKUI_EPLAGUELANDS = "√ñstliche Pestl√§nder"
 	FEEDBACKUI_ELWYNN = "Wald von Elwynn"
 	FEEDBACKUI_EVERSONG = "Immersangwald"
 	FEEDBACKUI_GHOSTLANDS = "Geisterlande"
@@ -1354,13 +1354,13 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_SILVERPINE = "Silberwald"
 	FEEDBACKUI_STORMWIND = "Sturmwind"
 	FEEDBACKUI_STRANGLETHORN = "Schlingendorntal"
-	FEEDBACKUI_SWAMPOFSORROWS = "S¸mpfen des Elends";
+	FEEDBACKUI_SWAMPOFSORROWS = "S√ºmpfen des Elends";
 	FEEDBACKUI_TIRISFAL = "Tirisfal"
 	FEEDBACKUI_UNDERCITY = "Unterstadt"
-	FEEDBACKUI_WPLAGUELANDS = "Westliche Pestl‰nder"
+	FEEDBACKUI_WPLAGUELANDS = "Westliche Pestl√§nder"
 	FEEDBACKUI_WESTFALL = "Westfall"
 	FEEDBACKUI_WETLANDS = "Sumpfland"
-	FEEDBACKUI_STREKINGDOMS = "Tritt in den ˆstlichen Kˆnigreichen auf."
+	FEEDBACKUI_STREKINGDOMS = "Tritt in den √∂stlichen K√∂nigreichen auf."
 	--End Eastern Kingdoms-------------------------------------------------------------------------------------------------------
 	
 	--Kalimdor
@@ -1370,11 +1370,11 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_AZUREMYST = "Azurmythosinsel"
 	FEEDBACKUI_BARRENS = "Brachland"
 	FEEDBACKUI_BLOODMYST = "Blutmythosinsel"
-	FEEDBACKUI_DARKSHORE = "Dunkelk¸ste"
+	FEEDBACKUI_DARKSHORE = "Dunkelk√ºste"
 	FEEDBACKUI_DARNASSUS = "Darnassus"
 	FEEDBACKUI_DESOLACE = "Desolace";
 	FEEDBACKUI_DUROTAR = "Durotar";
-	FEEDBACKUI_DUSTWALLOW = "D¸stermarschen"
+	FEEDBACKUI_DUSTWALLOW = "D√ºstermarschen"
 	FEEDBACKUI_EXODAR = "Die Exodar"
 	FEEDBACKUI_FELWOOD = "Teufelswald"
 	FEEDBACKUI_FERALAS = "Feralas";
@@ -1396,12 +1396,12 @@ elseif ( GetLocale() == "deDE" ) then
 	--OUTLAND
 	FEEDBACKUI_OUTLANDS = "Scherbenwelt"
 	FEEDBACKUI_BLADESEDGE = "Schergrat"
-	FEEDBACKUI_HELLFIRE = "Hˆllenfeuerhalbinsel"
+	FEEDBACKUI_HELLFIRE = "H√∂llenfeuerhalbinsel"
 	FEEDBACKUI_NAGRAND = "Nagrand"
 	FEEDBACKUI_NETHERSTORM = "Nethersturm"
 	FEEDBACKUI_SHADOWMOON = "Schattenmondtal"
 	FEEDBACKUI_SHATTRATH = "Shattrath"
-	FEEDBACKUI_TERROKAR = "W‰lder von Terokkar"
+	FEEDBACKUI_TERROKAR = "W√§lder von Terokkar"
 	FEEDBACKUI_TWISTINGNETHER = "Wirbelnder Nether"
 	FEEDBACKUI_ZANGARMARSH = "Zangarmarschen"
 	FEEDBACKUI_STROUTLANDS = "Tritt in der Scherbenwelt auf."
@@ -1423,7 +1423,7 @@ elseif ( GetLocale() == "deDE" ) then
 	--------------------------------------------End Area Strings---------------------------------------------------------------------
 	
 	FEEDBACKUI_WHENTABLEHEADER = FEEDBACKUI_WHITE .. "Wann" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_WHENTABLESUBTEXT = "Wie h‰ufig tritt das Problem auf?"
+	FEEDBACKUI_WHENTABLESUBTEXT = "Wie h√§ufig tritt das Problem auf?"
 	
 	FEEDBACKUI_STRREPRODUCABLE = "Tritt immer auf."
 	FEEDBACKUI_STRSOMETIMES = "Tritt gelegentlich auf."
@@ -1440,59 +1440,59 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_TYPETABLESUBTEXT = "Welcher Art ist das Problem?"
 	
 	FEEDBACKUI_STRUIOTHER = "Problem mit dem Benutzerinterface."
-	FEEDBACKUI_STRUIITEMS = "- Problem mit dem Interface f¸r Gegenst‰nde."
-	FEEDBACKUI_STRUISPAWNS = "- Problem mit dem Interface f¸r Kreaturen."
-	FEEDBACKUI_STRUIQUESTS = "- Problem mit dem Interface f¸r Quests."
-	FEEDBACKUI_STRUISPELLS = "- Problem mit dem Interface f¸r Zauber oder Talente."
-	FEEDBACKUI_STRUITRADESKILLS = "- Problem mit dem Interface f¸r Handwerksfertigkeiten."
+	FEEDBACKUI_STRUIITEMS = "- Problem mit dem Interface f√ºr Gegenst√§nde."
+	FEEDBACKUI_STRUISPAWNS = "- Problem mit dem Interface f√ºr Kreaturen."
+	FEEDBACKUI_STRUIQUESTS = "- Problem mit dem Interface f√ºr Quests."
+	FEEDBACKUI_STRUISPELLS = "- Problem mit dem Interface f√ºr Zauber oder Talente."
+	FEEDBACKUI_STRUITRADESKILLS = "- Problem mit dem Interface f√ºr Handwerksfertigkeiten."
 	
 	FEEDBACKUI_STRGRAPHICOTHER = "Problem mit der Grafik."
-	FEEDBACKUI_STRGRAPHICITEMS = "- Problem mit der Grafik von Gegenst‰nden."
+	FEEDBACKUI_STRGRAPHICITEMS = "- Problem mit der Grafik von Gegenst√§nden."
 	FEEDBACKUI_STRGRAPHICSPAWNS = "- Problem mit der Grafik von Kreaturen."
 	FEEDBACKUI_STRGRAPHICSPELLS = "- Problem mit der Grafik von Zaubern und Talenten."
 	FEEDBACKUI_STRGRAPHICENVIRONMENT = "- Problem mit der Umgebungsgrafik."
 	
-	FEEDBACKUI_STRFUNCOTHER = "Problem mit der Funktionalit‰t des Spiels."
-	FEEDBACKUI_STRFUNCITEMS = "- Problem mit der Funktionalit‰t von Gegenst‰nden."
-	FEEDBACKUI_STRFUNCSPAWNS = "- Problem mit der Funktionalit‰t von Kreaturen."
-	FEEDBACKUI_STRFUNCQUESTS = "- Problem mit der Funktionalit‰t von Quests."
-	FEEDBACKUI_STRFUNCSPELLS = "- Problem mit der Funktionalit‰t von Zaubern oder Talenten."
-	FEEDBACKUI_STRFUNCTRADESKILLS = "- Problem mit der Funktionalit‰t von Handwerksfertigkeiten."
+	FEEDBACKUI_STRFUNCOTHER = "Problem mit der Funktionalit√§t des Spiels."
+	FEEDBACKUI_STRFUNCITEMS = "- Problem mit der Funktionalit√§t von Gegenst√§nden."
+	FEEDBACKUI_STRFUNCSPAWNS = "- Problem mit der Funktionalit√§t von Kreaturen."
+	FEEDBACKUI_STRFUNCQUESTS = "- Problem mit der Funktionalit√§t von Quests."
+	FEEDBACKUI_STRFUNCSPELLS = "- Problem mit der Funktionalit√§t von Zaubern oder Talenten."
+	FEEDBACKUI_STRFUNCTRADESKILLS = "- Problem mit der Funktionalit√§t von Handwerksfertigkeiten."
 	
-	FEEDBACKUI_STRCRASHOTHER = "Problem mit der Stabilit‰t des Spiels."
+	FEEDBACKUI_STRCRASHOTHER = "Problem mit der Stabilit√§t des Spiels."
 	FEEDBACKUI_STRCRASHBUG = "- Verursacht einen Absturz von WoW."
 	FEEDBACKUI_STRCRASHSOFTLOCK = "- Verursacht einen Stillstand von WoW."
 	FEEDBACKUI_STRCRASHHARDLOCK = "- Verursacht einen Stillstand des Computers."
 	FEEDBACKUI_STRCRASHWOWLAG = "- Betrifft Probleme mit Lag."
 	
-	FEEDBACKUI_UIITEMS = "Interface - Gegenst‰nde"
+	FEEDBACKUI_UIITEMS = "Interface - Gegenst√§nde"
 	FEEDBACKUI_UISPAWNS = "Interface - Kreaturen"
 	FEEDBACKUI_UIQUESTS = "Interface - Quests"
 	FEEDBACKUI_UISPELLS = "Interface - Zauber/Talente"
 	FEEDBACKUI_UITRADESKILLS = "Interface - Handwerk"
 	FEEDBACKUI_UIOTHER = "Interface - Allgemein"
 	
-	FEEDBACKUI_GRAPHICITEMS = "Grafik - Gegenst‰nde"
+	FEEDBACKUI_GRAPHICITEMS = "Grafik - Gegenst√§nde"
 	FEEDBACKUI_GRAPHICSPAWNS = "Grafik - Kreaturen"
 	FEEDBACKUI_GRAPHICSPELLS = "Grafik - Zauber/Talente"
 	FEEDBACKUI_GRAPHICENVIRONMENT = "Grafik - Umgebung"
 	FEEDBACKUI_GRAPHICOTHER = "Grafik - Allgemein"
 	
-	FEEDBACKUI_FUNCITEMS = "Funktion - Gegenst‰nde"
+	FEEDBACKUI_FUNCITEMS = "Funktion - Gegenst√§nde"
 	FEEDBACKUI_FUNCSPAWNS = "Funktion - Kreaturen"
 	FEEDBACKUI_FUNCQUESTS = "Funktion - Quests"
 	FEEDBACKUI_FUNCSPELLS = "Funktion - Zauber/Talente"   
 	FEEDBACKUI_FUNCTRADESKILLS = "Funktion - Handwerk"
 	FEEDBACKUI_FUNCOTHER = "Funktion - Allgemein"
 	
-	FEEDBACKUI_SPELLSPOWERTABLEHEADER = "St‰rke"
-	FEEDBACKUI_SPELLSPOWERTABLESUBTEXT = "Wie stark ist diese F‰higkeit?"
-	FEEDBACKUI_SPELLSFREQUENCYTABLEHEADER = "H‰ufigkeit"
-	FEEDBACKUI_SPELLSFREQUENCYTABLESUBTEXT = "Wie oft verwendest du diese F‰higkeit?"
+	FEEDBACKUI_SPELLSPOWERTABLEHEADER = "St√§rke"
+	FEEDBACKUI_SPELLSPOWERTABLESUBTEXT = "Wie stark ist diese F√§higkeit?"
+	FEEDBACKUI_SPELLSFREQUENCYTABLEHEADER = "H√§ufigkeit"
+	FEEDBACKUI_SPELLSFREQUENCYTABLESUBTEXT = "Wie oft verwendest du diese F√§higkeit?"
 	FEEDBACKUI_SPELLSAPPROPRIATETABLEHEADER = "Eignung"
-	FEEDBACKUI_SPELLSAPPROPRIATETABLESUBTEXT = "Wie gut passt diese F‰higkeit zu ‰hnlichen F‰higkeiten? "
-	FEEDBACKUI_SPELLSFUNTABLEHEADER = "Spaﬂ"
-	FEEDBACKUI_SPELLSFUNTABLESUBTEXT = "Macht es Spaﬂ, diese F‰higkeit zu benutzen?"
+	FEEDBACKUI_SPELLSAPPROPRIATETABLESUBTEXT = "Wie gut passt diese F√§higkeit zu √§hnlichen F√§higkeiten? "
+	FEEDBACKUI_SPELLSFUNTABLEHEADER = "Spa√ü"
+	FEEDBACKUI_SPELLSFUNTABLESUBTEXT = "Macht es Spa√ü, diese F√§higkeit zu benutzen?"
 	
 	FEEDBACKUI_STRPOWER1 = "Sehr schwach";
 	FEEDBACKUI_STRPOWER2 = "Schwach";
@@ -1501,36 +1501,36 @@ elseif ( GetLocale() == "deDE" ) then
 	
 	FEEDBACKUI_STRFREQUENCY1 = "Selten";
 	FEEDBACKUI_STRFREQUENCY2 = "Gelegentlich";
-	FEEDBACKUI_STRFREQUENCY3 = "H‰ufig";
-	FEEDBACKUI_STRFREQUENCY4 = "So oft wie mˆglich";
+	FEEDBACKUI_STRFREQUENCY3 = "H√§ufig";
+	FEEDBACKUI_STRFREQUENCY4 = "So oft wie m√∂glich";
 	
-	FEEDBACKUI_STRAPPROPRIATE1 = "ƒuﬂerst ungeeignet";
+	FEEDBACKUI_STRAPPROPRIATE1 = "√Ñu√üerst ungeeignet";
 	FEEDBACKUI_STRAPPROPRIATE2 = "Ungeeignet";
 	FEEDBACKUI_STRAPPROPRIATE3 = "Geeignet";
 	FEEDBACKUI_STRAPPROPRIATE4 = "Perfekt geeignet";
 	
 	FEEDBACKUI_SPELLHEADERTEXT = "Zauber"
 	FEEDBACKUILBLPOWER_TEXT = "Kraft:"
-	FEEDBACKUILBLFREQUENCY_TEXT = "H‰ufigkeit:"
+	FEEDBACKUILBLFREQUENCY_TEXT = "H√§ufigkeit:"
 	FEEDBACKUILBLAPPROPRIATE_TEXT = "Eignung:"
 	
 	FEEDBACKUI_CRASHBUG = "Absturz von WoW"
 	FEEDBACKUI_CRASHSOFTLOCK = "Stillstand von WoW"
 	FEEDBACKUI_CRASHHARDLOCK = "Stillstand des Rechners"
 	FEEDBACKUI_CRASHWOWLAG = "Lag in WoW"
-	FEEDBACKUI_CRASHOTHER = "Allgemeine Stabilit‰tsprobleme"
+	FEEDBACKUI_CRASHOTHER = "Allgemeine Stabilit√§tsprobleme"
 	
 	FEEDBACKUILBLFRMCLARITY_TEXT = "Questinfo:"
 	FEEDBACKUILBLFRMDIFFICULTY_TEXT = "Schwierigkeit:"
 	FEEDBACKUILBLFRMREWARD_TEXT = "Belohnung:"
-	FEEDBACKUILBLFRMFUN_TEXT = "Spaﬂ:"
+	FEEDBACKUILBLFRMFUN_TEXT = "Spa√ü:"
 	FEEDBACKUISURVEYTYPE_QUEST = "Quest"
 	FEEDBACKUISURVEYTYPE_AREA = "Instanz"
 	
 	FEEDBACKUISKIP_TEXT = "Abbrechen"
 	FEEDBACKUILBLSURVEYALERTSCHECK_TEXT = "Erinnerung"
-	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Bitte w‰hlen Sie eine Bewertung aus."
-	FEEDBACKUI_WELCOMETABLESURVEYSUBTEXT = "Neue Inhalte erˆffnen neue Bewertungen."
+	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Bitte w√§hlen Sie eine Bewertung aus."
+	FEEDBACKUI_WELCOMETABLESURVEYSUBTEXT = "Neue Inhalte er√∂ffnen neue Bewertungen."
 	
 	FEEDBACKUI_SURVEYCOLUMNNAME = "Name"
 	FEEDBACKUI_SURVEYCOLUMNMODIFIED = "Entdeckt"
@@ -1540,7 +1540,7 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_QUESTHEADERTEXT = "Quests"
 	
 	FEEDBACKUI_STATUSALLTEXT = "Alle"
-	FEEDBACKUI_STATUSAVAILABLETEXT = "Verf¸gbar"
+	FEEDBACKUI_STATUSAVAILABLETEXT = "Verf√ºgbar"
 	FEEDBACKUI_STATUSSKIPPEDTEXT = "Abgebrochen"
 	FEEDBACKUI_STATUSCOMPLETEDTEXT = "Abgeschlossen"
 	
@@ -1561,17 +1561,17 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_YEARSAGO = " Jahren"
 	
 	FEEDBACKUI_QUESTSCLARITYTABLEHEADER = "Questinfo"
-	FEEDBACKUI_QUESTSCLARITYTABLESUBTEXT = "Wie verst‰ndlich waren die Questziele?"
+	FEEDBACKUI_QUESTSCLARITYTABLESUBTEXT = "Wie verst√§ndlich waren die Questziele?"
 	
 	FEEDBACKUI_STRCLARITY1 = "Sehr vage"
 	FEEDBACKUI_STRCLARITY2 = "Etwas vage"
-	FEEDBACKUI_STRCLARITY3 = "Relativ verst‰ndlich"
-	FEEDBACKUI_STRCLARITY4 = "Absolut verst‰ndlich"
+	FEEDBACKUI_STRCLARITY3 = "Relativ verst√§ndlich"
+	FEEDBACKUI_STRCLARITY4 = "Absolut verst√§ndlich"
 	
 	FEEDBACKUI_CLARITY1 = "Sehr vage"
 	FEEDBACKUI_CLARITY2 = "Etwas vage"
-	FEEDBACKUI_CLARITY3 = "Relativ verst‰ndlich"
-	FEEDBACKUI_CLARITY4 = "Absolut verst‰ndlich"
+	FEEDBACKUI_CLARITY3 = "Relativ verst√§ndlich"
+	FEEDBACKUI_CLARITY4 = "Absolut verst√§ndlich"
 	
 	FEEDBACKUI_QUESTSDIFFICULTYTABLEHEADER = "Schwierigkeitsgrad"
 	FEEDBACKUI_QUESTSDIFFICULTYTABLESUBTEXT = "Wie schwierig war die Quest?"
@@ -1591,25 +1591,25 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_DIFFICULTY5 = "N/A"
 	
 	FEEDBACKUI_QUESTSREWARDTABLEHEADER = "Belohnung"
-	FEEDBACKUI_QUESTSREWARDTABLESUBTEXT = "Wie w¸rden Sie die Questbelohnung bewerten?"
+	FEEDBACKUI_QUESTSREWARDTABLESUBTEXT = "Wie w√ºrden Sie die Questbelohnung bewerten?"
 	FEEDBACKUI_AREASREWARDTABLEHEADER = "Belohnung"
-	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Wie w¸rden Sie die Instanzbelohnungen bewerten?"
+	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Wie w√ºrden Sie die Instanzbelohnungen bewerten?"
 	
-	FEEDBACKUI_STRREWARD1 = "Erb‰rmlich"
+	FEEDBACKUI_STRREWARD1 = "Erb√§rmlich"
 	FEEDBACKUI_STRREWARD2 = "Schlecht"
 	FEEDBACKUI_STRREWARD3 = "Gut"
 	FEEDBACKUI_STRREWARD4 = "Fantastisch"
 	FEEDBACKUI_STRREWARD5 = "N/A"
 	
-	FEEDBACKUI_REWARD1 = "Erb‰rmlich"
+	FEEDBACKUI_REWARD1 = "Erb√§rmlich"
 	FEEDBACKUI_REWARD2 = "Schlecht"
 	FEEDBACKUI_REWARD3 = "Gut"
 	FEEDBACKUI_REWARD4 = "Fantastisch"
 	FEEDBACKUI_REWARD5 = "N/A"
 	
-	FEEDBACKUI_QUESTSFUNTABLEHEADER = "Spaﬂ"
+	FEEDBACKUI_QUESTSFUNTABLEHEADER = "Spa√ü"
 	FEEDBACKUI_QUESTSFUNTABLESUBTEXT = "Wie unterhaltsam war die Quest?"
-	FEEDBACKUI_AREASFUNTABLEHEADER = "Spaﬂ"
+	FEEDBACKUI_AREASFUNTABLEHEADER = "Spa√ü"
 	FEEDBACKUI_AREASFUNTABLESUBTEXT = "Wie unterhaltsam war die Instanz?"
 	
 	FEEDBACKUI_STRFUN1 = "Nicht unterhaltsam"
@@ -1622,43 +1622,43 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_FUN3 = "Recht unterhaltsam"
 	FEEDBACKUI_FUN4 = "Sehr unterhaltsam"
 	
-	FEEDBACKUISURVEYFRMINPUTBOX_TEXT = "<Zus‰tzliche Kommentare bitte hier eintragen>"
-	FEEDBACKUI_SURVEYINPUTHEADER = "Danke f¸r zus‰tzliche Kommentare"
+	FEEDBACKUISURVEYFRMINPUTBOX_TEXT = "<Zus√§tzliche Kommentare bitte hier eintragen>"
+	FEEDBACKUI_SURVEYINPUTHEADER = "Danke f√ºr zus√§tzliche Kommentare"
 	FEEDBACKUIRESUBMIT_TEXT = "Neu senden"
 	
 	FEEDBACKUI_WELCOMETABLEBUGHEADER = "Bug melden"
 	FEEDBACKUI_WELCOMETABLEBUGSUBTEXT = "Bugmeldungen helfen Fehler schneller zu beheben"
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Einen Vorschlag einreichen"
-	FEEDBACKUI_WELCOMETABLESUGGESTSUBTEXT = "Vorschl‰ge helfen das Spiel weiter zu verbessern"
+	FEEDBACKUI_WELCOMETABLESUGGESTSUBTEXT = "Vorschl√§ge helfen das Spiel weiter zu verbessern"
 	FEEDBACKUI_BUGINPUTHEADER = "Wie kann man den Bug nachstellen?"
 	FEEDBACKUI_SUGGESTINPUTHEADER="Bitte geben Sie ihren Vorschlag ein."
 	
-	FEEDBACKUI_SURVEYNEWBIETEXT = "Klicken Sie hier, um eine Umfrage, ¸ber eine k¸rzlich abgeschlossene Instanz, oder Quest, zu schlieﬂen."
+	FEEDBACKUI_SURVEYNEWBIETEXT = "Klicken Sie hier, um eine Umfrage, √ºber eine k√ºrzlich abgeschlossene Instanz, oder Quest, zu schlie√üen."
 	FEEDBACKUI_POIMASK = ".-%s%-%s(.+)"
 	
 	
 	FEEDBACKUI_LEVELPREFIX = "Stufe"
-	FEEDBACKUI_HILLSBRAD = "÷stliche Kˆnigreiche - Vorgebirge des H¸gellands";
+	FEEDBACKUI_HILLSBRAD = "√ñstliche K√∂nigreiche - Vorgebirge des H√ºgellands";
 	FEEDBACKUISURVEYTYPE_AREA = "Gebiet"
 	FEEDBACKUISURVEYTYPE_ITEM = "Gegenstand"
 	FEEDBACKUISURVEYTYPE_MOB = "Gegner"
 	FEEDBACKUI_AREAHEADERTEXT = "Gebiete"
 	FEEDBACKUI_QUESTHEADERTEXT = "Quests"
-	FEEDBACKUI_ITEMHEADERTEXT = "Gegenst‰nde"
+	FEEDBACKUI_ITEMHEADERTEXT = "Gegenst√§nde"
 	FEEDBACKUI_MOBHEADERTEXT = "Gegner"
 	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Gebietsname:"
 	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "Schwierigkeitsgrad"
 	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "Wie schwierig waren die Begegnungen?"
 	FEEDBACKUI_AREASREWARDTABLEHEADER = "Belohnung"
-	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Wie w¸rden Sie die Belohnungen bewerten?"
-	FEEDBACKUI_AREASFUNTABLEHEADER = "Spaﬂ"
+	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "Wie w√ºrden Sie die Belohnungen bewerten?"
+	FEEDBACKUI_AREASFUNTABLEHEADER = "Spa√ü"
 	FEEDBACKUI_AREASFUNTABLESUBTEXT = "Wie unterhaltsam waren die Inhalte?"
 	FEEDBACKUI_SURVEYINPUTSUBTEXT = "Hier klicken, um Bewertungsbeispiele anzuzeigen"
-	FEEDBACKUI_SURVEYNEWBIETEXT = "Hier klicken, um die Erfahrungsbewertung abzuschlieﬂen."
-	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Bitte Bewertung ausw‰hlen"
+	FEEDBACKUI_SURVEYNEWBIETEXT = "Hier klicken, um die Erfahrungsbewertung abzuschlie√üen."
+	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Bitte Bewertung ausw√§hlen"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Vielen Dank f¸r Ihre Kommentare zu " .. project_name .. ". Sie mˆchten Feedback geben zu:\n\n\n\n\nBitte w‰hlen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
-	FEEDBACKUI_GENERALWELCOME = "Vielen Dank f¸r Ihre Kommentare zu " .. project_name .. ". Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle f¸r die Qualit‰t des Spiels.\n\nBitte w‰hlen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
+	FEEDBACKUI_SPECIFICWELCOME = "Vielen Dank f√ºr Ihre Kommentare zu " .. project_name .. ". Sie m√∂chten Feedback geben zu:\n\n\n\n\nBitte w√§hlen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
+	FEEDBACKUI_GENERALWELCOME = "Vielen Dank f√ºr Ihre Kommentare zu " .. project_name .. ". Jede Einsendung, die wir erhalten, spielt eine wichtige Rolle f√ºr die Qualit√§t des Spiels.\n\nBitte w√§hlen Sie eine der folgenden Feedbackoptionen aus, um fortzufahren:";
 	
 	FEEDBACKUI_STARTBUG = "Fehler melden"
 	FEEDBACKUI_STARTSURVEY = "Bewertung starten"
@@ -1668,10 +1668,10 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_WELCOMESUGGESTHEADER = "Vorschlag"
 	FEEDBACKUI_WELCOMESURVEYHEADER = "Bewertung"
 	
-	FEEDBACKUI_WELCOMEBUGTEXT = "Hier kˆnnen Sie auf Fehler im Spiel hinweisen." 
-	FEEDBACKUI_WELCOMESUGGESTTEXT = "‹ber einen Vorschlag kˆnnen Sie Ideen f¸r Verbesserungen des Spiels einreichen."
-	FEEDBACKUI_WELCOMESURVEYTEXT = "Mit Bewertungen kˆnnen Sie Feedback zu bestimmten Bereichen des Spiels abgeben."
-	FEEDBACKUI_WELCOMESURVEYDISABLED = "F¸r dieses Thema steht momentan keine Bewertung zur Verf¸gung."
+	FEEDBACKUI_WELCOMEBUGTEXT = "Hier k√∂nnen Sie auf Fehler im Spiel hinweisen." 
+	FEEDBACKUI_WELCOMESUGGESTTEXT = "√úber einen Vorschlag k√∂nnen Sie Ideen f√ºr Verbesserungen des Spiels einreichen."
+	FEEDBACKUI_WELCOMESURVEYTEXT = "Mit Bewertungen k√∂nnen Sie Feedback zu bestimmten Bereichen des Spiels abgeben."
+	FEEDBACKUI_WELCOMESURVEYDISABLED = "F√ºr dieses Thema steht momentan keine Bewertung zur Verf√ºgung."
 	
 	FEEDBACKUI_MODIFIERKEY = "Belegung:"
 	FEEDBACKUI_MOUSE1 = "Linksklick"
@@ -1684,51 +1684,51 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_LSHIFT = "LShift"
 	FEEDBACKUI_RSHIFT = "RShift"
 	
-	FEEDBACKUI_TOOLTIP_MESSAGE = "<F¸r Feedback %s-%s>";
-	FEEDBACKUI_MAP_MESSAGE = "F¸r Feedback auf Karte %s-%s";
-	FEEDBACKUI_ITEMTARGETS = { "R¸stung", "Verbrauchbar", "Beh‰lter", "Projektil", "Kˆcher", "Waffe", "Rezept", "Edelstein" };
+	FEEDBACKUI_TOOLTIP_MESSAGE = "<F√ºr Feedback %s-%s>";
+	FEEDBACKUI_MAP_MESSAGE = "F√ºr Feedback auf Karte %s-%s";
+	FEEDBACKUI_ITEMTARGETS = { "R√ºstung", "Verbrauchbar", "Beh√§lter", "Projektil", "K√∂cher", "Waffe", "Rezept", "Edelstein" };
 	FEEDBACKUI_MISCTYPE = "Verschiedenes";
 	FEEDBACKUISHOWCUES_TEXT = "Tooltipps anzeigen";
 	
 	FEEDBACKUI_CATEGORYLABEL = "Art:"
 	FEEDBACKUI_STATUSLABEL = "Status:"
 	
-	NEWBIE_TOOLTIP_BUG="Helfen Sie uns, " .. project_name .. " zu verbessern, indem Sie Fehler, Vorschl‰ge oder eine Bewertung einreichen.\n\n" .. FEEDBACKUI_BLUE .. "Linksklick zum Beginnen.\nRechtsklick f¸r Anzeigeoptionen.";
+	NEWBIE_TOOLTIP_BUG="Helfen Sie uns, " .. project_name .. " zu verbessern, indem Sie Fehler, Vorschl√§ge oder eine Bewertung einreichen.\n\n" .. FEEDBACKUI_BLUE .. "Linksklick zum Beginnen.\nRechtsklick f√ºr Anzeigeoptionen.";
 	FEEDBACKUILBLAPPEARANCE_TEXT = "Aussehen:"
 	FEEDBACKUILBLUTILITY_TEXT = "Nutzen:"
 	
 	FEEDBACKUI_MOBSDIFFICULTYTABLEHEADER = "Schwierigkeitsgrad"                   
 	FEEDBACKUI_MOBSDIFFICULTYTABLESUBTEXT = "Wie schwierig war der Gegner zu besiegen?"
 	FEEDBACKUI_MOBSREWARDTABLEHEADER = "Belohnung"
-	FEEDBACKUI_MOBSREWARDTABLESUBTEXT = "Wie w¸rden Sie die Beute des Gegners bewerten?"
-	FEEDBACKUI_MOBSFUNTABLEHEADER = "Spaﬂ"
+	FEEDBACKUI_MOBSREWARDTABLESUBTEXT = "Wie w√ºrden Sie die Beute des Gegners bewerten?"
+	FEEDBACKUI_MOBSFUNTABLEHEADER = "Spa√ü"
 	FEEDBACKUI_MOBSFUNTABLESUBTEXT = "Wie unterhaltsam war die Begegnung?"
 	FEEDBACKUI_MOBSAPPEARANCETABLEHEADER = "Ausssehen"
-	FEEDBACKUI_MOBSAPPEARANCETABLESUBTEXT = "Wie w¸rden Sie das Aussehen des Gegners bewerten?"
+	FEEDBACKUI_MOBSAPPEARANCETABLESUBTEXT = "Wie w√ºrden Sie das Aussehen des Gegners bewerten?"
 	
 	FEEDBACKUI_ITEMSDIFFICULTYTABLEHEADER = "Schwierigkeitsgrad"
 	FEEDBACKUI_ITEMSDIFFICULTYTABLESUBTEXT = "Wie schwer ist es, den Gegenstand zu erhalten?"
 	FEEDBACKUI_ITEMSUTILITYHEADER = "Nutzen"
 	FEEDBACKUI_ITEMSUTILITYSUBTEXT = "Bewerten Sie bitte den generellen Nutzen des Gegenstands?"
 	FEEDBACKUI_ITEMSAPPEARANCETABLEHEADER = "Aussehen"
-	FEEDBACKUI_ITEMSAPPEARANCETABLESUBTEXT = "Wie w¸rden Sie das Aussehen des Gegenstands bewerten?"
+	FEEDBACKUI_ITEMSAPPEARANCETABLESUBTEXT = "Wie w√ºrden Sie das Aussehen des Gegenstands bewerten?"
 	
-	FEEDBACKUI_STRUTILITY1 = "Vˆllig nutzlos"
-	FEEDBACKUI_STRUTILITY2 = "Fast g‰nzlich nutzlos"
-	FEEDBACKUI_STRUTILITY3 = "N¸tzlich"
-	FEEDBACKUI_STRUTILITY4 = "Sehr n¸tzlich"
+	FEEDBACKUI_STRUTILITY1 = "V√∂llig nutzlos"
+	FEEDBACKUI_STRUTILITY2 = "Fast g√§nzlich nutzlos"
+	FEEDBACKUI_STRUTILITY3 = "N√ºtzlich"
+	FEEDBACKUI_STRUTILITY4 = "Sehr n√ºtzlich"
 	
-	FEEDBACKUI_UTILITY1 = "Vˆllig nutzlos"
-	FEEDBACKUI_UTILITY2 = "Fast g‰nzlich nutzlos"
-	FEEDBACKUI_UTILITY3 = "N¸tzlich"
-	FEEDBACKUI_UTILITY4 = "Sehr n¸tzlich"
+	FEEDBACKUI_UTILITY1 = "V√∂llig nutzlos"
+	FEEDBACKUI_UTILITY2 = "Fast g√§nzlich nutzlos"
+	FEEDBACKUI_UTILITY3 = "N√ºtzlich"
+	FEEDBACKUI_UTILITY4 = "Sehr n√ºtzlich"
 	
-	FEEDBACKUI_STRAPPEARANCE1 = "Ungen¸gend"
+	FEEDBACKUI_STRAPPEARANCE1 = "Ungen√ºgend"
 	FEEDBACKUI_STRAPPEARANCE2 = "Unscheinbar"
 	FEEDBACKUI_STRAPPEARANCE3 = "Gut"
 	FEEDBACKUI_STRAPPEARANCE4 = "Herausragend"
 	
-	FEEDBACKUI_APPEARANCE1 = "Ungen¸gend"
+	FEEDBACKUI_APPEARANCE1 = "Ungen√ºgend"
 	FEEDBACKUI_APPEARANCE2 = "Unscheinbar"
 	FEEDBACKUI_APPEARANCE3 = "Gut"
 	FEEDBACKUI_APPEARANCE4 = "Herausragend"
@@ -1738,8 +1738,8 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_POIIRONFORGE = "Eisenschmiede";
 	FEEDBACKUI_POISTORMWIND = "Sturmwind";
 	FEEDBACKUI_POISEPULCHER = "Das Grabmal";
-	FEEDBACKUI_POITARRENMILL = "Tarrens M¸hle";
-	FEEDBACKUI_POISOUTHSHORE = "S¸derstade";
+	FEEDBACKUI_POITARRENMILL = "Tarrens M√ºhle";
+	FEEDBACKUI_POISOUTHSHORE = "S√ºderstade";
 	FEEDBACKUI_POIAERIEPEAK = "Nistgipfel";
 	FEEDBACKUI_POIREVANTUSK = "Dorf der Bruchhauer";
 	FEEDBACKUI_POIHAMMERFALL = "Hammerfall";
@@ -1747,7 +1747,7 @@ elseif ( GetLocale() == "deDE" ) then
 	FEEDBACKUI_POITHELSAMAR = "Thelsamar";
 	FEEDBACKUI_POIKARGATH = "Kargath";
 	FEEDBACKUI_POILAKESHIRE = "Seenhain";
-	FEEDBACKUI_POISENTINELHILL = "Sp‰herkuppe";
+	FEEDBACKUI_POISENTINELHILL = "Sp√§herkuppe";
 	FEEDBACKUI_POIDARKSHIRE = "Dunkelhain";
 	FEEDBACKUI_POISTONARD = "Steinard";
 	FEEDBACKUI_POIGROMGOL = "Basislager von Grom'gol";
@@ -1798,58 +1798,58 @@ elseif ( GetLocale() == "esES" ) then
 	function esES() end
 	]]--
 	--Non-instance special zone names
-	FEEDBACKUI_EXCEPTIONZONES = { "Tren subterr·neo", "Mar Adusto", "Mare Magnum", "Valle de Alterac", "Cuenca de Arathi", "Garganta Grito de Guerra", "Sala de los Campeones", "MontaÒa Roca Negra", "Mar de la Bruma", "Sala de las Leyendas", "El VacÌo Abisal", "Fortaleza de Utgarde", }
+	FEEDBACKUI_EXCEPTIONZONES = { "Tren subterr√°neo", "Mar Adusto", "Mare Magnum", "Valle de Alterac", "Cuenca de Arathi", "Garganta Grito de Guerra", "Sala de los Campeones", "Monta√±a Roca Negra", "Mar de la Bruma", "Sala de las Leyendas", "El Vac√≠o Abisal", "Fortaleza de Utgarde", }
 	
 	--Headers    
 	FEEDBACKUIINFOPANELLABEL_TEXT = "Tus datos"
 	FEEDBACKUI_BUGINPUTHEADER = "Describe este error"
-	FEEDBACKUI_BUGINPUTSUBTEXT = "øCÛmo podemos reproducir este error?"
+	FEEDBACKUI_BUGINPUTSUBTEXT = "¬øC√≥mo podemos reproducir este error?"
 	FEEDBACKUI_SUGGESTINPUTHEADER = "Describe tu sugerencia"
-	FEEDBACKUI_SUGGESTINPUTSUBTEXT = "øQuÈ te gustarÌa sugerir?"
+	FEEDBACKUI_SUGGESTINPUTSUBTEXT = "¬øQu√© te gustar√≠a sugerir?"
 	
 	--Labels
-	FEEDBACKUIFEEDBACKFRMTITLE_TEXT = "Mandar informaciÛn"
-	FEEDBACKUILBLFRMVER_TEXT = "VersiÛn:"
+	FEEDBACKUIFEEDBACKFRMTITLE_TEXT = "Mandar informaci√≥n"
+	FEEDBACKUILBLFRMVER_TEXT = "Versi√≥n:"
 	FEEDBACKUILBLFRMREALM_TEXT = "Reino:"
 	FEEDBACKUILBLFRMNAME_TEXT = "Nombre:"
 	FEEDBACKUILBLFRMCHAR_TEXT = "Personaje:"
 	FEEDBACKUILBLFRMMAP_TEXT = "Mapa:"
 	FEEDBACKUILBLFRMZONE_TEXT = "Zona:"
-	FEEDBACKUILBLFRMAREA_TEXT = "¡rea:"
+	FEEDBACKUILBLFRMAREA_TEXT = "√Årea:"
 	FEEDBACKUILBLFRMADDONS_TEXT = "Addons: "
 	FEEDBACKUILBLADDONSWRAP_TEXT = "Addons actuales:\n"
 	FEEDBACKUITYPEBUG_TEXT = "Error"
 	FEEDBACKUITYPESUGGEST_TEXT = "Sugerencia"
 	FEEDBACKUITYPESURVEY_TEXT = "Encuesta"
-	FEEDBACKUILBLFRMWHO_TEXT = "QuiÈn: "
-	FEEDBACKUILBLFRMWHERE_TEXT = "DÛnde: "
-	FEEDBACKUILBLFRMWHEN_TEXT = "Cu·ndo: "
+	FEEDBACKUILBLFRMWHO_TEXT = "Qui√©n: "
+	FEEDBACKUILBLFRMWHERE_TEXT = "D√≥nde: "
+	FEEDBACKUILBLFRMWHEN_TEXT = "Cu√°ndo: "
 	FEEDBACKUILBLFRMTYPE_TEXT = "Tipo: "
 	FEEDBACKUI_GENDERTABLE = { "Desconocido", "Masculino", "Femenino" }
 	
 	--Prompts
-	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Escribe aquÌ los pasos a seguir para reproducir el error>"
-	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Escribe tu sugerencia aquÌ>"
-	FEEDBACKUILBLADDONS_MOUSEOVER = "<Texto al pasar el ratÛn de los addons cargados>"
-	FEEDBACKUI_CONFIRMATION = "Tu informaciÛn se ha enviado.\n°Gracias por ayudarnos a mejorar " .. project_name .. "!"
+	FEEDBACKUIBUGFRMINPUTBOX_TEXT = "<Escribe aqu√≠ los pasos a seguir para reproducir el error>"
+	FEEDBACKUISUGGESTFRMINPUTBOX_TEXT = "<Escribe tu sugerencia aqu√≠>"
+	FEEDBACKUILBLADDONS_MOUSEOVER = "<Texto al pasar el rat√≥n de los addons cargados>"
+	FEEDBACKUI_CONFIRMATION = "Tu informaci√≥n se ha enviado.\n¬°Gracias por ayudarnos a mejorar " .. project_name .. "!"
 	
 	--Tooltips & Buttons
-	BUG_BUTTON="Enviar informaciÛn"
-	NEWBIE_TOOLTIP_BUG="EnvÌanos informaciÛn sobre errores o sugerencias para ayudarnos a mejorar " .. project_name .. "."
+	BUG_BUTTON="Enviar informaci√≥n"
+	NEWBIE_TOOLTIP_BUG="Env√≠anos informaci√≥n sobre errores o sugerencias para ayudarnos a mejorar " .. project_name .. "."
 	FEEDBACKUIBACK_TEXT = "Volver"
 	FEEDBACKUIRESET_TEXT = "Borrar todo"
 	FEEDBACKUISUBMIT_TEXT = "Enviar"
-	FEEDBACKUISTART_TEXT = "°Inicio!"
+	FEEDBACKUISTART_TEXT = "¬°Inicio!"
 	
 	--Tables and strings for navigation.
 	FEEDBACKUI_WELCOMETABLEBUGHEADER = "Informa de un error"
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Haz una sugerencia"
-	FEEDBACKUI_WELCOMETABLESUBTEXT = "°Gracias por la informaciÛn!"
+	FEEDBACKUI_WELCOMETABLESUBTEXT = "¬°Gracias por la informaci√≥n!"
 	
-	FEEDBACKUI_WELCOME = "\nGracias por tu informaciÛn sobre " .. project_name .. ". Cada mensaje que recibimos es vital para lograr la calidad de " .. project_name .. ".\n\nRellena este corto cuestionario para ayudarnos a procesar los numerosos mensajes que recibimos de forma efectiva.\n\nGracias,\nThe " .. project_name .. " Team"
+	FEEDBACKUI_WELCOME = "\nGracias por tu informaci√≥n sobre " .. project_name .. ". Cada mensaje que recibimos es vital para lograr la calidad de " .. project_name .. ".\n\nRellena este corto cuestionario para ayudarnos a procesar los numerosos mensajes que recibimos de forma efectiva.\n\nGracias,\nThe " .. project_name .. " Team"
 	
-	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "QuiÈn" .. FEEDBACKUI_WHITE 
-	FEEDBACKUI_WHOTABLESUBTEXT = "øA quÈ afecta este problema?"
+	FEEDBACKUI_WHOTABLEHEADER = FEEDBACKUI_WHITE .. "Qui√©n" .. FEEDBACKUI_WHITE 
+	FEEDBACKUI_WHOTABLESUBTEXT = "¬øA qu√© afecta este problema?"
 	
 	FEEDBACKUI_STRWHOPLAYER = "Afecta a mi personaje."
 	FEEDBACKUI_STRPARTYMEMBER = "Afecta a los jugadores de mi grupo."
@@ -1869,19 +1869,19 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_FRIENDLYCREATURE = "Criatura aliada"
 	FEEDBACKUI_WHONA = "N/A"
 	
-	FEEDBACKUI_WHERETABLEHEADER = FEEDBACKUI_WHITE .. "DÛnde" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_WHERETABLESUBTEXT = "øDÛnde ocurre este problema?"
+	FEEDBACKUI_WHERETABLEHEADER = FEEDBACKUI_WHITE .. "D√≥nde" .. FEEDBACKUI_WHITE
+	FEEDBACKUI_WHERETABLESUBTEXT = "¬øD√≥nde ocurre este problema?"
 	
 	FEEDBACKUI_STRAREATABLE = "Ocurre durante el juego."
-	FEEDBACKUI_STRWHEREINSTALL = "Ocurre durante la instalaciÛn."
+	FEEDBACKUI_STRWHEREINSTALL = "Ocurre durante la instalaci√≥n."
 	FEEDBACKUI_STRWHEREDOWNLOAD = "Ocurre durante la descarga."
 	FEEDBACKUI_STRWHEREPATCH = "Ocurre instalando un parche."
 	
-	FEEDBACKUI_WHEREINSTALL = "Durante instalaciÛn"
+	FEEDBACKUI_WHEREINSTALL = "Durante instalaci√≥n"
 	FEEDBACKUI_WHEREDOWNLOAD = "Durante descarga"
 	FEEDBACKUI_WHEREPATCH = "Durante parche"
 	
-	FEEDBACKUI_AREATABLESUMMARY = FEEDBACKUI_GREEN .. "En alg˙n lugar del juego"
+	FEEDBACKUI_AREATABLESUMMARY = FEEDBACKUI_GREEN .. "En alg√∫n lugar del juego"
 	
 	---------------------------------------- Begin Area Strings ------------------------------------------------------------------
 	FEEDBACKUI_STROCCURS = "- This occurs in "; --localize me
@@ -1903,7 +1903,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_NEXUS = "El Nexo"
 	FEEDBACKUI_SHOLAZARBASIN = "Cuenca de Sholazar" --LOCALIZE ME
 	FEEDBACKUI_STORMPEAKS = "Las Cumbres Tormentosas" --LOCALIZE ME
-	FEEDBACKUI_UTGARDEPINNACLE = "Pin·culo de Utgarde"
+	FEEDBACKUI_UTGARDEPINNACLE = "Pin√°culo de Utgarde"
 	FEEDBACKUI_WINTERGRASP = "Conquista del Invierno" --LOCALIZE ME
 	FEEDBACKUI_ZULDRAK = "Zul'Drak" 
 	FEEDBACKUI_STRNORTHREND = "Ocurre en Rasganorte."
@@ -1911,12 +1911,12 @@ elseif ( GetLocale() == "esES" ) then
 	
 	--Eastern Kingdoms
 	FEEDBACKUI_EKINGDOMS = "Reinos del Este"
-	FEEDBACKUI_ALTERACMOUNTAINS = "MontaÒas de Alterac"
+	FEEDBACKUI_ALTERACMOUNTAINS = "Monta√±as de Alterac"
 	FEEDBACKUI_ALTERACVALLEY = "Valle de Alterac"
 	FEEDBACKUI_ARATHIBASIN = "Cuenca de Arathi"
 	FEEDBACKUI_ARATHIHIGHLANDS = "Tierras Altas de Arathi"
-	FEEDBACKUI_BADLANDS = "Tierras InhÛspitas"
-	FEEDBACKUI_BLACKROCKMOUNTAIN = "MontaÒa Roca Negra"
+	FEEDBACKUI_BADLANDS = "Tierras Inh√≥spitas"
+	FEEDBACKUI_BLACKROCKMOUNTAIN = "Monta√±a Roca Negra"
 	FEEDBACKUI_BLASTEDLANDS = "Las Tierras Devastadas"
 	FEEDBACKUI_BURNINGSTEPPES = "Las Estepas Ardientes"
 	FEEDBACKUI_DEADWINDPASS = "Paso de la Muerte"
@@ -1924,24 +1924,24 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_DUSKWOOD = "Bosque del Ocaso"
 	FEEDBACKUI_EPLAGUELANDS = "Tierras de la Peste del Este"
 	FEEDBACKUI_ELWYNN = "Bosque de Elwynn"
-	FEEDBACKUI_EVERSONG = "Bosque CanciÛn Eterna"
+	FEEDBACKUI_EVERSONG = "Bosque Canci√≥n Eterna"
 	FEEDBACKUI_GHOSTLANDS = "Tierras Fantasma"
 	FEEDBACKUI_HILLSBRAD = "Laderas de Trabalomas"
 	FEEDBACKUI_HINTERLANDS = "Tierras del Interior"
 	FEEDBACKUI_IRONFORGE = "Forjaz"
-	FEEDBACKUI_ISLEOFQUELDANAS = "Isla de QuelíDanas" --LOCALIZE ME
+	FEEDBACKUI_ISLEOFQUELDANAS = "Isla de Quel‚ÄôDanas" --LOCALIZE ME
 	FEEDBACKUI_LOCHMODAN = "Loch Modan";
-	FEEDBACKUI_REDRIDGE = "MontaÒas Crestagrana"
+	FEEDBACKUI_REDRIDGE = "Monta√±as Crestagrana"
 	FEEDBACKUI_SEARINGGORGE = "La Garganta de Fuego"
 	FEEDBACKUI_SILVERMOON = "Ciudad de Lunargenta"
-	FEEDBACKUI_SILVERPINE = "Bosque de ArgÈnteos"
+	FEEDBACKUI_SILVERPINE = "Bosque de Arg√©nteos"
 	FEEDBACKUI_STORMWIND = "Ventormenta"
 	FEEDBACKUI_STRANGLETHORN = "Vega de Tuercespina"
 	FEEDBACKUI_SWAMPOFSORROWS = "Pantano de las Penas";
 	FEEDBACKUI_TIRISFAL = "Claros de Tirisfal"
-	FEEDBACKUI_UNDERCITY = "EntraÒas"
+	FEEDBACKUI_UNDERCITY = "Entra√±as"
 	FEEDBACKUI_WPLAGUELANDS = "Tierras de la Peste del Oeste"
-	FEEDBACKUI_WESTFALL = "P·ramos de Poniente"
+	FEEDBACKUI_WESTFALL = "P√°ramos de Poniente"
 	FEEDBACKUI_WETLANDS = "Los Humedales"
 	FEEDBACKUI_STREKINGDOMS = "Ocurre en los Reinos del Este."
 	--End Eastern Kingdoms-------------------------------------------------------------------------------------------------------
@@ -1951,7 +1951,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_ASHENVALE = "Vallefresno"
 	FEEDBACKUI_AZSHARA = "Azshara"
 	FEEDBACKUI_AZUREMYST = "Isla Bruma Azur"
-	FEEDBACKUI_BARRENS = "Los BaldÌos"
+	FEEDBACKUI_BARRENS = "Los Bald√≠os"
 	FEEDBACKUI_BLOODMYST = "Isla Bruma de Sangre"
 	FEEDBACKUI_DARKSHORE = "Costa Oscura"
 	FEEDBACKUI_DARNASSUS = "Darnassus"
@@ -1965,12 +1965,12 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_MULGORE = "Mulgore";
 	FEEDBACKUI_ORGRIMMAR = "Orgrimmar";
 	FEEDBACKUI_SILITHUS = "Silithus";
-	FEEDBACKUI_STONETALON = "Sierra EspolÛn"
+	FEEDBACKUI_STONETALON = "Sierra Espol√≥n"
 	FEEDBACKUI_TANARIS = "Tanaris";
 	FEEDBACKUI_TELDRASSIL = "Teldrassil";
 	FEEDBACKUI_THUNDERBLUFF = "Cima del Trueno"
 	FEEDBACKUI_THOUSANDNEEDLES = "Las Mil Agujas"
-	FEEDBACKUI_UNGORO = "Cr·ter de Un'Goro"
+	FEEDBACKUI_UNGORO = "Cr√°ter de Un'Goro"
 	FEEDBACKUI_WARSONG = "Garganta Grito de Guerra"
 	FEEDBACKUI_WINTERSPRING = "Cuna del Invierno"
 	FEEDBACKUI_STRKALIMDOR = "Ocurre en Kalimdor."
@@ -1978,14 +1978,14 @@ elseif ( GetLocale() == "esES" ) then
 	
 	--OUTLAND
 	FEEDBACKUI_OUTLANDS = "Terrallende"
-	FEEDBACKUI_BLADESEDGE = "MontaÒas Filospada"
-	FEEDBACKUI_HELLFIRE = "PenÌnsula del Fuego Infernal"
+	FEEDBACKUI_BLADESEDGE = "Monta√±as Filospada"
+	FEEDBACKUI_HELLFIRE = "Pen√≠nsula del Fuego Infernal"
 	FEEDBACKUI_NAGRAND = "Nagrand"
 	FEEDBACKUI_NETHERSTORM = "Tormenta Abisal"
 	FEEDBACKUI_SHADOWMOON = "Valle Sombraluna"
 	FEEDBACKUI_SHATTRATH = "Ciudad de Shattrath"
 	FEEDBACKUI_TERROKAR = "Bosque de Terokkar"
-	FEEDBACKUI_TWISTINGNETHER = "El VacÌo Abisal"
+	FEEDBACKUI_TWISTINGNETHER = "El Vac√≠o Abisal"
 	FEEDBACKUI_ZANGARMARSH = "Marisma de Zangar"
 	FEEDBACKUI_STROUTLANDS = "Ocurre en Terrallende."
 	--End Outlands--------------------------------------------
@@ -1999,19 +1999,19 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_UTGARDEKEEP = "Fortaleza de Utgarde"
 	FEEDBACKUI_DRAKTHARONKEEP = "Fortaleza de Drak'Tharon"
 	FEEDBACKUI_ULDUAR = "Ulduar"
-	FEEDBACKUI_HOL = "C·maras de Rel·mpagos"
+	FEEDBACKUI_HOL = "C√°maras de Rel√°mpagos"
 	FEEDBACKUI_TAC = "El Coliseo Argenta"
 	FEEDBACKUI_IOC = "Isla de la Conquista"
 	--End Alert Targets/Extra areas
 	--------------------------------------------End Area Strings---------------------------------------------------------------------
 	
-	FEEDBACKUI_WHENTABLEHEADER = FEEDBACKUI_WHITE .. "Cu·ndo" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_WHENTABLESUBTEXT = "øCon quÈ frecuencia ocurre?"
+	FEEDBACKUI_WHENTABLEHEADER = FEEDBACKUI_WHITE .. "Cu√°ndo" .. FEEDBACKUI_WHITE
+	FEEDBACKUI_WHENTABLESUBTEXT = "¬øCon qu√© frecuencia ocurre?"
 	
 	FEEDBACKUI_STRREPRODUCABLE = "Ocurre continuamente."
 	FEEDBACKUI_STRSOMETIMES = "Ocurre ocasionalmente."
 	FEEDBACKUI_STRRARELY = "Ocurre pocas veces."
-	FEEDBACKUI_STRONETIME = "SÛlo ha ocurrido una vez."
+	FEEDBACKUI_STRONETIME = "S√≥lo ha ocurrido una vez."
 	
 	
 	FEEDBACKUI_REPRODUCABLE = "Siempre"
@@ -2020,7 +2020,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_ONETIME = "Una vez"
 	
 	FEEDBACKUI_TYPETABLEHEADER = FEEDBACKUI_WHITE .. "Tipo" .. FEEDBACKUI_WHITE
-	FEEDBACKUI_TYPETABLESUBTEXT = "øQuÈ tipo de problema es?"
+	FEEDBACKUI_TYPETABLESUBTEXT = "¬øQu√© tipo de problema es?"
 	
 	FEEDBACKUI_STRUIOTHER = "Es un problema de interfaz."
 	FEEDBACKUI_STRUIITEMS = "- Es un problema de la interfaz de objetos."
@@ -2029,11 +2029,11 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_STRUISPELLS = "- Es un problema de la interfaz de hechizos o talentos."
 	FEEDBACKUI_STRUITRADESKILLS = "- Es un problema de la interfaz de oficios."
 	
-	FEEDBACKUI_STRGRAPHICOTHER = "Es un problema gr·fico."
-	FEEDBACKUI_STRGRAPHICITEMS = "- Es un problema gr·fico con objetos."
-	FEEDBACKUI_STRGRAPHICSPAWNS = "- Es un problema gr·fico de criaturas."
-	FEEDBACKUI_STRGRAPHICSPELLS = "- Es un problema gr·fico de talentos."
-	FEEDBACKUI_STRGRAPHICENVIRONMENT = "- Es un problema gr·fico de efectos ambientales."
+	FEEDBACKUI_STRGRAPHICOTHER = "Es un problema gr√°fico."
+	FEEDBACKUI_STRGRAPHICITEMS = "- Es un problema gr√°fico con objetos."
+	FEEDBACKUI_STRGRAPHICSPAWNS = "- Es un problema gr√°fico de criaturas."
+	FEEDBACKUI_STRGRAPHICSPELLS = "- Es un problema gr√°fico de talentos."
+	FEEDBACKUI_STRGRAPHICENVIRONMENT = "- Es un problema gr√°fico de efectos ambientales."
 	
 	FEEDBACKUI_STRFUNCOTHER = "Este problema afecta de funcionamiento del juego."
 	FEEDBACKUI_STRFUNCITEMS = "- Afecta al funcionamiento de objetos."
@@ -2046,36 +2046,36 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_STRCRASHBUG = "- Causa que WoW se cierre."
 	FEEDBACKUI_STRCRASHSOFTLOCK = "- Causa que WoW deje de responder."
 	FEEDBACKUI_STRCRASHHARDLOCK = "- Causa que mi ordenador no responda."
-	FEEDBACKUI_STRCRASHWOWLAG = "- Relacionado con un retardo de conexiÛn."
+	FEEDBACKUI_STRCRASHWOWLAG = "- Relacionado con un retardo de conexi√≥n."
 	
 	FEEDBACKUI_UIITEMS = "Problema de interfaz de objeto"
 	FEEDBACKUI_UISPAWNS = "Problema de interfaz de criatura"
-	FEEDBACKUI_UIQUESTS = "Problema de interfaz de misiÛn"
+	FEEDBACKUI_UIQUESTS = "Problema de interfaz de misi√≥n"
 	FEEDBACKUI_UISPELLS = "Problema de interfaz de hechizo o talento"
 	FEEDBACKUI_UITRADESKILLS = "Problema de interfaz de oficio"
 	FEEDBACKUI_UIOTHER = "Problema de interfaz general"
 	
-	FEEDBACKUI_GRAPHICITEMS = "Problema gr·fico de objeto"
-	FEEDBACKUI_GRAPHICSPAWNS = "Problema gr·fico de criatura"
-	FEEDBACKUI_GRAPHICSPELLS = "Problema gr·fico de hechizo o talento"
-	FEEDBACKUI_GRAPHICENVIRONMENT = "Problema gr·fico ambiental"
+	FEEDBACKUI_GRAPHICITEMS = "Problema gr√°fico de objeto"
+	FEEDBACKUI_GRAPHICSPAWNS = "Problema gr√°fico de criatura"
+	FEEDBACKUI_GRAPHICSPELLS = "Problema gr√°fico de hechizo o talento"
+	FEEDBACKUI_GRAPHICENVIRONMENT = "Problema gr√°fico ambiental"
 	FEEDBACKUI_GRAPHICOTHER = "General Graphics Issue"
 	
 	FEEDBACKUI_FUNCITEMS = "Problema de funcionamiento de objeto"
 	FEEDBACKUI_FUNCSPAWNS = "Problema de funcionamiento de criatura"
-	FEEDBACKUI_FUNCQUESTS = "Problema de funcionamiento de misiÛn"
+	FEEDBACKUI_FUNCQUESTS = "Problema de funcionamiento de misi√≥n"
 	FEEDBACKUI_FUNCSPELLS = "Problema de funcionamiento de hechizo o talento"  
 	FEEDBACKUI_FUNCTRADESKILLS = "Problema de funcionamiento de oficio"
 	FEEDBACKUI_FUNCOTHER = "Problema de funcionamiento general"
 	
 	FEEDBACKUI_SPELLSPOWERTABLEHEADER = "Poder"
-	FEEDBACKUI_SPELLSPOWERTABLESUBTEXT = "øEs potente esta facultad?"
+	FEEDBACKUI_SPELLSPOWERTABLESUBTEXT = "¬øEs potente esta facultad?"
 	FEEDBACKUI_SPELLSFREQUENCYTABLEHEADER = "Frecuencia"
-	FEEDBACKUI_SPELLSFREQUENCYTABLESUBTEXT = "øCon quÈ frecuencia usas esta facultad?"
+	FEEDBACKUI_SPELLSFREQUENCYTABLESUBTEXT = "¬øCon qu√© frecuencia usas esta facultad?"
 	FEEDBACKUI_SPELLSAPPROPRIATETABLEHEADER = "Pertinencia"
-	FEEDBACKUI_SPELLSAPPROPRIATETABLESUBTEXT = "øEncaja con otras facultades similares?"
-	FEEDBACKUI_SPELLSFUNTABLEHEADER = "DiversiÛn"
-	FEEDBACKUI_SPELLSFUNTABLESUBTEXT = "øEs divertida esta facultad?"
+	FEEDBACKUI_SPELLSAPPROPRIATETABLESUBTEXT = "¬øEncaja con otras facultades similares?"
+	FEEDBACKUI_SPELLSFUNTABLEHEADER = "Diversi√≥n"
+	FEEDBACKUI_SPELLSFUNTABLESUBTEXT = "¬øEs divertida esta facultad?"
 	
 	FEEDBACKUI_STRPOWER1 = "Muy poco";
 	FEEDBACKUI_STRPOWER2 = "Poco";
@@ -2106,14 +2106,14 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUILBLFRMCLARITY_TEXT = "Claridad:"
 	FEEDBACKUILBLFRMDIFFICULTY_TEXT = "Dificultad:"
 	FEEDBACKUILBLFRMREWARD_TEXT = "Recompensa:"
-	FEEDBACKUILBLFRMFUN_TEXT = "DiversiÛn:"
-	FEEDBACKUISURVEYTYPE_QUEST = "MisiÛn"
+	FEEDBACKUILBLFRMFUN_TEXT = "Diversi√≥n:"
+	FEEDBACKUISURVEYTYPE_QUEST = "Misi√≥n"
 	FEEDBACKUISURVEYTYPE_AREA = "Estancia"
 	
 	FEEDBACKUISKIP_TEXT = "Saltar encuesta"
 	FEEDBACKUILBLSURVEYALERTSCHECK_TEXT = "Mostrar alertas"
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Por favor, escoge una encuesta."
-	FEEDBACKUI_WELCOMETABLESURVEYSUBTEXT = "Las encuestas se aÒaden al probar nuevo contenido."
+	FEEDBACKUI_WELCOMETABLESURVEYSUBTEXT = "Las encuestas se a√±aden al probar nuevo contenido."
 	
 	FEEDBACKUI_SURVEYCOLUMNNAME = "Nombre"
 	FEEDBACKUI_SURVEYCOLUMNMODIFIED = "Probado"
@@ -2127,23 +2127,23 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_STATUSSKIPPEDTEXT = "Descartado"
 	FEEDBACKUI_STATUSCOMPLETEDTEXT = "Completado"
 	
-	FEEDBACKUI_SURVEYTOOLTIPQUESTHEADER = "Nombre misiÛn:"
+	FEEDBACKUI_SURVEYTOOLTIPQUESTHEADER = "Nombre misi√≥n:"
 	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Nombre estancia:"
 	FEEDBACKUI_SURVEYTOOLTIPEXPERIENCEDHEADER = "Ocurrido:"
-	FEEDBACKUI_SURVEYTOOLTIPQUESTOBJECTIVESHEADER = "Objetivos de misiÛn:"
+	FEEDBACKUI_SURVEYTOOLTIPQUESTOBJECTIVESHEADER = "Objetivos de misi√≥n:"
 	
 	FEEDBACKUI_NEW = "Nuevo"
 	FEEDBACKUI_HOURAGO = " hora"
 	FEEDBACKUI_HOURSAGO = " horas"
-	FEEDBACKUI_DAYAGO = " dÌa"
-	FEEDBACKUI_DAYSAGO = " dÌas"
+	FEEDBACKUI_DAYAGO = " d√≠a"
+	FEEDBACKUI_DAYSAGO = " d√≠as"
 	FEEDBACKUI_MONTHAGO = " mes"
 	FEEDBACKUI_MONTHSAGO = " meses"
-	FEEDBACKUI_YEARAGO = " aÒo"
-	FEEDBACKUI_YEARSAGO = " aÒos"
+	FEEDBACKUI_YEARAGO = " a√±o"
+	FEEDBACKUI_YEARSAGO = " a√±os"
 	
 	FEEDBACKUI_QUESTSCLARITYTABLEHEADER = "Claridad"
-	FEEDBACKUI_QUESTSCLARITYTABLESUBTEXT = "øSon suficientemente claros los objetivos de la misiÛn?"
+	FEEDBACKUI_QUESTSCLARITYTABLESUBTEXT = "¬øSon suficientemente claros los objetivos de la misi√≥n?"
 	
 	FEEDBACKUI_STRCLARITY1 = "Muy vagos"
 	FEEDBACKUI_STRCLARITY2 = "Algo vagos"
@@ -2156,26 +2156,26 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_CLARITY4 = "Perfectamente claros"
 	
 	FEEDBACKUI_QUESTSDIFFICULTYTABLEHEADER = "Dificultad"
-	FEEDBACKUI_QUESTSDIFFICULTYTABLESUBTEXT = "øCu·l fue la dificultad de la misiÛn?"
+	FEEDBACKUI_QUESTSDIFFICULTYTABLESUBTEXT = "¬øCu√°l fue la dificultad de la misi√≥n?"
 	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "Dificultad"
-	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "øCu·l fue la dificultad de los encuentros de la estancia?"
+	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "¬øCu√°l fue la dificultad de los encuentros de la estancia?"
 	
-	FEEDBACKUI_STRDIFFICULTY1 = "F·cil"
+	FEEDBACKUI_STRDIFFICULTY1 = "F√°cil"
 	FEEDBACKUI_STRDIFFICULTY2 = "Razonable"
 	FEEDBACKUI_STRDIFFICULTY3 = "Desafiante"
-	FEEDBACKUI_STRDIFFICULTY4 = "DifÌcil"
+	FEEDBACKUI_STRDIFFICULTY4 = "Dif√≠cil"
 	FEEDBACKUI_STRDIFFICULTY5 = "N/A"
 	
-	FEEDBACKUI_DIFFICULTY1 = "F·cil"
+	FEEDBACKUI_DIFFICULTY1 = "F√°cil"
 	FEEDBACKUI_DIFFICULTY2 = "Razonable"
 	FEEDBACKUI_DIFFICULTY3 = "Desafiante"
-	FEEDBACKUI_DIFFICULTY4 = "DifÌcil"
+	FEEDBACKUI_DIFFICULTY4 = "Dif√≠cil"
 	FEEDBACKUI_DIFFICULTY5 = "N/A"
 	
 	FEEDBACKUI_QUESTSREWARDTABLEHEADER = "Recompensa"
-	FEEDBACKUI_QUESTSREWARDTABLESUBTEXT = "øCÛmo valoras la recompensa de la misiÛn?"
+	FEEDBACKUI_QUESTSREWARDTABLESUBTEXT = "¬øC√≥mo valoras la recompensa de la misi√≥n?"
 	FEEDBACKUI_AREASREWARDTABLEHEADER = "Recompensa"
-	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "øCÛmo valoras la recompensa de la estancia?"
+	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "¬øC√≥mo valoras la recompensa de la estancia?"
 	
 	FEEDBACKUI_STRREWARD1 = "Horrible"
 	FEEDBACKUI_STRREWARD2 = "Mala"
@@ -2189,10 +2189,10 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_REWARD4 = "Genial"
 	FEEDBACKUI_REWARD5 = "N/A"
 	
-	FEEDBACKUI_QUESTSFUNTABLEHEADER = "DiversiÛn"
-	FEEDBACKUI_QUESTSFUNTABLESUBTEXT = "øFue divertida la misiÛn?"
-	FEEDBACKUI_AREASFUNTABLEHEADER = "DiversiÛn"
-	FEEDBACKUI_AREASFUNTABLESUBTEXT = "øFue divertida la estancia?"
+	FEEDBACKUI_QUESTSFUNTABLEHEADER = "Diversi√≥n"
+	FEEDBACKUI_QUESTSFUNTABLESUBTEXT = "¬øFue divertida la misi√≥n?"
+	FEEDBACKUI_AREASFUNTABLEHEADER = "Diversi√≥n"
+	FEEDBACKUI_AREASFUNTABLESUBTEXT = "¬øFue divertida la estancia?"
 	
 	FEEDBACKUI_STRFUN1 = "Nada divertida"
 	FEEDBACKUI_STRFUN2 = "No muy divertida"
@@ -2204,43 +2204,43 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_FUN3 = "Bastante divertida"
 	FEEDBACKUI_FUN4 = "Muy divertida"
 	
-	FEEDBACKUISURVEYFRMINPUTBOX_TEXT = "<Escribe cualquier otro comentario aquÌ.>"
-	FEEDBACKUI_SURVEYINPUTHEADER = "AÒade m·s comentarios"
+	FEEDBACKUISURVEYFRMINPUTBOX_TEXT = "<Escribe cualquier otro comentario aqu√≠.>"
+	FEEDBACKUI_SURVEYINPUTHEADER = "A√±ade m√°s comentarios"
 	FEEDBACKUIRESUBMIT_TEXT = "Reenviar"
 	
-	FEEDBACKUI_WELCOMETABLEBUGHEADER = "SeÒalar un error"
-	FEEDBACKUI_WELCOMETABLEBUGSUBTEXT = "SeÒalar errores ayuda a arreglar los problemas del juego"
+	FEEDBACKUI_WELCOMETABLEBUGHEADER = "Se√±alar un error"
+	FEEDBACKUI_WELCOMETABLEBUGSUBTEXT = "Se√±alar errores ayuda a arreglar los problemas del juego"
 	FEEDBACKUI_WELCOMETABLESUGGESTHEADER = "Hacer una sugerencia"
-	FEEDBACKUI_WELCOMETABLESUGGESTSUBTEXT = "Las sugerencias nos ayudan a mejorar el diseÒo del juego"
-	FEEDBACKUI_BUGINPUTHEADER = "øCÛmo podemos reproducir este error?"
+	FEEDBACKUI_WELCOMETABLESUGGESTSUBTEXT = "Las sugerencias nos ayudan a mejorar el dise√±o del juego"
+	FEEDBACKUI_BUGINPUTHEADER = "¬øC√≥mo podemos reproducir este error?"
 	FEEDBACKUI_SUGGESTINPUTHEADER = "Describe tu sugerencia."
 	
-	FEEDBACKUI_SURVEYNEWBIETEXT = "Chasque aquÌ para completar una encuesta sobre una mazmorra o b˙squeda que han terminado recientemente."
+	FEEDBACKUI_SURVEYNEWBIETEXT = "Chasque aqu√≠ para completar una encuesta sobre una mazmorra o b√∫squeda que han terminado recientemente."
 	FEEDBACKUI_POIMASK = ".-%s%-%s(.+)"
 	
 	
 	FEEDBACKUI_LEVELPREFIX = "Nivel"
 	FEEDBACKUI_HILLSBRAD = "Reinos del Este - Laderas de Trabalomas";
-	FEEDBACKUISURVEYTYPE_AREA = "¡rea"
+	FEEDBACKUISURVEYTYPE_AREA = "√Årea"
 	FEEDBACKUISURVEYTYPE_ITEM = "Objeto"
 	FEEDBACKUISURVEYTYPE_MOB = "Enemigo"
-	FEEDBACKUI_AREAHEADERTEXT = "¡reas"
+	FEEDBACKUI_AREAHEADERTEXT = "√Åreas"
 	FEEDBACKUI_QUESTHEADERTEXT = "Misiones"
 	FEEDBACKUI_ITEMHEADERTEXT = "Objetos"
 	FEEDBACKUI_MOBHEADERTEXT = "Enemigos"
-	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Nombre del ·rea:"
+	FEEDBACKUI_SURVEYTOOLTIPAREAHEADER = "Nombre del √°rea:"
 	FEEDBACKUI_AREASDIFFICULTYTABLEHEADER = "Dificultad"
-	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "øQuÈ dificultad han tenido los encuentros del ·rea?"
+	FEEDBACKUI_AREASDIFFICULTYTABLESUBTEXT = "¬øQu√© dificultad han tenido los encuentros del √°rea?"
 	FEEDBACKUI_AREASREWARDTABLEHEADER = "Recompensa"
-	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "øCÛmo valorarÌas las recompensas de esta ·rea?"
-	FEEDBACKUI_AREASFUNTABLEHEADER = "DiversiÛn"
-	FEEDBACKUI_AREASFUNTABLESUBTEXT = "øCu·nto te has divertido en el ·rea?"
-	FEEDBACKUI_SURVEYINPUTSUBTEXT = "Haz clic aquÌ para ver algunas opiniones"
-	FEEDBACKUI_SURVEYNEWBIETEXT = "Haz clic aquÌ para rellenar una encuesta sobre esta experiencia."
+	FEEDBACKUI_AREASREWARDTABLESUBTEXT = "¬øC√≥mo valorar√≠as las recompensas de esta √°rea?"
+	FEEDBACKUI_AREASFUNTABLEHEADER = "Diversi√≥n"
+	FEEDBACKUI_AREASFUNTABLESUBTEXT = "¬øCu√°nto te has divertido en el √°rea?"
+	FEEDBACKUI_SURVEYINPUTSUBTEXT = "Haz clic aqu√≠ para ver algunas opiniones"
+	FEEDBACKUI_SURVEYNEWBIETEXT = "Haz clic aqu√≠ para rellenar una encuesta sobre esta experiencia."
 	FEEDBACKUI_WELCOMETABLESURVEYHEADER = "Selecciona una encuesta"
 	
-	FEEDBACKUI_SPECIFICWELCOME = "Gracias por tu opiniÛn acerca de " .. project_name .. ". Has elegido opinar sobre:\n\n\n\n\nElige una de las siguientes opciones para continuar:";
-	FEEDBACKUI_GENERALWELCOME = "Gracias por tu opiniÛn acerca de " .. project_name .. ". Cada comentario que recibimos desempeÒa un papel muy importante a la hora de determinar la calidad del juego.\n\nElige una de estas opciones para continuar:";
+	FEEDBACKUI_SPECIFICWELCOME = "Gracias por tu opini√≥n acerca de " .. project_name .. ". Has elegido opinar sobre:\n\n\n\n\nElige una de las siguientes opciones para continuar:";
+	FEEDBACKUI_GENERALWELCOME = "Gracias por tu opini√≥n acerca de " .. project_name .. ". Cada comentario que recibimos desempe√±a un papel muy importante a la hora de determinar la calidad del juego.\n\nElige una de estas opciones para continuar:";
 	
 	FEEDBACKUI_STARTBUG = "Informar de un error"
 	FEEDBACKUI_STARTSURVEY = "Comenzar encuesta"
@@ -2251,8 +2251,8 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_WELCOMESURVEYHEADER = "Encuesta"
 	
 	FEEDBACKUI_WELCOMEBUGTEXT = "Un error nos informa acerca de un fallo que has encontrado en el juego." 
-	FEEDBACKUI_WELCOMESUGGESTTEXT = "Una sugerencia nos informa de quÈ te gustarÌa que mejor·ramos en el juego."
-	FEEDBACKUI_WELCOMESURVEYTEXT = "La encuesta permite que nos des tu opiniÛn acerca de una parte especÌfica del juego."
+	FEEDBACKUI_WELCOMESUGGESTTEXT = "Una sugerencia nos informa de qu√© te gustar√≠a que mejor√°ramos en el juego."
+	FEEDBACKUI_WELCOMESURVEYTEXT = "La encuesta permite que nos des tu opini√≥n acerca de una parte espec√≠fica del juego."
 	FEEDBACKUI_WELCOMESURVEYDISABLED = "En este momento no existe ninguna encuesta disponible sobre este tema."
 	
 	FEEDBACKUI_MODIFIERKEY = "Atar:"
@@ -2269,53 +2269,53 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_TOOLTIP_MESSAGE = "<%s %s para opinar>";
 	FEEDBACKUI_MAP_MESSAGE = "%s %s en el mapa para opinar";
 	FEEDBACKUI_ITEMTARGETS = { "Armadura", "Consumible", "Contenedor", "Proyectil", "Carcaj", "Arma", "Receta", "Gema" };
-	FEEDBACKUI_MISCTYPE = "Miscel·nea";
+	FEEDBACKUI_MISCTYPE = "Miscel√°nea";
 	FEEDBACKUISHOWCUES_TEXT = "Mostrar consejos";
 	
 	FEEDBACKUI_CATEGORYLABEL = "Tipo:"
 	FEEDBACKUI_STATUSLABEL = "Estado:"
 	
-	NEWBIE_TOOLTIP_BUG="Ay˙danos a mejorar " .. project_name .. " envi·ndonos informes de error o sugerencias, o bien, contestando a nuestras encuestas.\n\n" .. FEEDBACKUI_BLUE .. "Clic izquierdo para comenzar.\nClic derecho para mostrar las opciones.";
+	NEWBIE_TOOLTIP_BUG="Ay√∫danos a mejorar " .. project_name .. " envi√°ndonos informes de error o sugerencias, o bien, contestando a nuestras encuestas.\n\n" .. FEEDBACKUI_BLUE .. "Clic izquierdo para comenzar.\nClic derecho para mostrar las opciones.";
 	FEEDBACKUILBLAPPEARANCE_TEXT = "Apariencia:"
 	FEEDBACKUILBLUTILITY_TEXT = "Utilidad:"
 	
 	FEEDBACKUI_MOBSDIFFICULTYTABLEHEADER = "Dificultad"                   
-	FEEDBACKUI_MOBSDIFFICULTYTABLESUBTEXT = "øCÛmo de difÌcil de matar es este enemigo?"
+	FEEDBACKUI_MOBSDIFFICULTYTABLESUBTEXT = "¬øC√≥mo de dif√≠cil de matar es este enemigo?"
 	FEEDBACKUI_MOBSREWARDTABLEHEADER = "Recompensa"
-	FEEDBACKUI_MOBSREWARDTABLESUBTEXT = "øCÛmo valoras las recompensas del enemigo?"
-	FEEDBACKUI_MOBSFUNTABLEHEADER = "DiversiÛn"
-	FEEDBACKUI_MOBSFUNTABLESUBTEXT = "øCÛmo de divertidos son los enfrentamientos con este enemigo?"
+	FEEDBACKUI_MOBSREWARDTABLESUBTEXT = "¬øC√≥mo valoras las recompensas del enemigo?"
+	FEEDBACKUI_MOBSFUNTABLEHEADER = "Diversi√≥n"
+	FEEDBACKUI_MOBSFUNTABLESUBTEXT = "¬øC√≥mo de divertidos son los enfrentamientos con este enemigo?"
 	FEEDBACKUI_MOBSAPPEARANCETABLEHEADER = "Apariencia"
-	FEEDBACKUI_MOBSAPPEARANCETABLESUBTEXT = "øCÛmo valoras la apariencia de este enemigo?"
+	FEEDBACKUI_MOBSAPPEARANCETABLESUBTEXT = "¬øC√≥mo valoras la apariencia de este enemigo?"
 	
 	FEEDBACKUI_ITEMSDIFFICULTYTABLEHEADER = "Dificultad"
-	FEEDBACKUI_ITEMSDIFFICULTYTABLESUBTEXT = "øCÛmo de difÌcil es adquirir este objeto?"
+	FEEDBACKUI_ITEMSDIFFICULTYTABLESUBTEXT = "¬øC√≥mo de dif√≠cil es adquirir este objeto?"
 	FEEDBACKUI_ITEMSUTILITYHEADER = "Utilidad"
-	FEEDBACKUI_ITEMSUTILITYSUBTEXT = "øCÛmo de ˙til es este objeto?"
+	FEEDBACKUI_ITEMSUTILITYSUBTEXT = "¬øC√≥mo de √∫til es este objeto?"
 	FEEDBACKUI_ITEMSAPPEARANCETABLEHEADER = "Apariencia"
-	FEEDBACKUI_ITEMSAPPEARANCETABLESUBTEXT = "øCÛmo valoras la apariencia de este objeto?"
+	FEEDBACKUI_ITEMSAPPEARANCETABLESUBTEXT = "¬øC√≥mo valoras la apariencia de este objeto?"
 	
-	FEEDBACKUI_STRUTILITY1 = "Totalmente in˙til"
-	FEEDBACKUI_STRUTILITY2 = "Bastante in˙til"
-	FEEDBACKUI_STRUTILITY3 = "⁄til"
-	FEEDBACKUI_STRUTILITY4 = "Muy ˙til"
+	FEEDBACKUI_STRUTILITY1 = "Totalmente in√∫til"
+	FEEDBACKUI_STRUTILITY2 = "Bastante in√∫til"
+	FEEDBACKUI_STRUTILITY3 = "√ötil"
+	FEEDBACKUI_STRUTILITY4 = "Muy √∫til"
 	
-	FEEDBACKUI_UTILITY1 = "Totalmente in˙til"
-	FEEDBACKUI_UTILITY2 = "Bastante in˙til"
-	FEEDBACKUI_UTILITY3 = "⁄til"
-	FEEDBACKUI_UTILITY4 = "Muy ˙til"
+	FEEDBACKUI_UTILITY1 = "Totalmente in√∫til"
+	FEEDBACKUI_UTILITY2 = "Bastante in√∫til"
+	FEEDBACKUI_UTILITY3 = "√ötil"
+	FEEDBACKUI_UTILITY4 = "Muy √∫til"
 	
 	FEEDBACKUI_STRAPPEARANCE1 = "Inferior"
 	FEEDBACKUI_STRAPPEARANCE2 = "Nada de otro mundo"
-	FEEDBACKUI_STRAPPEARANCE3 = "Est· bien"
+	FEEDBACKUI_STRAPPEARANCE3 = "Est√° bien"
 	FEEDBACKUI_STRAPPEARANCE4 = "Impresionante"
 	
 	FEEDBACKUI_APPEARANCE1 = "Inferior"
 	FEEDBACKUI_APPEARANCE2 = "Nada de otro mundo"
-	FEEDBACKUI_APPEARANCE3 = "Est· bien"
+	FEEDBACKUI_APPEARANCE3 = "Est√° bien"
 	FEEDBACKUI_APPEARANCE4 = "Impresionante"
 	
-	FEEDBACKUI_POIUNDERCITY = "EntraÒas";
+	FEEDBACKUI_POIUNDERCITY = "Entra√±as";
 	FEEDBACKUI_POISILVERMOON = "Ciudad de Lunargenta";
 	FEEDBACKUI_POIIRONFORGE = "Forjaz";
 	FEEDBACKUI_POISTORMWIND = "Ciudad de Ventormenta";
@@ -2323,7 +2323,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_POITARRENMILL = "Molino Tarren";
 	FEEDBACKUI_POISOUTHSHORE = "Costasur";
 	FEEDBACKUI_POIAERIEPEAK = "Pico Nidal";
-	FEEDBACKUI_POIREVANTUSK = "Poblado SaÒadiente";
+	FEEDBACKUI_POIREVANTUSK = "Poblado Sa√±adiente";
 	FEEDBACKUI_POIHAMMERFALL = "Sentencia";
 	FEEDBACKUI_POIMENETHIL = "Puerto de Menethil";
 	FEEDBACKUI_POITHELSAMAR = "Thelsamar";
@@ -2333,7 +2333,7 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_POIDARKSHIRE = "Villa Oscura";
 	FEEDBACKUI_POISTONARD = "Rocal";
 	FEEDBACKUI_POIGROMGOL = "Campamento Grom'gol";
-	FEEDBACKUI_POIBOOTY = "BahÌa del BotÌn";
+	FEEDBACKUI_POIBOOTY = "Bah√≠a del Bot√≠n";
 	
 	FEEDBACKUI_POIDARNASSUS = "Darnassus";
 	FEEDBACKUI_POIEXODAR = "El Exodar";
@@ -2341,13 +2341,13 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_POITHUNDERB = "Cima del Trueno";
 	FEEDBACKUI_POIAUBERDINE = "Auberdine";
 	FEEDBACKUI_POIEVERLOOK = "Vista Eterna";
-	FEEDBACKUI_POISTONETALON = "Cima del EspolÛn";
+	FEEDBACKUI_POISTONETALON = "Cima del Espol√≥n";
 	FEEDBACKUI_POIASTRANAAR = "Astranaar";
 	FEEDBACKUI_POISPLINTERTREE = "Puesto del Hachazo";
 	FEEDBACKUI_POISUNROCK = "Refugio Roca del Sol";
 	FEEDBACKUI_POINIJELS = "Punta de Nijel";
 	FEEDBACKUI_POISHADOWPREY = "Aldea Cazasombras";
-	FEEDBACKUI_POIFEATHERMOON = "BastiÛn Plumaluna";
+	FEEDBACKUI_POIFEATHERMOON = "Basti√≥n Plumaluna";
 	FEEDBACKUI_POIMOJACHE = "Campamento Mojache";
 	FEEDBACKUI_POITHALANAAR = "Thalanaar";
 	FEEDBACKUI_POICENARIONHOLD = "Fuerte Cenarion";
@@ -2364,15 +2364,15 @@ elseif ( GetLocale() == "esES" ) then
 	FEEDBACKUI_VOICECHAT = "Chat de voz";
 	FEEDBACKUI_VOICECHATTOOLTIP = FEEDBACKUI_WHITE .. FEEDBACKUI_VOICECHAT;
 	FEEDBACKUI_STRVOICECHAT = "Es una problema de la chat de voz.";
-	FEEDBACKUI_HEADSETTYPE = "øQuÈ tipo de audÌfonos est·s usando?";
+	FEEDBACKUI_HEADSETTYPE = "¬øQu√© tipo de aud√≠fonos est√°s usando?";
 	
 	FEEDBACKUI_USBHEADSET = "Auriculares USB"; --localize me
-	FEEDBACKUI_ANALOGHEADSET = "Auriculares analÛgicos"; --localize me
-	FEEDBACKUI_HARDWIREDMIC = "MicrÛfono incorporado"; --localize me
+	FEEDBACKUI_ANALOGHEADSET = "Auriculares anal√≥gicos"; --localize me
+	FEEDBACKUI_HARDWIREDMIC = "Micr√≥fono incorporado"; --localize me
 	
-	FEEDBACKUI_STRUSBHEADSET = "Estoy usando audÌfonos USB.";
-	FEEDBACKUI_STRANALOGHEADSET = "Estoy usando audÌfonos an·logos.";
-	FEEDBACKUI_STRHARDWIREDMIC = "Estoy usando un micrÛfono incorporado."; --localize me
+	FEEDBACKUI_STRUSBHEADSET = "Estoy usando aud√≠fonos USB.";
+	FEEDBACKUI_STRANALOGHEADSET = "Estoy usando aud√≠fonos an√°logos.";
+	FEEDBACKUI_STRHARDWIREDMIC = "Estoy usando un micr√≥fono incorporado."; --localize me
 	
 	
 else
