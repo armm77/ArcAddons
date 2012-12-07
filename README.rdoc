@@ -46,3 +46,7 @@ ArcAddons is, and always has been, and will be licensed under GPLV3 and CC:BY-NC
 = Reporting bugs
 
 Please use the bugtracker on Github to inform me of any issues with ArcAddons.
+
+= Screenshots
+
+http://img80.imageshack.us/img80/2881/15100526.jpg
